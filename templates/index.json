@@ -1,27 +1,20 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "49059f98-db50-4c8d-825b-44a12fc69b2e": {
+      "type": "split-image-banner",
       "blocks": {
-        "heading": {
+        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "Pure, simple ingredients that <em>nourish <\/em>your hair.",
+            "heading_size": "h1"
           }
         },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
+        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "SHOP HAIRCARE",
+            "button_link_1": "\/",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -30,181 +23,80 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-heading-1",
+        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-buttons-1"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_3_e4744552-aa4c-4975-92d5-90e0388e560e.png",
+        "image_height": "medium",
+        "img-position": "img-right",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "80c5e56b-577b-45dc-b891-b752c1be1b94": {
+      "type": "featured-simple",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-1": {
+          "type": "column",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/453e693b-ba89-46a7-80c0-417b2b28acf7.png",
+            "title": "SHAMPOO",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text": {
-          "type": "text",
+        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-2": {
+          "type": "column",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-1",
+        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-2",
+        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-3"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "YOUR BALI HAIR <span style=\"text-decoration:underline\">SAVIOUR<\/span>",
         "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
+        "heading-alignment": "center",
+        "image_width": "full",
+        "para": "Sub-heading",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "49059f98-db50-4c8d-825b-44a12fc69b2e",
+    "80c5e56b-577b-45dc-b891-b752c1be1b94"
   ]
 }
