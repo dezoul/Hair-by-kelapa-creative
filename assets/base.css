@@ -3527,7 +3527,26 @@ details-disclosure>details {
   order: 2;
 }
 
-.split-banner-image {}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fancy-feature-grid {
+  display: flex;
+  align-items: center;
+}
+
+.multicolumn-card .multicolumn-card__image-wrapper .multicolumn-card__image.fancy-img {
+  position: relative;
+  width: 100%;
+}
 
 @media screen and (min-width: 990px) {
   .header--middle-left {
