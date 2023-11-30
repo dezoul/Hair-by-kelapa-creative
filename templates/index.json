@@ -57,7 +57,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/7cb055e8-8b55-4dc6-a21c-de0471754b48_1.png",
-            "title": "conditioner",
+            "title": "CONDITIONER",
             "text": "",
             "link_label": "",
             "link": "\/"
@@ -66,8 +66,8 @@
         "5ac7158d-0cbd-41eb-b711-6a96110abe5f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/453e693b-ba89-46a7-80c0-417b2b28acf7.png",
-            "title": "SHAMPOO",
+            "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_4_ee3f8551-3ad7-4479-9a44-c6d27af25480.png",
+            "title": "TREATMENTS",
             "text": "",
             "link_label": "",
             "link": ""
@@ -91,7 +91,7 @@
         "background_style": "none",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -148,7 +148,7 @@
         "background_style": "none",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
