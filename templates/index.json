@@ -53,20 +53,22 @@
             "link": ""
           }
         },
-        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-2": {
+        "1aee15c3-5374-45c8-a9d1-24d3232e99cc": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/453e693b-ba89-46a7-80c0-417b2b28acf7.png",
+            "title": "SHAMPOO",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-3": {
+        "5ac7158d-0cbd-41eb-b711-6a96110abe5f": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/453e693b-ba89-46a7-80c0-417b2b28acf7.png",
+            "title": "SHAMPOO",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -74,8 +76,8 @@
       },
       "block_order": [
         "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-1",
-        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-2",
-        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-3"
+        "1aee15c3-5374-45c8-a9d1-24d3232e99cc",
+        "5ac7158d-0cbd-41eb-b711-6a96110abe5f"
       ],
       "settings": {
         "title": "YOUR BALI HAIR <span style=\"text-decoration:underline\">SAVIOUR<\/span>",
