@@ -3527,6 +3527,7 @@ details-disclosure>details {
   order: 2;
 }
 
+
 .flex-between {
   display: flex;
   justify-content: space-between;
@@ -3546,6 +3547,17 @@ details-disclosure>details {
 .multicolumn-card .multicolumn-card__image-wrapper .multicolumn-card__image.fancy-img {
   position: relative;
   width: 100%;
+}
+
+@media screen and (max-width: 989px) {
+  .split-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .mobile-grid-first-row {
+    grid-row-start: 1;
+    min-height: 50vw;
+  }
 }
 
 @media screen and (min-width: 990px) {
