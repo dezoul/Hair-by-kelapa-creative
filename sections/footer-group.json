@@ -5,45 +5,54 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>This is a short blurb about how great hair by therapy is, both as a salon and as an online store. <\/p><p><\/p><p>Our Sister Spa - Therapy<\/p>"
+          }
+        },
+        "1a42f897-3200-47b7-8c0b-7fafa0cf2c0b": {
+          "type": "text",
+          "settings": {
+            "heading": "FIND US",
+            "subtext": "<p>Get directions to the salon1 Main Street Pererenan, Bali (only 10 minutes from Canggu)<\/p><ul><li>+62555 5555<\/li><li>@hairbytherapyhello<\/li><li>@hairbytherapy.com<\/li><\/ul>"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "SALON",
             "menu": "footer"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "SHOP",
+            "menu": "footer-2"
           }
         }
       },
       "block_order": [
+        "footer-2",
+        "1a42f897-3200-47b7-8c0b-7fafa0cf2c0b",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },

@@ -32,7 +32,7 @@
         "img-position": "img-right",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -136,7 +136,7 @@
         "3a05e0d4-c08e-4371-b635-96aac8173282"
       ],
       "settings": {
-        "title": "So clean & natural you could almost eat it.",
+        "title": "So clean & natural you could <em>almost<\/em> eat it.",
         "heading_size": "h1",
         "heading-alignment": "center",
         "image_width": "full",
@@ -146,17 +146,67 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "border-top": true,
         "padding_bottom": 36
+      }
+    },
+    "a9c6da29-2a5a-42d3-955e-9b9e52d482ca": {
+      "type": "split-image-banner",
+      "blocks": {
+        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "HAIR SALON in the heart of Pererenan",
+            "heading_size": "h1"
+          }
+        },
+        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. <\/p><p>Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun we’ve got your covered. <\/p><p>And you can rest assured that in our salon,  we’ll only use the best quality products on your  hair that we would use on ourselves. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BOOK APPOINTMENT",
+            "button_link_1": "\/",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-heading-1",
+        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-text-1",
+        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_4_39b4b532-ed29-4a63-b6bb-ca9f38785290.png",
+        "image_height": "medium",
+        "img-position": "img-left",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "49059f98-db50-4c8d-825b-44a12fc69b2e",
     "80c5e56b-577b-45dc-b891-b752c1be1b94",
-    "20bc83cd-1545-4f88-a934-da85fdeffc10"
+    "20bc83cd-1545-4f88-a934-da85fdeffc10",
+    "a9c6da29-2a5a-42d3-955e-9b9e52d482ca"
   ]
 }
