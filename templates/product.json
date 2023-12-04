@@ -58,7 +58,7 @@
           "settings": {
             "heading": "What it’s great for",
             "icon": "none",
-            "content": "",
+            "content": "{{ product.metafields.custom.what_its_great_for_dropdown | metafield_tag }}",
             "page": ""
           }
         },
@@ -67,14 +67,8 @@
           "settings": {
             "heading": "Pair it with",
             "icon": "none",
-            "content": "",
+            "content": "{{ product.metafields.custom.pair_with | metafield_tag }}",
             "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -88,8 +82,7 @@
         "buy_buttons",
         "collapsible-row-0",
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8",
-        "40cc4533-858f-4421-a186-008f13e578fb",
-        "share"
+        "40cc4533-858f-4421-a186-008f13e578fb"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -103,8 +96,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "1f1d2e4e-c67d-4408-87d4-036bf5ecec39": {

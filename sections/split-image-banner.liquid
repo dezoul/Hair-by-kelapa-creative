@@ -99,6 +99,14 @@
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
             </div>
+          {%- when 'menu-item' -%}
+              <div class="banner__text rte {{ block.settings.text_style }} flex-between" {{ block.shopify_attributes }}>
+                <div>
+                  <p>{{ block.settings.text }}</p>
+                  <p>{{block.settings.details}}</p>
+                </div>
+                <div>{{block.settings.price}}</div>
+              </div>
           {%- when 'buttons' -%}
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
@@ -351,6 +359,51 @@
           "id": "text",
           "default": "<p>Give customers details about the banner image(s) or content on the template.</p>",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    
+    {
+      "type": "menu-item",
+      "name": "Menu item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "treatment name",
+          "label": "name of the treatment"
+        },
+        {
+          "type": "text",
+          "id": "details",
+          "default": "treatment details",
+          "label": "treatment details"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "default": "treatment price",
+          "label": "treatment price"
         },
         {
           "type": "select",
