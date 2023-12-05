@@ -57,10 +57,6 @@
             {% endif %}
           >
 
-{% comment %} 
-
-
- {% endcomment %}
 
             {%- for block in section.blocks -%}
               <div
@@ -90,7 +86,7 @@
               {% else %}
 
                   {%- if block.settings.heading != blank -%}
-                    <h2 class="footer-block__heading inline-richtext "> 
+                    <h2 class="footer-block__heading inline-richtext {{ section.settings.heading_style }} "> 
                     {{- block.settings.heading -}}
                     </h2>
                   {% endif %}
@@ -483,6 +479,22 @@
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
     },
+    {
+          "type": "select",
+          "id": "heading_style",
+          "options": [
+            {
+              "value": "header-style-1",
+              "label": "thin"
+            },
+            {
+              "value": "header-style-2",
+              "label": "bold"
+            }
+          ],
+          "default": "header-style-1",
+          "label": "Header style"
+        },
     {
       "type": "header",
       "content": "t:sections.footer.settings.header__1.content",

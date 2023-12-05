@@ -33,7 +33,7 @@
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper--self-padded-mobile title-wrapper--no-top-margin {{section.settings.heading-alignment}}">
         <div class="mx-auto" {% if section.settings.capped-heading-width < 53 %} style="max-width:{{section.settings.capped-heading-width}}rem"{% endif %}>
-          <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          <h2 class="title inline-richtext {{ section.settings.heading_size }} {{ section.settings.heading_style }}">
             {{ section.settings.title }}
           </h2>
   
@@ -224,7 +224,24 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
-    },{
+    },
+    {
+          "type": "select",
+          "id": "heading_style",
+          "options": [
+            {
+              "value": "header-style-1",
+              "label": "thin"
+            },
+            {
+              "value": "header-style-2",
+              "label": "bold"
+            }
+          ],
+          "default": "header-style-1",
+          "label": "Header style"
+        },
+        {
       "type": "select",
       "id": "heading-alignment",
       "options": [

@@ -6,6 +6,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "heading_style": "header-style-2"
           }
         },
         "caption": {
@@ -108,6 +109,7 @@
           "settings": {
             "title": "Paraben Free",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
+            "heading_style": "header-style-1",
             "link_label": "",
             "link": ""
           }
@@ -117,6 +119,7 @@
           "settings": {
             "title": "100% VEGAN",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
+            "heading_style": "header-style-1",
             "link_label": "",
             "link": ""
           }
@@ -126,6 +129,7 @@
           "settings": {
             "title": "Sulphate Free",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
+            "heading_style": "header-style-1",
             "link_label": "",
             "link": ""
           }
@@ -135,6 +139,7 @@
           "settings": {
             "title": "PH BALANCED",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
+            "heading_style": "header-style-1",
             "link_label": "",
             "link": ""
           }
@@ -144,6 +149,7 @@
           "settings": {
             "title": "NO ANIMAL TESTING",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
+            "heading_style": "header-style-1",
             "link_label": "",
             "link": ""
           }
@@ -153,6 +159,7 @@
           "settings": {
             "title": "SAME DAY SHIPPING",
             "text": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR<\/p>",
+            "heading_style": "header-style-1",
             "link_label": "",
             "link": ""
           }
@@ -169,6 +176,7 @@
       "settings": {
         "title": "No Nasties.",
         "heading_size": "h0",
+        "heading_style": "header-style-1",
         "heading-alignment": "left",
         "image_width": "full",
         "para": "",

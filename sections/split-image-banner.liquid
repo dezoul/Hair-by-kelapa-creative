@@ -84,13 +84,13 @@
     </div>
   {%- endif -%}
   
-  <div class="banner__content--{{ section.settings.desktop_content_position }} page-width  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="self-{{ section.settings.desktop_content_position }} page-width  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="{% if section.settings.img-position == 'img-right' %} half-left {% else %} half-right {% endif %} color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              class="inline-richtext {{ block.settings.heading_style }} {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -100,12 +100,14 @@
               <p>{{ block.settings.text }}</p>
             </div>
           {%- when 'menu-item' -%}
-              <div class="banner__text rte {{ block.settings.text_style }} flex-between" {{ block.shopify_attributes }}>
+              <div class="banner__text {{ block.settings.text_style }} flex-between spa-menu-item" {{ block.shopify_attributes }}>
                 <div>
-                  <p>{{ block.settings.text }}</p>
-                  <p>{{block.settings.details}}</p>
+                  <h3>{{ block.settings.text }}</h3>
+                  <span>{{block.settings.details}}</span>
                 </div>
-                <div>{{block.settings.price}}</div>
+                <div>
+                  <h4>{{block.settings.price}}</h4>
+                </div>
               </div>
           {%- when 'buttons' -%}
             <div
@@ -203,19 +205,19 @@
       "id": "desktop_content_position",
       "options": [
         {
-          "value": "top-center",
+          "value": "top",
           "label": "Top"
         },
         {
-          "value": "middle-center",
+          "value": "middle",
           "label": "Middle"
         },
         {
-          "value": "bottom-center",
+          "value": "bottom",
           "label": "bottom"
         }
       ],
-      "default": "middle-center",
+      "default": "middle",
       "label": "Text position"
     },
     {
@@ -329,20 +331,36 @@
         },
         {
           "type": "select",
-          "id": "heading_size",
+          "id": "heading_style",
           "options": [
             {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
+              "value": "header-style-1",
+              "label": "thin"
             },
             {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
+              "value": "header-style-2",
+              "label": "bold"
             }
+          ],
+          "default": "header-style-1",
+          "label": "Header style"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+              {
+                "value": "h2",
+                "label": "t:sections.all.heading_size.options__1.label"
+              },
+              {
+                "value": "h1",
+                "label": "t:sections.all.heading_size.options__2.label"
+              },
+              {
+                "value": "h0",
+                "label": "t:sections.all.heading_size.options__3.label"
+              }
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"

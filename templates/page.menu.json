@@ -64,16 +64,76 @@
         "d1919c6e-57c8-403c-a73a-b99c382a463b": {
           "type": "menu-item",
           "settings": {
-            "text": "treatment name",
-            "details": "treatment details",
-            "price": "treatment price",
-            "text_style": "body"
+            "text": "Women’s Cut",
+            "details": "(Includes Customised Davines Wash & Styling)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "4201bfd7-2fc6-4f30-94c7-0216b694801f": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Men’s Cut",
+            "details": "(Includes Customised Davines Wash & Styling)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "b38a833b-0ae4-48aa-bd5b-b25feebef8ee": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Men’s Cut",
+            "details": "(Includes Customised Davines Wash & Styling)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "a3e01585-52c6-4f17-8413-df01fe6fe41b": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Men’s Cut",
+            "details": "(Includes Customised Davines Wash & Styling)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "d29ef38d-4754-4dcb-a90e-9693c6404c4e": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Men’s Cut",
+            "details": "(Includes Customised Davines Wash & Styling)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "7808c0a0-47de-45a3-a74d-6d368ec84931": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Men’s Cut",
+            "details": "(Includes Customised Davines Wash & Styling)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "91ee7c98-0b48-44a5-9c26-3d1973afd82e": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Men’s Cut",
+            "details": "(Includes Customised Davines Wash & Styling)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
       "block_order": [
         "template--15154311200842__d8c3ba70-d7d6-4098-9a6f-7c101d6f4336-heading-1",
-        "d1919c6e-57c8-403c-a73a-b99c382a463b"
+        "d1919c6e-57c8-403c-a73a-b99c382a463b",
+        "4201bfd7-2fc6-4f30-94c7-0216b694801f",
+        "b38a833b-0ae4-48aa-bd5b-b25feebef8ee",
+        "a3e01585-52c6-4f17-8413-df01fe6fe41b",
+        "d29ef38d-4754-4dcb-a90e-9693c6404c4e",
+        "7808c0a0-47de-45a3-a74d-6d368ec84931",
+        "91ee7c98-0b48-44a5-9c26-3d1973afd82e"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_4_39b4b532-ed29-4a63-b6bb-ca9f38785290.png",
@@ -88,11 +148,50 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "777a2900-5abc-4bfd-9eac-14540788683c": {
+      "type": "split-image-banner",
+      "blocks": {
+        "template--15154311200842__777a2900-5abc-4bfd-9eac-14540788683c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "olaplex",
+            "heading_size": "h1"
+          }
+        },
+        "01ce3c64-3a61-4960-b7e6-dbbe1e2d1411": {
+          "type": "menu-item",
+          "settings": {
+            "text": "hair wash",
+            "details": "(No. 4, 5, 6\/7\/9)",
+            "price": "400K - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "template--15154311200842__777a2900-5abc-4bfd-9eac-14540788683c-heading-1",
+        "01ce3c64-3a61-4960-b7e6-dbbe1e2d1411"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
+        "image_height": "medium",
+        "img-position": "img-right",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "2093a8df-fdd4-481b-9fab-97c377e02187",
-    "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336"
+    "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336",
+    "777a2900-5abc-4bfd-9eac-14540788683c"
   ]
 }
