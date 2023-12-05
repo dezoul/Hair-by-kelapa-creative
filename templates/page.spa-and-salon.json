@@ -24,28 +24,16 @@
             "text": "",
             "text_style": "body"
           }
-        },
-        "template--15161046958154__76ffd654-cd52-4906-b286-cc40da335c57-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "template--15161046958154__76ffd654-cd52-4906-b286-cc40da335c57-heading-1",
-        "template--15161046958154__76ffd654-cd52-4906-b286-cc40da335c57-text-1",
-        "template--15161046958154__76ffd654-cd52-4906-b286-cc40da335c57-buttons-1"
+        "template--15161046958154__76ffd654-cd52-4906-b286-cc40da335c57-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hair-by-therapy.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/1be5bee53429f8810394c1d243ef5169.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -54,6 +42,52 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "5430585f-bf0d-4052-89b0-61dd5efea62c": {
+      "type": "multirow",
+      "blocks": {
+        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hair-by-therapy.jpg",
+            "caption": "Salon in Pererenan",
+            "heading": "Hair by Therapy",
+            "text": "<p>This is a short blurb introducing the salon and inciting people to read more. <\/p>",
+            "button_label": "EXPLORE SALON",
+            "button_link": "shopify:\/\/pages\/about-us"
+          }
+        },
+        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_18.png",
+            "caption": "Day Spa in Echo Beach",
+            "heading": "Therapy",
+            "text": "<p>This is a short blurb introducing the salon and inciting people to read more. <\/p>",
+            "button_label": "EXPLORE SPA",
+            "button_link": "https:\/\/therapy.co.id\/spa-menu\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-1",
+        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-2"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 76,
+        "padding_bottom": 76
       }
     },
     "fd00685f-5cc5-4649-a1cd-5313576209d6": {
@@ -93,85 +127,30 @@
         "template--15161046958154__fd00685f-5cc5-4649-a1cd-5313576209d6-column-3"
       ],
       "settings": {
-        "title": "featured - fancy",
+        "title": "Our ethos.",
         "heading_size": "h1",
         "heading_style": "header-style-1",
         "heading-alignment": "left",
         "image_width": "full",
-        "para": "Sub-heading",
+        "para": "",
         "capped-heading-width": 53,
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 80,
         "border-top": false,
-        "padding_bottom": 36
-      }
-    },
-    "5430585f-bf0d-4052-89b0-61dd5efea62c": {
-      "type": "multirow",
-      "blocks": {
-        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-1": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-2": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-3": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-1",
-        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-2",
-        "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-3"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 80
       }
     }
   },
   "order": [
     "main",
     "76ffd654-cd52-4906-b286-cc40da335c57",
-    "fd00685f-5cc5-4649-a1cd-5313576209d6",
-    "5430585f-bf0d-4052-89b0-61dd5efea62c"
+    "5430585f-bf0d-4052-89b0-61dd5efea62c",
+    "fd00685f-5cc5-4649-a1cd-5313576209d6"
   ]
 }
