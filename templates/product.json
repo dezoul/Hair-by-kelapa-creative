@@ -109,7 +109,7 @@
           "settings": {
             "title": "Paraben Free",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
-            "heading_style": "header-style-1",
+            "heading_style": "header-style-2",
             "link_label": "",
             "link": ""
           }
@@ -119,7 +119,7 @@
           "settings": {
             "title": "100% VEGAN",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
-            "heading_style": "header-style-1",
+            "heading_style": "header-style-2",
             "link_label": "",
             "link": ""
           }
@@ -129,7 +129,7 @@
           "settings": {
             "title": "Sulphate Free",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
-            "heading_style": "header-style-1",
+            "heading_style": "header-style-2",
             "link_label": "",
             "link": ""
           }
@@ -139,7 +139,7 @@
           "settings": {
             "title": "PH BALANCED",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
-            "heading_style": "header-style-1",
+            "heading_style": "header-style-2",
             "link_label": "",
             "link": ""
           }
@@ -149,7 +149,7 @@
           "settings": {
             "title": "NO ANIMAL TESTING",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
-            "heading_style": "header-style-1",
+            "heading_style": "header-style-2",
             "link_label": "",
             "link": ""
           }
@@ -159,7 +159,7 @@
           "settings": {
             "title": "SAME DAY SHIPPING",
             "text": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR<\/p>",
-            "heading_style": "header-style-1",
+            "heading_style": "header-style-2",
             "link_label": "",
             "link": ""
           }
@@ -173,10 +173,13 @@
         "80125be9-4cab-490a-b434-b52e65a5d225",
         "1f89711d-f329-4a60-81cc-27151602a082"
       ],
+      "custom_css": [
+        "h2 {margin-bottom: 2rem;}"
+      ],
       "settings": {
         "title": "No Nasties.",
         "heading_size": "h0",
-        "heading_style": "header-style-1",
+        "heading_style": "header-style-2",
         "heading-alignment": "left",
         "image_width": "full",
         "para": "",
@@ -222,7 +225,7 @@
         "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>While you can’t really go wrong with any of the products on our website (because after all, we’ve curated the best of the best here) we know that each person’s hair is different, so to really figure out the best products for you take our online quiz and we’ll send you personalised recommendations or book a complimentary consultation with one ouf our hair stylists in the salon. <\/p>"
+            "text": "<p>While you can’t really go wrong with any of the products on our website (because after all, we’ve curated the best of the best here) we know that each person’s hair is different and has different needs.  So to really figure out the best products for you take our online quiz and we’ll send you personalised recommendations or book a complimentary consultation with one of our  experienced hair stylists in the salon. <\/p>"
           }
         },
         "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-button-1": {

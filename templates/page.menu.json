@@ -58,6 +58,7 @@
           "type": "heading",
           "settings": {
             "heading": "Cut & Style",
+            "heading_style": "header-style-1",
             "heading_size": "h1"
           }
         },
@@ -136,7 +137,7 @@
         "91ee7c98-0b48-44a5-9c26-3d1973afd82e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_4_39b4b532-ed29-4a63-b6bb-ca9f38785290.png",
+        "image": "shopify:\/\/shop_images\/043b9c41-7882-4a91-a95c-42963525b694.png",
         "image_height": "medium",
         "img-position": "img-left",
         "desktop_content_position": "middle-center",
@@ -156,6 +157,7 @@
           "type": "heading",
           "settings": {
             "heading": "olaplex",
+            "heading_style": "header-style-1",
             "heading_size": "h1"
           }
         },
