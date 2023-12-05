@@ -2,13 +2,106 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "dc7c1d73-da46-4744-9442-ca9ad9a14495": {
+      "type": "split-image-banner",
+      "blocks": {
+        "template--15158490464330__dc7c1d73-da46-4744-9442-ca9ad9a14495-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "A simple mission - to bring high quality, ethical hair care to Bali.",
+            "heading_style": "header-style-1",
+            "heading_size": "h1"
+          }
+        },
+        "template--15158490464330__dc7c1d73-da46-4744-9442-ca9ad9a14495-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We carefully select products that are natural, vegan, not tested on animals and avoid harsh chemicals that dry your hair and damage your skin. You’ll find only the good stuff for you & your hair.<\/p><p>We carefully select products that are natural, vegan, not tested on animals and avoid harsh chemicals that dry your hair and damage your skin. You’ll find only the good stuff for you & your hair. <\/p><p><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15158490464330__dc7c1d73-da46-4744-9442-ca9ad9a14495-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15158490464330__dc7c1d73-da46-4744-9442-ca9ad9a14495-heading-1",
+        "template--15158490464330__dc7c1d73-da46-4744-9442-ca9ad9a14495-text-1",
+        "template--15158490464330__dc7c1d73-da46-4744-9442-ca9ad9a14495-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7cb055e8-8b55-4dc6-a21c-de0471754b48_1.png",
+        "image_height": "large",
+        "img-position": "img-right",
+        "desktop_content_position": "middle",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "72d0c09e-757d-41ad-80bd-dba9f07ac612": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shampoo-conditioner"
+          }
+        },
+        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hair-treatments"
+          }
+        },
+        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-1",
+        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-2",
+        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-3"
+      ],
+      "settings": {
+        "title": "Quality haircare Delivered to your doorstop.",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dc7c1d73-da46-4744-9442-ca9ad9a14495",
+    "72d0c09e-757d-41ad-80bd-dba9f07ac612"
   ]
 }
