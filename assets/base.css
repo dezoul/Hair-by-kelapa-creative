@@ -3527,7 +3527,7 @@ body {
 
 .header-style-1 {
   font-family: ivyora-text, sans-serif;
-  font-weight: 400
+  font-weight: 300;
 }
 
 .header-style-2 {
@@ -3535,6 +3535,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.1;
+  letter-spacing: -0.01em;
 }
 
 .header__inline-menu {
