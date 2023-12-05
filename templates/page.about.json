@@ -97,11 +97,108 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "6c0af7bd-59e2-4544-bd9d-222e2f8fc830": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15158490464330__6c0af7bd-59e2-4544-bd9d-222e2f8fc830-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "So clean & natural you could <em>almost<\/em> eat it.",
+            "heading_size": "h0"
+          }
+        },
+        "template--15158490464330__6c0af7bd-59e2-4544-bd9d-222e2f8fc830-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We carefully select products that are natural, vegan, not tested on animals and avoid harsh chemicals that dry your hair and damage your skin. You’ll find only the good stuff for you & your hair here. <\/p>"
+          }
+        },
+        "template--15158490464330__6c0af7bd-59e2-4544-bd9d-222e2f8fc830-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE SOMETHING",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15158490464330__6c0af7bd-59e2-4544-bd9d-222e2f8fc830-heading-1",
+        "template--15158490464330__6c0af7bd-59e2-4544-bd9d-222e2f8fc830-text-1",
+        "template--15158490464330__6c0af7bd-59e2-4544-bd9d-222e2f8fc830-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 84,
+        "border-top": false,
+        "padding_bottom": 88
+      }
+    },
+    "ebdd86d4-e7be-4173-aeb3-eb9b07ac4724": {
+      "type": "split-image-banner",
+      "blocks": {
+        "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "your new favourite Hair Salon in Pererenan",
+            "heading_style": "header-style-2",
+            "heading_size": "h1"
+          }
+        },
+        "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun  we’ve got your covered. And you can rest assured that in our salon,  we’ll only use the best quality products on your  hair that we would use on ourselves. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Book an appointment",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-heading-1",
+        "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-text-1",
+        "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-buttons-1"
+      ],
+      "custom_css": [
+        "p {margin-bottom: 3rem;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hair-by-therapy.jpg",
+        "image_height": "large",
+        "img-position": "img-left",
+        "desktop_content_position": "middle",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "dc7c1d73-da46-4744-9442-ca9ad9a14495",
-    "72d0c09e-757d-41ad-80bd-dba9f07ac612"
+    "72d0c09e-757d-41ad-80bd-dba9f07ac612",
+    "6c0af7bd-59e2-4544-bd9d-222e2f8fc830",
+    "ebdd86d4-e7be-4173-aeb3-eb9b07ac4724"
   ]
 }
