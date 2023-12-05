@@ -3644,8 +3644,20 @@ header::after {
   overflow: hidden;
 }
 
-.footer a {
+.footer a,
+.sub-footer a {
   text-decoration: none;
+  color: inherit;
+}
+
+.sub-footer {
+  text-align: center;
+}
+
+.sub-footer a,
+.sub-footer span {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .footer-grid {

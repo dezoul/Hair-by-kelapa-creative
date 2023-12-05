@@ -364,9 +364,9 @@
     {%- endif -%}
 
     <div class="border-top">
-      <p class="page-width "> 
+      <p class="page-width sub-footer"> 
 
-        Copyright 2023 | Privacy Policy | Shipping & Returns | Website by Kelapa Creative
+        <span>Copyright 2023</span> | {% for link in linklists['sub-footer'].links -%}{{ link.title | link_to: link.url }} | {%- endfor %} <a href="https://kelapacreative.com">Website by Kelapa Creative</a> 
       </p>
     </div>
     

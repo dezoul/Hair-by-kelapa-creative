@@ -1,0 +1,174 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="section-{{ section.id }}-padding page-width" {% unless section.settings.max-width == "101" %} style="max-width: {{section.settings.max-width}}rem;" {% endunless %} >
+    <h2 class="inline-richtext {{ section.settings.heading_style }} {{ section.settings.heading_size }}">
+              {{ section.settings.heading }}
+            </h2>
+    {%- for block in section.blocks -%}     
+      <div class="banner__text {{ block.settings.text_style }} flex-between spa-menu-item" {{ block.shopify_attributes }}>
+          <div>
+            <h3>{{ block.settings.text }}</h3>
+            <span>{{block.settings.details}}</span>
+          </div>
+          <div>
+            <h4>{{block.settings.price}}</h4>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Menu block",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Menu name",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_style",
+          "options": [
+            {
+              "value": "header-style-1",
+              "label": "thin"
+            },
+            {
+              "value": "header-style-2",
+              "label": "bold"
+            }
+          ],
+          "default": "header-style-1",
+          "label": "Header style"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+              {
+                "value": "h2",
+                "label": "t:sections.all.heading_size.options__1.label"
+              },
+              {
+                "value": "h1",
+                "label": "t:sections.all.heading_size.options__2.label"
+              },
+              {
+                "value": "h0",
+                "label": "t:sections.all.heading_size.options__3.label"
+              }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    },
+    {
+      "type": "range",
+      "id": "max-width",
+      "min": 50,
+      "max": 101,
+      "step": 1,
+      "unit": "rem",
+      "label": "Max width of the menu content. Set to 101 for full width",
+      "default": 101
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu-item",
+      "name": "Menu item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "treatment name",
+          "label": "name of the treatment"
+        },
+        {
+          "type": "text",
+          "id": "details",
+          "default": "treatment details",
+          "label": "treatment details"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "default": "treatment price",
+          "label": "treatment price"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Menu block"
+    }
+  ]
+}
+{% endschema %}
