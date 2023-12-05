@@ -42,6 +42,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
+        "heading_style": "header-style-2",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
