@@ -14,7 +14,7 @@
       "custom_css": [
         ".h5 {font-size: 1.8rem; line-height: 1.2;}",
         "img {mix-blend-mode: multiply;}",
-        ".media--transparent {background-color: #fcfbf9;}"
+        ".media--transparent {background-color: #fcfbf9; opacity: 1;}"
       ],
       "settings": {
         "products_per_page": 8,
