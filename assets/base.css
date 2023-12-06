@@ -275,9 +275,9 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: var(--font-heading-family);
-  font-style: var(--font-heading-style);
-  font-weight: var(--font-heading-weight);
+  font-family: 'ivyora-text', sans-serif;
+  font-style: normal;
+  font-weight: 400;
   letter-spacing: 0;
   color: rgb(var(--color-foreground));
   line-height: 1.1;
