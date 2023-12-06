@@ -3525,7 +3525,13 @@ body {
   font-style: normal;
 }
 
-.header-style-1 {
+.header-style-1,
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
   font-family: ivyora-text, sans-serif;
   font-weight: 300;
 }
@@ -3635,8 +3641,6 @@ header::after {
   border-bottom: 3px solid;
   width: 100vw;
   right: calc(max(calc(calc(50vw - var(--page-width)) / 2), 0px) * -1);
-
-  calc(max(calc(50vw - calc(var(--page-width) / 2)), 0px) * -1);
   bottom: 0;
 }
 
@@ -3656,8 +3660,8 @@ header::after {
 
 .sub-footer a,
 .sub-footer span {
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: var(--grid-desktop-horizontal-spacing) 1rem;
+  display: inline-block;
 }
 
 .footer-grid {

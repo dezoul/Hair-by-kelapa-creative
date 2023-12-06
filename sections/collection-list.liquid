@@ -30,7 +30,7 @@
       <div class="title-wrapper-with-link{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
         <h2
           id="SectionHeading-{{ section.id }}"
-          class="collection-list-title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="collection-list-title inline-richtext {{ section.settings.heading_size }} {{ block.settings.heading_style }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         >
           {{ section.settings.title }}
         </h2>
@@ -47,6 +47,9 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
+    {%- unless section.settings.paragraph == blank -%}
+    <div>{{section.settings.paragraph}}</div>
+  {%- endunless -%}
 
     <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <ul
@@ -164,6 +167,28 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+    "type": "select",
+    "id": "heading_style",
+    "options": [
+        {
+          "value": "header-style-1",
+          "label": "thin"
+        },
+        {
+          "value": "header-style-2",
+          "label": "bold"
+        }
+      ],
+    "default": "header-style-1",
+    "label": "Header style"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Quick description of the collection",
+      "default": "<p>Quick description of the collection</p>"
     },
     {
       "type": "select",
