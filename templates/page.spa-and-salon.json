@@ -74,6 +74,9 @@
         "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-1",
         "template--15161046958154__5430585f-bf0d-4052-89b0-61dd5efea62c-row-2"
       ],
+      "custom_css": [
+        "p {margin-bottom: 1rem;}"
+      ],
       "settings": {
         "image_height": "large",
         "desktop_image_width": "medium",
