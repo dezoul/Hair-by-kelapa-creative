@@ -3,17 +3,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_style": "header-style-2"
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }} {{ product.vendor }}",
-            "text_style": "subtitle"
+            "text": "{{ product.vendor }}",
+            "text_style": "vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_style": "header-style-1"
           }
         },
         "variant_picker": {
@@ -74,8 +74,8 @@
         }
       },
       "block_order": [
-        "title",
         "caption",
+        "title",
         "variant_picker",
         "description",
         "quantity_selector",

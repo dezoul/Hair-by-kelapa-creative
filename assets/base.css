@@ -3519,10 +3519,16 @@ details-disclosure>details {
 
 /* dan custom */
 
-body {
+body,
+div {
   font-family: "ivyepic", sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+span {
+  font-family: inherit !important;
+  color: inherit !important;
 }
 
 .header-style-1,

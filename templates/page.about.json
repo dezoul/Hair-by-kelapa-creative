@@ -88,6 +88,8 @@
       "settings": {
         "title": "Quality haircare Delivered to your doorstop.",
         "heading_size": "h1",
+        "heading_style": "header-style-1",
+        "paragraph": "<p>Quick description of the collection<\/p>",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "scheme-2",
@@ -137,7 +139,7 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 84,
-        "border-top": false,
+        "border-top": true,
         "padding_bottom": 88
       }
     },

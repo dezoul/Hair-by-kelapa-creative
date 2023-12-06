@@ -81,7 +81,7 @@
               {% render block %}
             {%- when 'text' -%}
               <p
-                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle  product-subtitle{% endif %}"
+                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle  product-subtitle {% elsif block.settings.text_style == 'vendor' %} h1 header-style-2{% endif %}"
                 {{ block.shopify_attributes }}
               >
                 {{- block.settings.text -}}
@@ -194,7 +194,7 @@
                   <summary>
                     <div class="summary__title">
                       {% render 'icon-accordion', icon: block.settings.icon %}
-                      <h2 class="h4 accordion__title inline-richtext">
+                      <h2 class="h3 accordion__title inline-richtext header-style-1">
                         {{ block.settings.heading | default: block.settings.page.title }}
                       </h2>
                     </div>
@@ -704,6 +704,10 @@
             {
               "value": "uppercase",
               "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+            },
+            {
+              "value": "vendor",
+              "label": "Vendor"
             }
           ],
           "default": "body",
