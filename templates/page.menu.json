@@ -14,18 +14,19 @@
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "So clean & natural you could <em>almost<\/em> eat it.",
+            "heading": "Hair by Therapy is a dedicated Davines Hair Spa in the heart of Pererenan.",
             "heading_size": "h1"
           }
         },
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>We have made a conscious decision to choose the products we carry carefully. We actively continue to source products which are free of sulfates, parabens, palm oil, PPD’s, GMO’s, and artificial colors and fillers and opting for those that are highly composed of plant based, natural ingredients which are cruelty free. Mindfulness along with the well being of our clients is the principal focus at our salon!<\/p>"
           }
         },
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -46,9 +47,9 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 100,
         "border-top": false,
-        "padding_bottom": 52
+        "padding_bottom": 100
       }
     },
     "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336": {
