@@ -14,19 +14,18 @@
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Hair by Therapy is a dedicated Davines Hair Spa in the heart of Pererenan.",
+            "heading": "So clean & natural you could <em>almost<\/em> eat it.",
             "heading_size": "h1"
           }
         },
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We have made a conscious decision to choose the products we carry carefully. We actively continue to source products which are free of sulfates, parabens, palm oil, PPD’s, GMO’s, and artificial colors and fillers and opting for those that are highly composed of plant based, natural ingredients which are cruelty free. Mindfulness along with the well being of our clients is the principal focus at our salon!<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -47,9 +46,9 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 100,
+        "padding_top": 40,
         "border-top": false,
-        "padding_bottom": 100
+        "padding_bottom": 52
       }
     },
     "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336": {
@@ -84,45 +83,63 @@
         "b38a833b-0ae4-48aa-bd5b-b25feebef8ee": {
           "type": "menu-item",
           "settings": {
-            "text": "Men’s Cut",
+            "text": "Men's Clipper",
             "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "400K - 500k",
+            "price": "150k - 250k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "a3e01585-52c6-4f17-8413-df01fe6fe41b": {
           "type": "menu-item",
           "settings": {
-            "text": "Men’s Cut",
+            "text": "Boys & Girls (under 10)",
             "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "400K - 500k",
+            "price": "250k - 400k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "d29ef38d-4754-4dcb-a90e-9693c6404c4e": {
           "type": "menu-item",
           "settings": {
-            "text": "Men’s Cut",
-            "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "400K - 500k",
+            "text": "Beard Trim",
+            "details": "",
+            "price": "100k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "7808c0a0-47de-45a3-a74d-6d368ec84931": {
           "type": "menu-item",
           "settings": {
-            "text": "Men’s Cut",
-            "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "400K - 500k",
+            "text": "Fringe Trim",
+            "details": "",
+            "price": "100k - 150k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "91ee7c98-0b48-44a5-9c26-3d1973afd82e": {
           "type": "menu-item",
           "settings": {
-            "text": "Men’s Cut",
-            "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "400K - 500k",
+            "text": "Davines Wash & Blow Dry",
+            "details": "",
+            "price": "250k -400k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "77ceb042-d101-40f0-b05c-5984e490c779": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Curling \/ Ironing",
+            "details": "",
+            "price": "250k -400k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "01460363-ade8-480b-96bb-7e7b0a1a258b": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Braiding",
+            "details": "",
+            "price": "from 200k",
             "text_style": "caption-with-letter-spacing"
           }
         }
@@ -135,7 +152,9 @@
         "a3e01585-52c6-4f17-8413-df01fe6fe41b",
         "d29ef38d-4754-4dcb-a90e-9693c6404c4e",
         "7808c0a0-47de-45a3-a74d-6d368ec84931",
-        "91ee7c98-0b48-44a5-9c26-3d1973afd82e"
+        "91ee7c98-0b48-44a5-9c26-3d1973afd82e",
+        "77ceb042-d101-40f0-b05c-5984e490c779",
+        "01460363-ade8-480b-96bb-7e7b0a1a258b"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/043b9c41-7882-4a91-a95c-42963525b694.png",
@@ -157,7 +176,7 @@
         "template--15154311200842__777a2900-5abc-4bfd-9eac-14540788683c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "olaplex",
+            "heading": "OLAPLEX",
             "heading_style": "header-style-1",
             "heading_size": "h1"
           }
@@ -165,16 +184,86 @@
         "01ce3c64-3a61-4960-b7e6-dbbe1e2d1411": {
           "type": "menu-item",
           "settings": {
-            "text": "hair wash",
+            "text": "Olaplex Hair Wash",
             "details": "(No. 4, 5, 6\/7\/9)",
-            "price": "400K - 500k",
+            "price": "150k - 300k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "cc89abd0-c361-4cd1-b984-a3538cf30607": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Cut Upgrade",
+            "details": "(No. 2, 4, 5, 6\/7\/9)",
+            "price": "200k - 350k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "da35ad8e-3e59-42c0-8fac-dd59b818a91b": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Express",
+            "details": "(No. 2, 4, 5, 6\/7\/9)",
+            "price": "250k - 400k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "88ffb813-dd9f-4cda-887b-a5d343a7f312": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Clarifying Treatment",
+            "details": "(No. 4C, 5, 6\/7\/9)",
+            "price": "300k - 450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "98a411b7-7040-4643-87f3-bc1778632d12": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Blowdry Upgrade",
+            "details": "(No. 2, 4, 5, 6\/7\/9)",
+            "price": "350k - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "8b54c345-c2e2-4871-9489-c92556730009": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Creambath",
+            "details": "(No.4, 4 in 1, 6\/7\/9) Includes Blowdry",
+            "price": "500k - 650k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "d147ef64-66fa-4ceb-a1aa-2a122438f23d": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Hair Wash",
+            "details": "(No. 4, 5, 6\/7\/9)",
+            "price": "150k - 300k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "34c9e071-248c-4419-82da-a0ba626d34d5": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Hair Wash",
+            "details": "(No. 4, 5, 6\/7\/9)",
+            "price": "150k - 300k",
             "text_style": "caption-with-letter-spacing"
           }
         }
       },
       "block_order": [
         "template--15154311200842__777a2900-5abc-4bfd-9eac-14540788683c-heading-1",
-        "01ce3c64-3a61-4960-b7e6-dbbe1e2d1411"
+        "01ce3c64-3a61-4960-b7e6-dbbe1e2d1411",
+        "cc89abd0-c361-4cd1-b984-a3538cf30607",
+        "da35ad8e-3e59-42c0-8fac-dd59b818a91b",
+        "88ffb813-dd9f-4cda-887b-a5d343a7f312",
+        "98a411b7-7040-4643-87f3-bc1778632d12",
+        "8b54c345-c2e2-4871-9489-c92556730009",
+        "d147ef64-66fa-4ceb-a1aa-2a122438f23d",
+        "34c9e071-248c-4419-82da-a0ba626d34d5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
