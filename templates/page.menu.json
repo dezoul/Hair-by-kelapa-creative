@@ -238,18 +238,18 @@
         "d147ef64-66fa-4ceb-a1aa-2a122438f23d": {
           "type": "menu-item",
           "settings": {
-            "text": "Olaplex Hair Wash",
-            "details": "(No. 4, 5, 6\/7\/9)",
-            "price": "150k - 300k",
+            "text": "Olaplex Colour Upgrade",
+            "details": "(No.1, 2, 6\/7\/9)",
+            "price": "400k - 550k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "34c9e071-248c-4419-82da-a0ba626d34d5": {
           "type": "menu-item",
           "settings": {
-            "text": "Olaplex Hair Wash",
-            "details": "(No. 4, 5, 6\/7\/9)",
-            "price": "150k - 300k",
+            "text": "Olaplex Luxe",
+            "details": "(No.1, 2, 4, 5, 6\/7\/9) Includes Blowdry",
+            "price": "600k - 750k",
             "text_style": "caption-with-letter-spacing"
           }
         }
