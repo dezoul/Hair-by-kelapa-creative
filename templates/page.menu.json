@@ -285,37 +285,82 @@
         "6c896420-2914-4bf2-a9e7-699fffac53c2": {
           "type": "menu-item",
           "settings": {
-            "text": "treatment name",
-            "details": "treatment details",
-            "price": "treatment price",
-            "text_style": "body"
+            "text": "Roots",
+            "details": "",
+            "price": "700k - 1,100k",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "e8fa2260-b97e-496a-8736-9ab1cadc43b0": {
           "type": "menu-item",
           "settings": {
-            "text": "treatment name",
-            "details": "treatment details",
-            "price": "treatment price",
-            "text_style": "body"
+            "text": "Roots & Ends",
+            "details": "",
+            "price": "800k - 1,500k",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "4d53a44d-76f9-423d-b237-77205ce84033": {
           "type": "menu-item",
           "settings": {
-            "text": "treatment name",
-            "details": "treatment details",
-            "price": "treatment price",
-            "text_style": "body"
+            "text": "Highlights\/Lowlights\/Babylights",
+            "details": "(half)",
+            "price": "800k - 1,200k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "8ba422cd-1d4c-4c05-a32e-520051da468c": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Highlights\/Lowlights\/Babylights",
+            "details": "(full)",
+            "price": "1,200k - 1,500k",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "e09df96a-4432-4f82-8f77-29100dd8eaa8": {
           "type": "menu-item",
           "settings": {
-            "text": "treatment name",
-            "details": "treatment details",
-            "price": "treatment price",
-            "text_style": "body"
+            "text": "Balayage\/ Ombre\/ Foilyage",
+            "details": "",
+            "price": "900k - 1,200k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "cc30c40e-1d1e-489d-8c83-a13ad27a05af": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Bleach",
+            "details": "",
+            "price": "From 750k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "bb6cc7b2-b639-4728-b71a-776f076f6aed": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Colour Correction",
+            "details": "",
+            "price": "From 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "1b523e9d-6c29-4d73-a14d-232d7864f295": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Colour Change",
+            "details": "",
+            "price": "From 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "93e47d1d-96d4-49ba-b313-0e2aebabd3e6": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Toner Rinse",
+            "details": "",
+            "price": "500k - 900k",
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
@@ -323,10 +368,257 @@
         "6c896420-2914-4bf2-a9e7-699fffac53c2",
         "e8fa2260-b97e-496a-8736-9ab1cadc43b0",
         "4d53a44d-76f9-423d-b237-77205ce84033",
-        "e09df96a-4432-4f82-8f77-29100dd8eaa8"
+        "8ba422cd-1d4c-4c05-a32e-520051da468c",
+        "e09df96a-4432-4f82-8f77-29100dd8eaa8",
+        "cc30c40e-1d1e-489d-8c83-a13ad27a05af",
+        "bb6cc7b2-b639-4728-b71a-776f076f6aed",
+        "1b523e9d-6c29-4d73-a14d-232d7864f295",
+        "93e47d1d-96d4-49ba-b313-0e2aebabd3e6"
       ],
       "settings": {
-        "heading": "Menu name",
+        "heading": "DAVINES COLOUR",
+        "heading_style": "header-style-1",
+        "heading_size": "h1",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "max-width": 57
+      }
+    },
+    "291a4892-e720-454b-a75e-cf4af7887fda": {
+      "type": "menu",
+      "blocks": {
+        "1aa932fb-c5d8-495b-ae96-e7bd7051e218": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Customised Hair Wash",
+            "details": "",
+            "price": "150k - 250k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "2b5675d0-8217-4577-90d7-56006a3f35b9": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Silver Hair Wash",
+            "details": "",
+            "price": "200k - 350k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "fef8562e-73bf-4ee9-9609-e0c5daae0d4d": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Quick Fix Ritual",
+            "details": "",
+            "price": "250k - 400k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "4ef53b4a-671a-44fc-8b7b-e69dac497836": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Scalp Calming Ritual",
+            "details": "(full)",
+            "price": "250k - 400k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "0addd60d-a1b6-4d48-b165-9dadd441e5cd": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Oi Liquid Lustre Shine Ritual",
+            "details": "",
+            "price": "300k - 450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "6ecce149-53df-4985-bf21-62671b62e29f": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Oily Hair & Scalp Ritual",
+            "details": "",
+            "price": "300k - 450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "8dfef82f-0864-482e-8acd-31a6883d4ac8": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Anti Hair Loss Ritual",
+            "details": "",
+            "price": "300k - 450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "c95a3d1e-9b84-457c-9002-0e11de603e51": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Blonde Hair Enhancing Ritual",
+            "details": "",
+            "price": "300k - 450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "0d9da71b-4a74-4c36-85d8-e9c8950d554a": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Anti Dandruff Ritual",
+            "details": "",
+            "price": "300k -450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "e093f0b3-753c-43cf-95c8-1ed34235e28b": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Sea Salt Scalp Scrub",
+            "details": "",
+            "price": "400k - 550k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "2614df9a-2afa-4880-9671-d47a2eaf32ce": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Luxe Hair Butter Ritual",
+            "details": "",
+            "price": "500k - 650k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "985601e3-43ab-4b71-9e03-f0c30ce6e0de": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Blowdry Upgrade",
+            "details": "",
+            "price": "100k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "1aa932fb-c5d8-495b-ae96-e7bd7051e218",
+        "2b5675d0-8217-4577-90d7-56006a3f35b9",
+        "fef8562e-73bf-4ee9-9609-e0c5daae0d4d",
+        "4ef53b4a-671a-44fc-8b7b-e69dac497836",
+        "0addd60d-a1b6-4d48-b165-9dadd441e5cd",
+        "6ecce149-53df-4985-bf21-62671b62e29f",
+        "8dfef82f-0864-482e-8acd-31a6883d4ac8",
+        "c95a3d1e-9b84-457c-9002-0e11de603e51",
+        "0d9da71b-4a74-4c36-85d8-e9c8950d554a",
+        "e093f0b3-753c-43cf-95c8-1ed34235e28b",
+        "2614df9a-2afa-4880-9671-d47a2eaf32ce",
+        "985601e3-43ab-4b71-9e03-f0c30ce6e0de"
+      ],
+      "settings": {
+        "heading": "DAVINES HAIR SPA",
+        "heading_style": "header-style-1",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "max-width": 57
+      }
+    },
+    "1d215e3c-a617-4ec3-b5e3-fc2ad440220c": {
+      "type": "menu",
+      "blocks": {
+        "d3b32d14-8463-4d80-8603-1716d3241bed": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Roots",
+            "details": "",
+            "price": "700k - 1,100k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "c12f94fe-65ed-415e-8df6-fb274f8b983c": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Roots & Ends",
+            "details": "",
+            "price": "800k - 1,500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "10052c84-32f2-49a9-aafe-63a0ed7ef521": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Highlights\/Lowlights\/Babylights",
+            "details": "(half)",
+            "price": "800k - 1,200k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "a213845e-0984-469a-88af-14bc8cf1114c": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Highlights\/Lowlights\/Babylights",
+            "details": "(full)",
+            "price": "1,200k - 1,500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "7c94eaaa-7227-4cd1-acdc-f2c05697f7cf": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Balayage\/ Ombre\/ Foilyage",
+            "details": "",
+            "price": "900k - 1,200k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "c8cfe206-6f3c-4da6-bea6-a8ebb97d2793": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Bleach",
+            "details": "",
+            "price": "From 750k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "3aef78e9-8131-4b9e-ae71-0427e69777da": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Colour Correction",
+            "details": "",
+            "price": "From 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "56034b6c-7705-4b7d-ae03-911556a5b8f5": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Colour Change",
+            "details": "",
+            "price": "From 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "52b15455-f932-444b-86e5-c2eb222039d0": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Toner Rinse",
+            "details": "",
+            "price": "500k - 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "d3b32d14-8463-4d80-8603-1716d3241bed",
+        "c12f94fe-65ed-415e-8df6-fb274f8b983c",
+        "10052c84-32f2-49a9-aafe-63a0ed7ef521",
+        "a213845e-0984-469a-88af-14bc8cf1114c",
+        "7c94eaaa-7227-4cd1-acdc-f2c05697f7cf",
+        "c8cfe206-6f3c-4da6-bea6-a8ebb97d2793",
+        "3aef78e9-8131-4b9e-ae71-0427e69777da",
+        "56034b6c-7705-4b7d-ae03-911556a5b8f5",
+        "52b15455-f932-444b-86e5-c2eb222039d0"
+      ],
+      "settings": {
+        "heading": "DAVINES COLOUR",
         "heading_style": "header-style-1",
         "heading_size": "h1",
         "color_scheme": "scheme-2",
@@ -341,6 +633,8 @@
     "2093a8df-fdd4-481b-9fab-97c377e02187",
     "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336",
     "777a2900-5abc-4bfd-9eac-14540788683c",
-    "36b99ccd-81ef-41d5-b427-49a671458aff"
+    "36b99ccd-81ef-41d5-b427-49a671458aff",
+    "291a4892-e720-454b-a75e-cf4af7887fda",
+    "1d215e3c-a617-4ec3-b5e3-fc2ad440220c"
   ]
 }
