@@ -66,8 +66,8 @@
           "type": "menu-item",
           "settings": {
             "text": "Women’s Cut",
-            "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "400K - 500k",
+            "details": "(Includes Customised Davines Wash & Blow Dry)",
+            "price": "400K - 550k",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -76,7 +76,7 @@
           "settings": {
             "text": "Men’s Cut",
             "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "400K - 500k",
+            "price": "300K - 450k",
             "text_style": "caption-with-letter-spacing"
           }
         },
