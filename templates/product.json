@@ -50,7 +50,7 @@
           "settings": {
             "heading": "Product details",
             "icon": "none",
-            "content": "<p>Mask for extra shine. It gives the hair a boost of shine and enhances colour and cut without weighing the hair down. Perfect for all hair types, in particular for dull looking ones.<\/p>",
+            "content": "{{ product.metafields.custom.details_drop_down | metafield_tag }}",
             "page": ""
           }
         },
