@@ -527,98 +527,28 @@
         "d3b32d14-8463-4d80-8603-1716d3241bed": {
           "type": "menu-item",
           "settings": {
-            "text": "Roots",
+            "text": "Keratin Smoothing",
             "details": "",
-            "price": "700k - 1,100k",
+            "price": "from 1,000k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "c12f94fe-65ed-415e-8df6-fb274f8b983c": {
           "type": "menu-item",
           "settings": {
-            "text": "Roots & Ends",
+            "text": "Malibu C Chlorine Greening Removal",
             "details": "",
-            "price": "800k - 1,500k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "10052c84-32f2-49a9-aafe-63a0ed7ef521": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Highlights\/Lowlights\/Babylights",
-            "details": "(half)",
-            "price": "800k - 1,200k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "a213845e-0984-469a-88af-14bc8cf1114c": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Highlights\/Lowlights\/Babylights",
-            "details": "(full)",
-            "price": "1,200k - 1,500k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "7c94eaaa-7227-4cd1-acdc-f2c05697f7cf": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Balayage\/ Ombre\/ Foilyage",
-            "details": "",
-            "price": "900k - 1,200k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "c8cfe206-6f3c-4da6-bea6-a8ebb97d2793": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Bleach",
-            "details": "",
-            "price": "From 750k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "3aef78e9-8131-4b9e-ae71-0427e69777da": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Colour Correction",
-            "details": "",
-            "price": "From 900k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "56034b6c-7705-4b7d-ae03-911556a5b8f5": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Colour Change",
-            "details": "",
-            "price": "From 900k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "52b15455-f932-444b-86e5-c2eb222039d0": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Toner Rinse",
-            "details": "",
-            "price": "500k - 900k",
+            "price": "400k - 550k",
             "text_style": "caption-with-letter-spacing"
           }
         }
       },
       "block_order": [
         "d3b32d14-8463-4d80-8603-1716d3241bed",
-        "c12f94fe-65ed-415e-8df6-fb274f8b983c",
-        "10052c84-32f2-49a9-aafe-63a0ed7ef521",
-        "a213845e-0984-469a-88af-14bc8cf1114c",
-        "7c94eaaa-7227-4cd1-acdc-f2c05697f7cf",
-        "c8cfe206-6f3c-4da6-bea6-a8ebb97d2793",
-        "3aef78e9-8131-4b9e-ae71-0427e69777da",
-        "56034b6c-7705-4b7d-ae03-911556a5b8f5",
-        "52b15455-f932-444b-86e5-c2eb222039d0"
+        "c12f94fe-65ed-415e-8df6-fb274f8b983c"
       ],
       "settings": {
-        "heading": "DAVINES COLOUR",
+        "heading": "TREATMENT",
         "heading_style": "header-style-1",
         "heading_size": "h1",
         "color_scheme": "scheme-2",
