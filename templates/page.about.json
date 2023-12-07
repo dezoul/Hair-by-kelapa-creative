@@ -88,7 +88,7 @@
       "settings": {
         "title": "Quality haircare Delivered to your doorstop.",
         "heading_size": "h1",
-        "heading_style": "header-style-1",
+        "heading_style": "header-style-2",
         "paragraph": "<p>Quick description of the collection<\/p>",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -157,7 +157,7 @@
         "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun  we’ve got your covered. And you can rest assured that in our salon,  we’ll only use the best quality products on your  hair that we would use on ourselves. <\/p>",
+            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun  we’ve got your covered. And you can rest assured that in our salon, we’ll only use the best quality products on your hair that we would use on ourselves. <\/p>",
             "text_style": "body"
           }
         },
