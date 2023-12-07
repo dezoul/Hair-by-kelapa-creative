@@ -85,11 +85,15 @@
         "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-2",
         "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-3"
       ],
+      "custom_css": [
+        ".title-wrapper-with-link {margin-bottom: 0;}",
+        "p {margin-bottom: 4rem;}"
+      ],
       "settings": {
         "title": "Quality haircare Delivered to your doorstop.",
         "heading_size": "h1",
         "heading_style": "header-style-2",
-        "paragraph": "<p>Quick description of the collection<\/p>",
+        "paragraph": "<p>The products you need to rescue your hair and survive the Bali water. <\/p>",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "scheme-2",
