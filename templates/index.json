@@ -31,6 +31,7 @@
         "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_3_e4744552-aa4c-4975-92d5-90e0388e560e.png",
         "image_height": "large",
         "img-position": "img-right",
+        "img-side-gap": true,
         "desktop_content_position": "middle",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -181,7 +182,7 @@
         "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. <\/p><p>Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun we’ve got your covered. <\/p><p>And you can rest assured that in our salon,  we’ll only use the best quality products on your  hair that we would use on ourselves. <\/p>",
+            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. <\/p><p>Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun we’ve got your covered. <\/p><p>And you can rest assured that in our salon, \u2028we’ll only use the best quality products on your \u2028hair that we would use on ourselves. <\/p>",
             "text_style": "body"
           }
         },
@@ -206,6 +207,7 @@
         "image": "shopify:\/\/shop_images\/hair-by-therapy.jpg",
         "image_height": "large",
         "img-position": "img-left",
+        "img-side-gap": false,
         "desktop_content_position": "middle",
         "show_text_box": true,
         "desktop_content_alignment": "center",
