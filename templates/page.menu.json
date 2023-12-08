@@ -160,6 +160,7 @@
         "image": "shopify:\/\/shop_images\/043b9c41-7882-4a91-a95c-42963525b694.png",
         "image_height": "medium",
         "img-position": "img-left",
+        "img-side-gap": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -167,7 +168,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
       }
     },
     "73c87ddb-ff47-4e3b-8c7c-750457886033": {
@@ -261,6 +265,32 @@
             "price": "500k - 900k",
             "text_style": "caption-with-letter-spacing"
           }
+        },
+        "68ca0756-d0fc-4a12-adad-bff904982675": {
+          "type": "heading",
+          "settings": {
+            "heading": "TREATMENT",
+            "heading_style": "header-style-1",
+            "heading_size": "h1"
+          }
+        },
+        "28db498e-5a1e-44fd-9c37-39876c2f2a34": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Keratin Smoothing",
+            "details": "",
+            "price": "from 1,000k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "3b8a32ee-321c-42cf-8896-57ff231b3f48": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Malibu C Chlorine Greening Removal",
+            "details": "",
+            "price": "400k - 550k",
+            "text_style": "caption-with-letter-spacing"
+          }
         }
       },
       "block_order": [
@@ -273,12 +303,16 @@
         "30c25ea6-1f33-45d0-b01d-4fb6ef23e46c",
         "535803a3-6e1a-422d-8cfe-0e5f9f292176",
         "f76e2830-bc59-42c8-b143-808a7d59ab9b",
-        "0d4494d2-07db-4c82-8287-ea2b83552845"
+        "0d4494d2-07db-4c82-8287-ea2b83552845",
+        "68ca0756-d0fc-4a12-adad-bff904982675",
+        "28db498e-5a1e-44fd-9c37-39876c2f2a34",
+        "3b8a32ee-321c-42cf-8896-57ff231b3f48"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
         "image_height": "medium",
         "img-position": "img-right",
+        "img-side-gap": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -286,7 +320,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
       }
     },
     "591c834e-c0c3-471f-8845-a549518af7ce": {
@@ -388,6 +425,7 @@
         "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
         "image_height": "medium",
         "img-position": "img-left",
+        "img-side-gap": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -395,7 +433,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
       }
     },
     "4ce8b292-7653-4110-a6ed-a88816374b97": {
@@ -404,7 +445,7 @@
         "e26afe8c-6585-462b-afe4-56c2e95ccf44": {
           "type": "heading",
           "settings": {
-            "heading": "Cut & Style",
+            "heading": "DAVINES HAIR SPA",
             "heading_style": "header-style-1",
             "heading_size": "h1"
           }
@@ -412,35 +453,35 @@
         "7f03236e-38b4-48f0-9ed2-ea4afe3c9c2f": {
           "type": "menu-item",
           "settings": {
-            "text": "Women’s Cut",
-            "details": "(Includes Customised Davines Wash & Blow Dry)",
-            "price": "400K - 550k",
+            "text": "Davines Customised Hair Wash",
+            "details": "",
+            "price": "150k - 250k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "9971bede-876c-4a49-9499-2f1387086e2d": {
           "type": "menu-item",
           "settings": {
-            "text": "Men’s Cut",
-            "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "300K - 450k",
+            "text": "Davines Silver Hair Wash",
+            "details": "",
+            "price": "200k - 350k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "f2b1924a-6f35-4f7f-8352-4343cf723e15": {
           "type": "menu-item",
           "settings": {
-            "text": "Men's Clipper",
-            "details": "(Includes Customised Davines Wash & Styling)",
-            "price": "150k - 250k",
+            "text": "Davines Quick Fix Ritual",
+            "details": "",
+            "price": "250k - 400k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "a80b9689-b612-46c9-8a1b-3a1024152ae8": {
           "type": "menu-item",
           "settings": {
-            "text": "Boys & Girls (under 10)",
-            "details": "(Includes Customised Davines Wash & Styling)",
+            "text": "Davines Scalp Calming Ritual",
+            "details": "",
             "price": "250k - 400k",
             "text_style": "caption-with-letter-spacing"
           }
@@ -448,45 +489,72 @@
         "db4f2b90-9cd7-424e-bbda-733567eec299": {
           "type": "menu-item",
           "settings": {
-            "text": "Beard Trim",
+            "text": "Davines Oi Liquid Lustre Shine Ritual",
             "details": "",
-            "price": "100k",
+            "price": "300k - 450k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "fe7a2734-735d-4bd8-9abc-f3bfafc51b31": {
           "type": "menu-item",
           "settings": {
-            "text": "Fringe Trim",
+            "text": "Davines Oily Hair & Scalp Ritual",
             "details": "",
-            "price": "100k - 150k",
+            "price": "300k - 450k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "219dd2eb-5ca1-4a72-b2be-58e33f3578af": {
           "type": "menu-item",
           "settings": {
-            "text": "Davines Wash & Blow Dry",
+            "text": "Davines Anti Hair Loss Ritual",
             "details": "",
-            "price": "250k -400k",
+            "price": "300k - 450k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "1d46b4d6-5a3c-4bfc-886a-a44f5b417288": {
           "type": "menu-item",
           "settings": {
-            "text": "Curling \/ Ironing",
+            "text": "Davines Blonde Hair Enhancing Ritual",
             "details": "",
-            "price": "250k -400k",
+            "price": "300k - 450k",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "9b9f8a28-21d6-446b-a41a-7ae4241468cc": {
           "type": "menu-item",
           "settings": {
-            "text": "Braiding",
+            "text": "Davines Anti Dandruff Ritual",
             "details": "",
-            "price": "from 200k",
+            "price": "300k -450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "793567f9-7f17-45fa-a295-1b842256e524": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Sea Salt Scalp Scrub",
+            "details": "",
+            "price": "400k - 550k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "bb998855-dd9e-45ef-929e-4c738be59801": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Davines Luxe Hair Butter Ritual",
+            "details": "",
+            "price": "500k - 650k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "fc3d01aa-784e-45a6-811b-c4e6bf0b27e7": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Blowdry Upgrade",
+            "details": "",
+            "price": "100k",
             "text_style": "caption-with-letter-spacing"
           }
         }
@@ -501,12 +569,16 @@
         "fe7a2734-735d-4bd8-9abc-f3bfafc51b31",
         "219dd2eb-5ca1-4a72-b2be-58e33f3578af",
         "1d46b4d6-5a3c-4bfc-886a-a44f5b417288",
-        "9b9f8a28-21d6-446b-a41a-7ae4241468cc"
+        "9b9f8a28-21d6-446b-a41a-7ae4241468cc",
+        "793567f9-7f17-45fa-a295-1b842256e524",
+        "bb998855-dd9e-45ef-929e-4c738be59801",
+        "fc3d01aa-784e-45a6-811b-c4e6bf0b27e7"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/043b9c41-7882-4a91-a95c-42963525b694.png",
         "image_height": "medium",
         "img-position": "img-right",
+        "img-side-gap": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -514,395 +586,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "777a2900-5abc-4bfd-9eac-14540788683c": {
-      "type": "split-image-banner",
-      "blocks": {
-        "template--15154311200842__777a2900-5abc-4bfd-9eac-14540788683c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "OLAPLEX",
-            "heading_style": "header-style-1",
-            "heading_size": "h1"
-          }
-        },
-        "01ce3c64-3a61-4960-b7e6-dbbe1e2d1411": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Hair Wash",
-            "details": "(No. 4, 5, 6\/7\/9)",
-            "price": "150k - 300k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "cc89abd0-c361-4cd1-b984-a3538cf30607": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Cut Upgrade",
-            "details": "(No. 2, 4, 5, 6\/7\/9)",
-            "price": "200k - 350k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "da35ad8e-3e59-42c0-8fac-dd59b818a91b": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Express",
-            "details": "(No. 2, 4, 5, 6\/7\/9)",
-            "price": "250k - 400k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "88ffb813-dd9f-4cda-887b-a5d343a7f312": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Clarifying Treatment",
-            "details": "(No. 4C, 5, 6\/7\/9)",
-            "price": "300k - 450k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "98a411b7-7040-4643-87f3-bc1778632d12": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Blowdry Upgrade",
-            "details": "(No. 2, 4, 5, 6\/7\/9)",
-            "price": "350k - 500k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "8b54c345-c2e2-4871-9489-c92556730009": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Creambath",
-            "details": "(No.4, 4 in 1, 6\/7\/9) Includes Blowdry",
-            "price": "500k - 650k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "d147ef64-66fa-4ceb-a1aa-2a122438f23d": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Colour Upgrade",
-            "details": "(No.1, 2, 6\/7\/9)",
-            "price": "400k - 550k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "34c9e071-248c-4419-82da-a0ba626d34d5": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Olaplex Luxe",
-            "details": "(No.1, 2, 4, 5, 6\/7\/9) Includes Blowdry",
-            "price": "600k - 750k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        }
-      },
-      "block_order": [
-        "template--15154311200842__777a2900-5abc-4bfd-9eac-14540788683c-heading-1",
-        "01ce3c64-3a61-4960-b7e6-dbbe1e2d1411",
-        "cc89abd0-c361-4cd1-b984-a3538cf30607",
-        "da35ad8e-3e59-42c0-8fac-dd59b818a91b",
-        "88ffb813-dd9f-4cda-887b-a5d343a7f312",
-        "98a411b7-7040-4643-87f3-bc1778632d12",
-        "8b54c345-c2e2-4871-9489-c92556730009",
-        "d147ef64-66fa-4ceb-a1aa-2a122438f23d",
-        "34c9e071-248c-4419-82da-a0ba626d34d5"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
-        "image_height": "medium",
-        "img-position": "img-left",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "36b99ccd-81ef-41d5-b427-49a671458aff": {
-      "type": "menu",
-      "blocks": {
-        "6c896420-2914-4bf2-a9e7-699fffac53c2": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Roots",
-            "details": "",
-            "price": "700k - 1,100k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "e8fa2260-b97e-496a-8736-9ab1cadc43b0": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Roots & Ends",
-            "details": "",
-            "price": "800k - 1,500k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "4d53a44d-76f9-423d-b237-77205ce84033": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Highlights\/Lowlights\/Babylights",
-            "details": "(half)",
-            "price": "800k - 1,200k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "8ba422cd-1d4c-4c05-a32e-520051da468c": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Highlights\/Lowlights\/Babylights",
-            "details": "(full)",
-            "price": "1,200k - 1,500k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "e09df96a-4432-4f82-8f77-29100dd8eaa8": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Balayage\/ Ombre\/ Foilyage",
-            "details": "",
-            "price": "900k - 1,200k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "cc30c40e-1d1e-489d-8c83-a13ad27a05af": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Bleach",
-            "details": "",
-            "price": "From 750k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "bb6cc7b2-b639-4728-b71a-776f076f6aed": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Colour Correction",
-            "details": "",
-            "price": "From 900k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "1b523e9d-6c29-4d73-a14d-232d7864f295": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Colour Change",
-            "details": "",
-            "price": "From 900k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "93e47d1d-96d4-49ba-b313-0e2aebabd3e6": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Toner Rinse",
-            "details": "",
-            "price": "500k - 900k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        }
-      },
-      "block_order": [
-        "6c896420-2914-4bf2-a9e7-699fffac53c2",
-        "e8fa2260-b97e-496a-8736-9ab1cadc43b0",
-        "4d53a44d-76f9-423d-b237-77205ce84033",
-        "8ba422cd-1d4c-4c05-a32e-520051da468c",
-        "e09df96a-4432-4f82-8f77-29100dd8eaa8",
-        "cc30c40e-1d1e-489d-8c83-a13ad27a05af",
-        "bb6cc7b2-b639-4728-b71a-776f076f6aed",
-        "1b523e9d-6c29-4d73-a14d-232d7864f295",
-        "93e47d1d-96d4-49ba-b313-0e2aebabd3e6"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "DAVINES COLOUR",
-        "heading_style": "header-style-1",
-        "heading_size": "h1",
-        "color_scheme": "scheme-2",
+        "show_text_below": true,
         "padding_top": 40,
-        "padding_bottom": 52,
-        "max-width": 57
-      }
-    },
-    "291a4892-e720-454b-a75e-cf4af7887fda": {
-      "type": "menu",
-      "blocks": {
-        "1aa932fb-c5d8-495b-ae96-e7bd7051e218": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Customised Hair Wash",
-            "details": "",
-            "price": "150k - 250k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "2b5675d0-8217-4577-90d7-56006a3f35b9": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Silver Hair Wash",
-            "details": "",
-            "price": "200k - 350k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "fef8562e-73bf-4ee9-9609-e0c5daae0d4d": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Quick Fix Ritual",
-            "details": "",
-            "price": "250k - 400k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "4ef53b4a-671a-44fc-8b7b-e69dac497836": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Scalp Calming Ritual",
-            "details": "(full)",
-            "price": "250k - 400k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "0addd60d-a1b6-4d48-b165-9dadd441e5cd": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Oi Liquid Lustre Shine Ritual",
-            "details": "",
-            "price": "300k - 450k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "6ecce149-53df-4985-bf21-62671b62e29f": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Oily Hair & Scalp Ritual",
-            "details": "",
-            "price": "300k - 450k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "8dfef82f-0864-482e-8acd-31a6883d4ac8": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Anti Hair Loss Ritual",
-            "details": "",
-            "price": "300k - 450k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "c95a3d1e-9b84-457c-9002-0e11de603e51": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Blonde Hair Enhancing Ritual",
-            "details": "",
-            "price": "300k - 450k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "0d9da71b-4a74-4c36-85d8-e9c8950d554a": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Anti Dandruff Ritual",
-            "details": "",
-            "price": "300k -450k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "e093f0b3-753c-43cf-95c8-1ed34235e28b": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Sea Salt Scalp Scrub",
-            "details": "",
-            "price": "400k - 550k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "2614df9a-2afa-4880-9671-d47a2eaf32ce": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Davines Luxe Hair Butter Ritual",
-            "details": "",
-            "price": "500k - 650k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "985601e3-43ab-4b71-9e03-f0c30ce6e0de": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Blowdry Upgrade",
-            "details": "",
-            "price": "100k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        }
-      },
-      "block_order": [
-        "1aa932fb-c5d8-495b-ae96-e7bd7051e218",
-        "2b5675d0-8217-4577-90d7-56006a3f35b9",
-        "fef8562e-73bf-4ee9-9609-e0c5daae0d4d",
-        "4ef53b4a-671a-44fc-8b7b-e69dac497836",
-        "0addd60d-a1b6-4d48-b165-9dadd441e5cd",
-        "6ecce149-53df-4985-bf21-62671b62e29f",
-        "8dfef82f-0864-482e-8acd-31a6883d4ac8",
-        "c95a3d1e-9b84-457c-9002-0e11de603e51",
-        "0d9da71b-4a74-4c36-85d8-e9c8950d554a",
-        "e093f0b3-753c-43cf-95c8-1ed34235e28b",
-        "2614df9a-2afa-4880-9671-d47a2eaf32ce",
-        "985601e3-43ab-4b71-9e03-f0c30ce6e0de"
-      ],
-      "settings": {
-        "heading": "DAVINES HAIR SPA",
-        "heading_style": "header-style-1",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "max-width": 57
-      }
-    },
-    "1d215e3c-a617-4ec3-b5e3-fc2ad440220c": {
-      "type": "menu",
-      "blocks": {
-        "d3b32d14-8463-4d80-8603-1716d3241bed": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Keratin Smoothing",
-            "details": "",
-            "price": "from 1,000k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "c12f94fe-65ed-415e-8df6-fb274f8b983c": {
-          "type": "menu-item",
-          "settings": {
-            "text": "Malibu C Chlorine Greening Removal",
-            "details": "",
-            "price": "400k - 550k",
-            "text_style": "caption-with-letter-spacing"
-          }
-        }
-      },
-      "block_order": [
-        "d3b32d14-8463-4d80-8603-1716d3241bed",
-        "c12f94fe-65ed-415e-8df6-fb274f8b983c"
-      ],
-      "settings": {
-        "heading": "TREATMENT",
-        "heading_style": "header-style-1",
-        "heading_size": "h1",
-        "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "max-width": 57
+        "border-top": false,
+        "padding_bottom": 52
       }
     }
   },
@@ -912,10 +599,6 @@
     "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336",
     "73c87ddb-ff47-4e3b-8c7c-750457886033",
     "591c834e-c0c3-471f-8845-a549518af7ce",
-    "4ce8b292-7653-4110-a6ed-a88816374b97",
-    "777a2900-5abc-4bfd-9eac-14540788683c",
-    "36b99ccd-81ef-41d5-b427-49a671458aff",
-    "291a4892-e720-454b-a75e-cf4af7887fda",
-    "1d215e3c-a617-4ec3-b5e3-fc2ad440220c"
+    "4ce8b292-7653-4110-a6ed-a88816374b97"
   ]
 }
