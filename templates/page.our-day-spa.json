@@ -58,52 +58,6 @@
         "show_text_below": true
       }
     },
-    "72d0c09e-757d-41ad-80bd-dba9f07ac612": {
-      "type": "collection-list",
-      "blocks": {
-        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shampoo-conditioner"
-          }
-        },
-        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hair-treatments"
-          }
-        },
-        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "skincare"
-          }
-        }
-      },
-      "block_order": [
-        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-1",
-        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-2",
-        "template--15158490464330__72d0c09e-757d-41ad-80bd-dba9f07ac612-featured_collection-3"
-      ],
-      "custom_css": [
-        ".title-wrapper-with-link {margin-bottom: 0;}",
-        "p {margin-bottom: 4rem;}"
-      ],
-      "settings": {
-        "title": "Quality haircare Delivered to your doorstop.",
-        "heading_size": "h1",
-        "heading_style": "header-style-2",
-        "paragraph": "<p>The products you need to rescue your hair and survive the Bali water. <\/p>",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-2",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "6c0af7bd-59e2-4544-bd9d-222e2f8fc830": {
       "type": "rich-text",
       "blocks": {
@@ -161,7 +115,7 @@
         "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun  we’ve got your covered. And you can rest assured that in our salon,  we’ll only use the best quality products on your  hair that we would use on ourselves. <\/p>",
+            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun  we’ve got your covered. And you can rest assured that in our salon, \u2028we’ll only use the best quality products on your \u2028hair that we would use on ourselves. <\/p>",
             "text_style": "body"
           }
         },
@@ -203,7 +157,6 @@
   "order": [
     "main",
     "dc7c1d73-da46-4744-9442-ca9ad9a14495",
-    "72d0c09e-757d-41ad-80bd-dba9f07ac612",
     "6c0af7bd-59e2-4544-bd9d-222e2f8fc830",
     "ebdd86d4-e7be-4173-aeb3-eb9b07ac4724"
   ]
