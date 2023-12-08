@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "heading": "FIND US",
-            "subtext": "<p>Get directions to the salon - 1 Main Street Pererenan, Bali only 10 minutes from Canggu)<\/p><ul><li>WA: +62555 5555<\/li><li>IG @hairbytherapy<\/li><li>hello@hairbytherapy.com<\/li><\/ul>"
+            "subtext": "<p>Get directions to the salon - 1 Main Street Pererenan, Bali only 10 minutes from Canggu)<\/p><ul><li><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=6287725855520&text&type=phone_number&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/send\/?phone=6287725855520&text&type=phone_number&app_absent=0\">WA: +62 877 2585 5520<\/a><\/li><li><a href=\"https:\/\/www.instagram.com\/hairbytherapy\/\" title=\"https:\/\/www.instagram.com\/hairbytherapy\/\">IG @hairbytherapy<\/a><\/li><li><a href=\"mailto:hello@hairbytherapy.com\" title=\"mailto:hello@hairbytherapy.com\">hello@hairbytherapy.com<\/a><\/li><\/ul>"
           }
         },
         "footer-0": {

@@ -278,7 +278,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
         "image_height": "medium",
-        "img-position": "img-left",
+        "img-position": "img-right",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -506,7 +506,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/043b9c41-7882-4a91-a95c-42963525b694.png",
         "image_height": "medium",
-        "img-position": "img-left",
+        "img-position": "img-right",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
