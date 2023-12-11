@@ -210,7 +210,7 @@
         "image": "shopify:\/\/shop_images\/hair-by-therapy.jpg",
         "image_height": "large",
         "img-position": "img-left",
-        "img-side-gap": true,
+        "img-side-gap": false,
         "desktop_content_position": "middle",
         "show_text_box": true,
         "desktop_content_alignment": "center",
