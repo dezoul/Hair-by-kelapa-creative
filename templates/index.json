@@ -39,7 +39,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 100,
+        "border-top": false,
+        "padding_bottom": 100
       }
     },
     "80c5e56b-577b-45dc-b891-b752c1be1b94": {
@@ -215,7 +218,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
       }
     }
   },
