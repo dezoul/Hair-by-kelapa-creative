@@ -3586,7 +3586,6 @@ body .spa-menu-item {
 }
 
 
-
 .order-2 {
   order: 2;
 }
@@ -3660,7 +3659,8 @@ header::after {
 }
 
 .footer a,
-.sub-footer a {
+.sub-footer a,
+.floating-wa-button a {
   text-decoration: none;
   color: inherit;
 }
@@ -3697,6 +3697,25 @@ header::after {
   list-style: none;
 }
 
+.floating-wa-button {
+  width: 17rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 0rem;
+  padding: 1rem 2rem 1rem 3rem;
+  border-radius: 5vw 0 0 5vw;
+}
+
+.floating-wa-button a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.floating-wa-button a * {
+  flex-shrink: 0;
+  display: inline-block;
+}
 
 /* collection */
 
