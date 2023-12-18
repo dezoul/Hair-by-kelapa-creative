@@ -1,0 +1,212 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2093a8df-fdd4-481b-9fab-97c377e02187": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hair by Therapy is a dedicated Davines Hair Spa in the heart of Pererenan, Bali",
+            "heading_size": "h1"
+          }
+        },
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s not just a place where clients can get their hair cut, coloured & <br\/>styled. Our team of experts are intuitive and offer mindful advice so <br\/>you can maintain the integrity and health of your hair.⁣<\/p><p>We have made a conscious decision to choose the products we carry carefully. We actively continue to source products which are free of sulfates, parabens, palm oil, PPD’s, GMO’s, and artificial colors and fillers and opting for those that are highly composed of plant based, natural ingredients which are cruelty free.<\/p>"
+          }
+        },
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-heading-1",
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-text-1",
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 100,
+        "border-top": false,
+        "padding_bottom": 100
+      }
+    },
+    "73c87ddb-ff47-4e3b-8c7c-750457886033": {
+      "type": "split-image-banner",
+      "blocks": {
+        "02a8da6c-8e87-442c-b84c-b07f4ed05c74": {
+          "type": "heading",
+          "settings": {
+            "heading": "DAVINES COLOUR",
+            "heading_style": "header-style-1",
+            "heading_size": "h1"
+          }
+        },
+        "67da3046-b870-4e8b-b0b0-d64509c23c5a": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Roots",
+            "details": "",
+            "price": "700k - 1,100k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "526751ee-14f9-4651-b491-e69720c90d28": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Roots & Ends",
+            "details": "",
+            "price": "800k - 1,500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "8d321574-4406-47e5-b92e-9390c69bdaf4": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Highlights\/Lowlights\/Babylights",
+            "details": "(half)",
+            "price": "800k - 1,200k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "a555a693-6a53-4522-8e14-c178ab0360cf": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Highlights\/Lowlights\/Babylights",
+            "details": "(full)",
+            "price": "1,200k - 1,500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "5ef85980-1a79-413d-8b00-07937f3372a2": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Balayage\/ Ombre\/ Foilyage",
+            "details": "",
+            "price": "900k - 1,200k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "30c25ea6-1f33-45d0-b01d-4fb6ef23e46c": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Bleach",
+            "details": "",
+            "price": "From 750k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "535803a3-6e1a-422d-8cfe-0e5f9f292176": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Colour Correction",
+            "details": "",
+            "price": "From 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "f76e2830-bc59-42c8-b143-808a7d59ab9b": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Colour Change",
+            "details": "",
+            "price": "From 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "0d4494d2-07db-4c82-8287-ea2b83552845": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Toner Rinse",
+            "details": "",
+            "price": "500k - 900k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "68ca0756-d0fc-4a12-adad-bff904982675": {
+          "type": "heading",
+          "settings": {
+            "heading": "TREATMENT",
+            "heading_style": "header-style-1",
+            "heading_size": "h1"
+          }
+        },
+        "28db498e-5a1e-44fd-9c37-39876c2f2a34": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Keratin Smoothing",
+            "details": "",
+            "price": "from 1,000k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "3b8a32ee-321c-42cf-8896-57ff231b3f48": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Malibu C Chlorine Greening Removal",
+            "details": "",
+            "price": "400k - 550k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "02a8da6c-8e87-442c-b84c-b07f4ed05c74",
+        "67da3046-b870-4e8b-b0b0-d64509c23c5a",
+        "526751ee-14f9-4651-b491-e69720c90d28",
+        "8d321574-4406-47e5-b92e-9390c69bdaf4",
+        "a555a693-6a53-4522-8e14-c178ab0360cf",
+        "5ef85980-1a79-413d-8b00-07937f3372a2",
+        "30c25ea6-1f33-45d0-b01d-4fb6ef23e46c",
+        "535803a3-6e1a-422d-8cfe-0e5f9f292176",
+        "f76e2830-bc59-42c8-b143-808a7d59ab9b",
+        "0d4494d2-07db-4c82-8287-ea2b83552845",
+        "68ca0756-d0fc-4a12-adad-bff904982675",
+        "28db498e-5a1e-44fd-9c37-39876c2f2a34",
+        "3b8a32ee-321c-42cf-8896-57ff231b3f48"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
+        "image_height": "medium",
+        "img-position": "img-right",
+        "img-side-gap": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2093a8df-fdd4-481b-9fab-97c377e02187",
+    "73c87ddb-ff47-4e3b-8c7c-750457886033"
+  ]
+}
