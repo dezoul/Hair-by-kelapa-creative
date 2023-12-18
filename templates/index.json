@@ -92,9 +92,9 @@
         "h3 {margin-top: 2rem;}"
       ],
       "settings": {
-        "title": "YOUR BALI HAIR <span style=\"text-decoration:underline\">SAVIOUR<\/span>",
+        "title": "We're here to rescue your hair from the Bali water.",
         "heading_size": "h1",
-        "heading_style": "header-style-2",
+        "heading_style": "header-style-1",
         "heading-alignment": "center",
         "image_width": "full",
         "para": "The products you need to rescue your hair and survive the Bali water.",
@@ -177,8 +177,8 @@
         "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "HAIR SALON in the heart of Pererenan",
-            "heading_style": "header-style-2",
+            "heading": "Your new favourite hair salon in the heart of Pererenan",
+            "heading_style": "header-style-1",
             "heading_size": "h1"
           }
         },
