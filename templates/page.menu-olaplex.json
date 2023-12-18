@@ -1,0 +1,173 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2093a8df-fdd4-481b-9fab-97c377e02187": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hair by Therapy is a dedicated Davines Hair Spa in the heart of Pererenan, Bali",
+            "heading_size": "h1"
+          }
+        },
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s not just a place where clients can get their hair cut, coloured & <br\/>styled. Our team of experts are intuitive and offer mindful advice so <br\/>you can maintain the integrity and health of your hair.⁣<\/p><p>We have made a conscious decision to choose the products we carry carefully. We actively continue to source products which are free of sulfates, parabens, palm oil, PPD’s, GMO’s, and artificial colors and fillers and opting for those that are highly composed of plant based, natural ingredients which are cruelty free.<\/p>"
+          }
+        },
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-heading-1",
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-text-1",
+        "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 100,
+        "border-top": false,
+        "padding_bottom": 100
+      }
+    },
+    "591c834e-c0c3-471f-8845-a549518af7ce": {
+      "type": "split-image-banner",
+      "blocks": {
+        "d2791550-4d1a-4c51-a83b-a481496eb1e5": {
+          "type": "heading",
+          "settings": {
+            "heading": "OLAPLEX",
+            "heading_style": "header-style-1",
+            "heading_size": "h1"
+          }
+        },
+        "55200813-7e7b-4032-a205-ca36161fade1": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Hair Wash",
+            "details": "(No. 4, 5, 6\/7\/9)",
+            "price": "150k - 300k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "e8ca720d-c941-4f15-b4d6-203654164583": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Cut Upgrade",
+            "details": "(No. 2, 4, 5, 6\/7\/9)",
+            "price": "200k - 350k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "3f199a6d-45c5-4b44-8366-d4e91abdd3b9": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Express",
+            "details": "(No. 2, 4, 5, 6\/7\/9)",
+            "price": "250k - 400k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "e10578ce-63ea-4d7d-ae0e-ee0757633399": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Clarifying Treatment",
+            "details": "(No. 4C, 5, 6\/7\/9)",
+            "price": "300k - 450k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "3ae7a0bd-b96d-441b-9391-71640d0749fb": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Blowdry Upgrade",
+            "details": "(No. 2, 4, 5, 6\/7\/9)",
+            "price": "350k - 500k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "4f077869-6161-4342-8368-01295bde3dc1": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Creambath",
+            "details": "(No.4, 4 in 1, 6\/7\/9) Includes Blowdry",
+            "price": "500k - 650k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "fa591134-6bf9-4af6-8687-5bc942cf8155": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Colour Upgrade",
+            "details": "(No.1, 2, 6\/7\/9)",
+            "price": "400k - 550k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "9775f91d-f01c-4216-8361-f55ffdf66d00": {
+          "type": "menu-item",
+          "settings": {
+            "text": "Olaplex Luxe",
+            "details": "(No.1, 2, 4, 5, 6\/7\/9) Includes Blowdry",
+            "price": "600k - 750k",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "d2791550-4d1a-4c51-a83b-a481496eb1e5",
+        "55200813-7e7b-4032-a205-ca36161fade1",
+        "e8ca720d-c941-4f15-b4d6-203654164583",
+        "3f199a6d-45c5-4b44-8366-d4e91abdd3b9",
+        "e10578ce-63ea-4d7d-ae0e-ee0757633399",
+        "3ae7a0bd-b96d-441b-9391-71640d0749fb",
+        "4f077869-6161-4342-8368-01295bde3dc1",
+        "fa591134-6bf9-4af6-8687-5bc942cf8155",
+        "9775f91d-f01c-4216-8361-f55ffdf66d00"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/red_head_and_cream.jpg",
+        "image_height": "medium",
+        "img-position": "img-left",
+        "img-side-gap": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2093a8df-fdd4-481b-9fab-97c377e02187",
+    "591c834e-c0c3-471f-8845-a549518af7ce"
+  ]
+}
