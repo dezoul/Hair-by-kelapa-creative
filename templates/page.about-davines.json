@@ -48,6 +48,7 @@
         "image": "shopify:\/\/shop_images\/7cb055e8-8b55-4dc6-a21c-de0471754b48_1.png",
         "image_height": "large",
         "img-position": "img-right",
+        "img-side-gap": false,
         "desktop_content_position": "middle",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -55,7 +56,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
       }
     },
     "72d0c09e-757d-41ad-80bd-dba9f07ac612": {
@@ -90,9 +94,9 @@
         "p {margin-bottom: 4rem;}"
       ],
       "settings": {
-        "title": "Quality haircare Delivered to your doorstop.",
+        "title": "Quality haircare delivered to your doorstop.",
         "heading_size": "h1",
-        "heading_style": "header-style-2",
+        "heading_style": "header-style-1",
         "paragraph": "<p>The products you need to rescue your hair and survive the Bali water. <\/p>",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -153,8 +157,8 @@
         "template--15158490464330__ebdd86d4-e7be-4173-aeb3-eb9b07ac4724-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "your new favourite Hair Salon in Pererenan",
-            "heading_style": "header-style-2",
+            "heading": "Your new favourite hair Salon in Pererenan",
+            "heading_style": "header-style-1",
             "heading_size": "h1"
           }
         },
@@ -189,6 +193,7 @@
         "image": "shopify:\/\/shop_images\/hair-by-therapy.jpg",
         "image_height": "large",
         "img-position": "img-left",
+        "img-side-gap": false,
         "desktop_content_position": "middle",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -196,7 +201,10 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "padding_top": 40,
+        "border-top": false,
+        "padding_bottom": 52
       }
     }
   },
