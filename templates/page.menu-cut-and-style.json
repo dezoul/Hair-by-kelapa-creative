@@ -27,8 +27,8 @@
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Book an Appointment",
+            "button_link": "shopify:\/\/pages\/contact",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -155,6 +155,9 @@
         "91ee7c98-0b48-44a5-9c26-3d1973afd82e",
         "77ceb042-d101-40f0-b05c-5984e490c779",
         "01460363-ade8-480b-96bb-7e7b0a1a258b"
+      ],
+      "custom_css": [
+        "h3 {letter-spacing: 0.05em;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/043b9c41-7882-4a91-a95c-42963525b694.png",
