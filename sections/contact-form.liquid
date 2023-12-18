@@ -17,12 +17,17 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {{ block.settings.heading_style }}">
         {{ section.settings.heading }}
       </h2>
     {%- else -%}
-      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+      <h2 class="visually-hidden {{ block.settings.heading_style }}">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
+{% if section.settings.rich_para != null %}
+  <div>
+    {{section.settings.rich_para}}
+  </div>
+{% endif  %}
     {%- liquid
       assign contact_form_class = 'isolate'
       if settings.animations_reveal_on_scroll
@@ -168,6 +173,28 @@
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
+    {
+          "type": "select",
+          "id": "heading_style",
+          "options": [
+            {
+              "value": "header-style-1",
+              "label": "thin"
+            },
+            {
+              "value": "header-style-2",
+              "label": "bold"
+            }
+          ],
+          "default": "header-style-1",
+          "label": "Header style"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_para",
+          "label": "Text section below the header",
+          "default": "<p>Quick bit of text explaining the form.</p>"
+        },
     {
       "type": "color_scheme",
       "id": "color_scheme",
