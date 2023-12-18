@@ -27,8 +27,8 @@
         "template--15154311200842__2093a8df-fdd4-481b-9fab-97c377e02187-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Book an Appointment",
+            "button_link": "shopify:\/\/pages\/contact",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -156,6 +156,9 @@
         "77ceb042-d101-40f0-b05c-5984e490c779",
         "01460363-ade8-480b-96bb-7e7b0a1a258b"
       ],
+      "custom_css": [
+        "h3 {letter-spacing: 0.05em;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/043b9c41-7882-4a91-a95c-42963525b694.png",
         "image_height": "medium",
@@ -173,11 +176,56 @@
         "border-top": false,
         "padding_bottom": 52
       }
+    },
+    "97b58421-2cec-4bbc-b191-89a0b1c2ddfa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15208646737994__97b58421-2cec-4bbc-b191-89a0b1c2ddfa-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"I've tried dozens of different hair salons and hair by therapy is the first one that actually really listens to my goals and takes the time to create a result that I love!\"",
+            "heading_size": "h1"
+          }
+        },
+        "template--15208646737994__97b58421-2cec-4bbc-b191-89a0b1c2ddfa-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- by Tina May, Melbourne<\/p>"
+          }
+        },
+        "template--15208646737994__97b58421-2cec-4bbc-b191-89a0b1c2ddfa-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15208646737994__97b58421-2cec-4bbc-b191-89a0b1c2ddfa-heading-1",
+        "template--15208646737994__97b58421-2cec-4bbc-b191-89a0b1c2ddfa-text-1",
+        "template--15208646737994__97b58421-2cec-4bbc-b191-89a0b1c2ddfa-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 100,
+        "border-top": false,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
     "2093a8df-fdd4-481b-9fab-97c377e02187",
-    "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336"
+    "d8c3ba70-d7d6-4098-9a6f-7c101d6f4336",
+    "97b58421-2cec-4bbc-b191-89a0b1c2ddfa"
   ]
 }
