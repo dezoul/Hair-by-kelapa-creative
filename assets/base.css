@@ -3801,6 +3801,11 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
 
 }
 
+@media screen and (max-width: 990px) {
+
+
+}
+
 
 @media screen and (min-width: 1300px) {
 
