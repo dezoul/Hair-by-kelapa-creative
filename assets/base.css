@@ -3806,13 +3806,16 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
     margin-left: 0;
     grid-column-start: 4;
   }
+  .header__heading, .header__heading-link {
+    grid-area: left-icons;
+    justify-self: flex-start;
+}
 }
 
 
 @media screen and (min-width: 1300px) {
 
   .media.split-banner-img-gap {
-
     background-color: inherit;
   }
 
