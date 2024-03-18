@@ -1,234 +1,55 @@
 {
   "sections": {
-    "49059f98-db50-4c8d-825b-44a12fc69b2e": {
-      "type": "split-image-banner",
+    "bubble_banner_JBRNAC": {
+      "type": "bubble-banner",
       "blocks": {
-        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-heading-1": {
+        "heading_XMiwCk": {
           "type": "heading",
           "settings": {
-            "heading": "Pure, simple ingredients that <em>nourish <\/em>your hair.",
-            "heading_style": "header-style-1",
+            "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP HAIRCARE",
-            "button_link_1": "\/",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-heading-1",
-        "template--15125915238474__49059f98-db50-4c8d-825b-44a12fc69b2e-buttons-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_3_e4744552-aa4c-4975-92d5-90e0388e560e.png",
-        "image_height": "large",
-        "img-position": "img-right",
-        "img-side-gap": true,
-        "desktop_content_position": "middle",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 100,
-        "border-top": false,
-        "padding_bottom": 100
-      }
-    },
-    "80c5e56b-577b-45dc-b891-b752c1be1b94": {
-      "type": "featured-simple",
-      "blocks": {
-        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/453e693b-ba89-46a7-80c0-417b2b28acf7.png",
-            "title": "SHAMPOO",
-            "text": "",
-            "heading_style": "header-style-2",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1aee15c3-5374-45c8-a9d1-24d3232e99cc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7cb055e8-8b55-4dc6-a21c-de0471754b48_1.png",
-            "title": "CONDITIONER",
-            "text": "",
-            "heading_style": "header-style-2",
-            "link_label": "",
-            "link": "\/"
-          }
-        },
-        "5ac7158d-0cbd-41eb-b711-6a96110abe5f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash_4_ee3f8551-3ad7-4479-9a44-c6d27af25480.png",
-            "title": "TREATMENTS",
-            "text": "",
-            "heading_style": "header-style-2",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15125915238474__80c5e56b-577b-45dc-b891-b752c1be1b94-column-1",
-        "1aee15c3-5374-45c8-a9d1-24d3232e99cc",
-        "5ac7158d-0cbd-41eb-b711-6a96110abe5f"
-      ],
-      "custom_css": [
-        "p {margin-bottom: 2rem;}",
-        "h3 {margin-top: 2rem;}"
-      ],
-      "settings": {
-        "title": "We're here to rescue your hair from the Bali water.",
-        "heading_size": "h1",
-        "heading_style": "header-style-1",
-        "heading-alignment": "center",
-        "image_width": "full",
-        "para": "The products you need to rescue your hair and survive the Bali water.",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 76,
-        "padding_bottom": 76
-      }
-    },
-    "20bc83cd-1545-4f88-a934-da85fdeffc10": {
-      "type": "featured-fancy",
-      "blocks": {
-        "template--15125915238474__20bc83cd-1545-4f88-a934-da85fdeffc10-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_18.png",
-            "title": "",
-            "text": "",
-            "link_label": "Our Ethos",
-            "link": ""
-          }
-        },
-        "01c01cf0-f9d0-4aa0-85dc-9bedbcd65b9a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_18_1.png",
-            "title": "",
-            "text": "",
-            "link_label": "Our Products",
-            "link": ""
-          }
-        },
-        "3a05e0d4-c08e-4371-b635-96aac8173282": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_18.png",
-            "title": "",
-            "text": "",
-            "link_label": "Our Spa & Salon",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15125915238474__20bc83cd-1545-4f88-a934-da85fdeffc10-column-1",
-        "01c01cf0-f9d0-4aa0-85dc-9bedbcd65b9a",
-        "3a05e0d4-c08e-4371-b635-96aac8173282"
-      ],
-      "custom_css": [
-        "p {margin-bottom: 4rem;}"
-      ],
-      "settings": {
-        "title": "So clean & natural you could <em>almost<\/em> eat it.",
-        "heading_size": "h1",
-        "heading_style": "header-style-1",
-        "heading-alignment": "center",
-        "image_width": "full",
-        "para": "We carefully select products that are natural, vegan, not tested on animals and avoid harsh chemicals that dry your hair and damage your skin. You’ll find only the good stuff for you & your hair.",
-        "capped-heading-width": 48,
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 68,
-        "border-top": true,
-        "padding_bottom": 72
-      }
-    },
-    "a9c6da29-2a5a-42d3-955e-9b9e52d482ca": {
-      "type": "split-image-banner",
-      "blocks": {
-        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Your new favourite hair salon in the heart of Pererenan",
-            "heading_style": "header-style-1",
-            "heading_size": "h1"
-          }
-        },
-        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-text-1": {
+        "text_mGj7XJ": {
           "type": "text",
           "settings": {
-            "text": "<p>We’ve assembled a world-class team of hair stylists to cut, color, treat all your hair needs while you’re in Bali. <\/p><p>Whether you’re looking for a blonde expert to bring to life the perfect balyage, a cut that will withstand the humidity or a treatment to rescue your hair from the harsh water & tropical sun we’ve got your covered. <\/p><p>And you can rest assured that in our salon, \u2028we’ll only use the best quality products on your \u2028hair that we would use on ourselves. <\/p>",
+            "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-buttons-1": {
+        "buttons_K4bPHC": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "BOOK APPOINTMENT",
-            "button_link_1": "shopify:\/\/pages\/contact",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-heading-1",
-        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-text-1",
-        "template--15125915238474__a9c6da29-2a5a-42d3-955e-9b9e52d482ca-buttons-1"
+        "heading_XMiwCk",
+        "text_mGj7XJ",
+        "buttons_K4bPHC"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hair-by-therapy.jpg",
-        "image_height": "large",
-        "img-position": "img-left",
-        "img-side-gap": false,
-        "desktop_content_position": "middle",
+        "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 40,
-        "border-top": false,
-        "padding_bottom": 52
+        "show_text_below": true
       }
     }
   },
   "order": [
-    "49059f98-db50-4c8d-825b-44a12fc69b2e",
-    "80c5e56b-577b-45dc-b891-b752c1be1b94",
-    "20bc83cd-1545-4f88-a934-da85fdeffc10",
-    "a9c6da29-2a5a-42d3-955e-9b9e52d482ca"
+    "bubble_banner_JBRNAC"
   ]
 }
