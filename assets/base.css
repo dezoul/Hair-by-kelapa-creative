@@ -3810,6 +3810,10 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
     grid-area: left-icons;
     justify-self: flex-start;
 }
+
+  .header{
+    grid-template-columns: 2fr 1fr 1fr;
+  }
 }
 
 
