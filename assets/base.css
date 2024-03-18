@@ -3801,11 +3801,25 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
 
 }
 
+@media screen and (max-width: 990px) {
+  body header-drawer{
+    margin-left: 0;
+    grid-column-start: 4;
+  }
+  .header__heading, .header__heading-link {
+    grid-area: left-icons;
+    justify-self: flex-start;
+}
+
+  .header{
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+
 
 @media screen and (min-width: 1300px) {
 
   .media.split-banner-img-gap {
-
     background-color: inherit;
   }
 
