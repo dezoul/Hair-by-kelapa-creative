@@ -137,6 +137,32 @@
         "padding_bottom": 0
       }
     },
+    "single_drop_down_set_Gpz4Rf": {
+      "type": "singleDropDownSet",
+      "blocks": {
+        "text_8mUFeq": {
+          "type": "text",
+          "settings": {
+            "heading": "gsfdkfdk",
+            "drution": "sdjksdkj",
+            "price": "sjfjkds",
+            "description": "sjdjsdjs",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8mUFeq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "left",
+        "heading-cat": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection_Kwy6Er": {
       "type": "featured-collection",
       "settings": {
@@ -171,6 +197,7 @@
     "single_drop_down_set_VEEEtr",
     "single_drop_down_set_f6LeTe",
     "single_drop_down_set_dxG3KN",
+    "single_drop_down_set_Gpz4Rf",
     "featured_collection_Kwy6Er"
   ]
 }
