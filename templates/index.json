@@ -55,24 +55,46 @@
           "type": "text",
           "settings": {
             "heading": "Cream bath",
-            "price": "40000",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.",
+            "price": "350000",
+            "description": "Experience the luxury of this treatment knowing that our carefully crafted hair mask is completely free from harmful toxins. We have meticulously selected pure, clean ingredients, ensuring that your hair is nourished and revitalized without any compromise. Relax as the hydrating properties of aloe vera, the nourishing essence of avocado extracts, and the replenishing power of squalane work their magic, deeply nourishing every strand. Unwind with a soothing head massage, knowing that your hair is being treated with utmost care and without any harmful chemicals.",
             "book-now-link": ""
           }
         },
         "text_YBcaQh": {
           "type": "text",
           "settings": {
-            "heading": "Cream bath",
-            "price": "40000",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.",
+            "heading": "scalp massage",
+            "price": "350000",
+            "description": "Experience pure bliss with our invigorating scalp treatment. Let our skilled therapists release tension in your neck, head and shoulders, while increasing blood flow to cleanse your scalp and hair. Our specially formulated scalp oil, infused with avocado and ginseng extracts, provides nourishment for a revitalized scalp and healthy hair. Treat yourself to this transformative experience and embrace the rejuvenating power of our\nScalp Massage.",
+            "book-now-link": ""
+          }
+        },
+        "text_Qxm3xK": {
+          "type": "text",
+          "settings": {
+            "heading": "dry head massage",
+            "duration": "30min",
+            "price": "200000",
+            "description": "Indulge in the soothing bliss of our Dry Head Massage. Let our skilled therapists work their magic as they gently massage your scalp, relieving tension and promoting relaxation. This oil-free treatment is designed to enhance scalp circulation, ease headaches, and leave you feeling refreshed and rejuvenated.",
+            "book-now-link": ""
+          }
+        },
+        "text_inyDEY": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "duration": "",
+            "price": "",
+            "description": "",
             "book-now-link": ""
           }
         }
       },
       "block_order": [
         "text_jRdVAm",
-        "text_YBcaQh"
+        "text_YBcaQh",
+        "text_Qxm3xK",
+        "text_inyDEY"
       ],
       "settings": {
         "color_scheme": "",
