@@ -157,10 +157,10 @@
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
-        "heading-alignment": "left",
-        "heading-cat": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "heading-alignment": "right",
+        "heading-cat": "test",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured_collection_Kwy6Er": {
