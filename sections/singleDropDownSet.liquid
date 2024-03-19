@@ -1,0 +1,200 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .faq-grid {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text-right{
+    text-align: right
+  }
+
+  .inital-hr {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+  hr.trailing-line {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.height-0{
+  height: 0;
+  overflow:hidden;
+}
+
+.clickable{
+  cursor: pointer;}
+
+{%- endstyle -%}
+
+
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding page-width drop-trigger">
+    {% if section.settings.heading-inital %}
+      <h2 class="h1">{{section.settings.heading-inital}}</h2>
+    {% endif %}
+    <hr class="inital-hr">
+    <div class="" onclick="this.nextElementSibling.classList.toggle('height-0')">
+        <h3 class="header-style-2 clickable {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %} %} ">
+        {%  if section.settings.heading-alignment == 'left' and section.settings.icon != null  %} 
+          <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
+        {% endif %} 
+           {{section.settings.heading-cat}}
+           {%  if section.settings.heading-alignment == 'right' and section.settings.icon != null %} 
+            <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
+          {% endif %} 
+          </h3>
+    </div>
+
+{% comment %} drop down container {% endcomment %}
+    <div class="height-0 drop-container">
+    
+    {% for block in section.blocks %}
+      <div class="faq-grid">
+        <h3 class="h2">{{block.settings.heading}}</h3>
+        <p>{{block.settings.price}}</p>
+      </div>
+      <div>
+        <p>{{block.settings.description}}</p>
+        <p class="text-right"><a href="{{block.settings.book-now-link}}">Book Now</a></p>
+      </div>
+      {% unless forloop.last %}
+        <hr class="trailing-line">
+      {% endunless %}
+    {% endfor %}
+  </div>
+
+  </div>
+</div>
+
+<script>
+  // const dropTrigger{{ section.id }} = document.querySelector("#{{ section.id }} .drop-trigger")
+  // dropTrigger.addEventListener("click", ()=>{
+  //     document.querySelector('#{{ section.id }} .drop-container').classList.toggle('height-0')
+  // })
+console.log('#{{ section.id }}')
+</script>
+
+{% schema %}
+{
+  "name": "treatment accordian",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "text",
+      "label": "Section Heading",
+      "id":"heading-inital"
+    },
+    
+    {
+      "type": "image_picker",
+      "label": "heading icon",
+      "id":"icon"
+    },
+    
+    {
+      "type": "select",
+      "label": "heading alignment",
+      "id":"heading-alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "left"
+        },{
+          "value": "right",
+          "label": "right"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "label": "treatment category heading",
+      "id":"heading-cat"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+       {
+      "type": "text",
+      "name": "treatment",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "treatment heading"
+        },
+        {
+          "type": "text",
+          "id": "drution",
+          "label": "drution"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "price"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "description"
+        },
+        {
+          "type": "url",
+          "id": "book-now-link",
+          "label": "book-now-link"
+        }
+    ]
+  }
+  ],
+  "presets": [
+    {
+      "name": "treatment accordian"
+    }
+  ]
+}
+{% endschema %}

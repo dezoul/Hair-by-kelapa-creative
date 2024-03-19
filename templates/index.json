@@ -47,9 +47,103 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "single_drop_down_set_VEEEtr": {
+      "type": "singleDropDownSet",
+      "blocks": {
+        "text_jRdVAm": {
+          "type": "text",
+          "settings": {
+            "heading": "Cream bath",
+            "drution": "60min",
+            "price": "40000",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.",
+            "book-now-link": ""
+          }
+        },
+        "text_YBcaQh": {
+          "type": "text",
+          "settings": {
+            "heading": "Cream bath",
+            "drution": "60min",
+            "price": "40000",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_jRdVAm",
+        "text_YBcaQh"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "Our Services",
+        "heading-alignment": "left",
+        "heading-cat": "head",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "single_drop_down_set_f6LeTe": {
+      "type": "singleDropDownSet",
+      "blocks": {
+        "text_qrmTME": {
+          "type": "text",
+          "settings": {
+            "heading": "body thing",
+            "drution": "5min",
+            "price": "1000000",
+            "description": "fun",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_qrmTME"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "right",
+        "heading-cat": "body",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_Kwy6Er": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "bubble_banner_JBRNAC"
+    "bubble_banner_JBRNAC",
+    "single_drop_down_set_VEEEtr",
+    "single_drop_down_set_f6LeTe",
+    "featured_collection_Kwy6Er"
   ]
 }
