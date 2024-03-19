@@ -161,7 +161,7 @@
         "text_8mUFeq": {
           "type": "text",
           "settings": {
-            "heading": "Thing",
+            "heading": "Skin",
             "price": "250000",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "book-now-link": ""
@@ -218,6 +218,21 @@
     },
     "single_drop_down_set_FrHi6h": {
       "type": "singleDropDownSet",
+      "blocks": {
+        "text_DDK4wc": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "duration": "",
+            "price": "",
+            "description": "",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_DDK4wc"
+      ],
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -229,6 +244,21 @@
     },
     "single_drop_down_set_XjiqyC": {
       "type": "singleDropDownSet",
+      "blocks": {
+        "text_f3bkKe": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "duration": "",
+            "price": "",
+            "description": "",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_f3bkKe"
+      ],
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -240,6 +270,21 @@
     },
     "single_drop_down_set_4z6U4t": {
       "type": "singleDropDownSet",
+      "blocks": {
+        "text_Bam4an": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "duration": "",
+            "price": "",
+            "description": "",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_Bam4an"
+      ],
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
