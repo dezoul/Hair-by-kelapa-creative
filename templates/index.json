@@ -182,6 +182,32 @@
     },
     "single_drop_down_set_WhWUpK": {
       "type": "singleDropDownSet",
+      "blocks": {
+        "text_zEqLDb": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "duration": "",
+            "price": "",
+            "description": "",
+            "book-now-link": ""
+          }
+        },
+        "text_NEMj8z": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "duration": "",
+            "price": "",
+            "description": "",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_zEqLDb",
+        "text_NEMj8z"
+      ],
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
