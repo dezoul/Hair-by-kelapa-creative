@@ -55,7 +55,6 @@
           "type": "text",
           "settings": {
             "heading": "Cream bath",
-            "drution": "60min",
             "price": "40000",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.",
             "book-now-link": ""
@@ -65,7 +64,6 @@
           "type": "text",
           "settings": {
             "heading": "Cream bath",
-            "drution": "60min",
             "price": "40000",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, sapiente facilis aliquid, itaque illum voluptates perspiciatis libero expedita tempore repellat eius quisquam! Cupiditate iure voluptatibus vitae ullam! Vel, consectetur porro.",
             "book-now-link": ""
@@ -81,7 +79,7 @@
         "heading-inital": "Our Services",
         "heading-alignment": "left",
         "heading-cat": "head",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -92,7 +90,6 @@
           "type": "text",
           "settings": {
             "heading": "body thing",
-            "drution": "5min",
             "price": "1000000",
             "description": "fun",
             "book-now-link": ""
@@ -108,7 +105,7 @@
         "heading-alignment": "right",
         "heading-cat": "body",
         "padding_top": 0,
-        "padding_bottom": 40
+        "padding_bottom": 0
       }
     },
     "single_drop_down_set_dxG3KN": {
@@ -118,7 +115,6 @@
           "type": "text",
           "settings": {
             "heading": "Hair Mask",
-            "drution": "50 minutes",
             "price": "450,000",
             "description": "sdhashdjsl",
             "book-now-link": ""
@@ -132,7 +128,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "Hair",
+        "heading-cat": "Foot",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -144,7 +140,6 @@
           "type": "text",
           "settings": {
             "heading": "gsfdkfdk",
-            "drution": "sdjksdkj",
             "price": "sjfjkds",
             "description": "sjdjsdjs",
             "book-now-link": ""
@@ -158,7 +153,76 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "right",
-        "heading-cat": "test",
+        "heading-cat": "Skin",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "single_drop_down_set_WhWUpK": {
+      "type": "singleDropDownSet",
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "left",
+        "heading-cat": "Face",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "single_drop_down_set_RTYmqF": {
+      "type": "singleDropDownSet",
+      "blocks": {
+        "text_YVXQpb": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "price": "",
+            "description": "",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_YVXQpb"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "right",
+        "heading-cat": "Nail",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "single_drop_down_set_FrHi6h": {
+      "type": "singleDropDownSet",
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "left",
+        "heading-cat": "Indulgence",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "single_drop_down_set_XjiqyC": {
+      "type": "singleDropDownSet",
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "right",
+        "heading-cat": "Waxing",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "single_drop_down_set_4z6U4t": {
+      "type": "singleDropDownSet",
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "left",
+        "heading-cat": "Vouchers",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -198,6 +262,11 @@
     "single_drop_down_set_f6LeTe",
     "single_drop_down_set_dxG3KN",
     "single_drop_down_set_Gpz4Rf",
+    "single_drop_down_set_WhWUpK",
+    "single_drop_down_set_RTYmqF",
+    "single_drop_down_set_FrHi6h",
+    "single_drop_down_set_XjiqyC",
+    "single_drop_down_set_4z6U4t",
     "featured_collection_Kwy6Er"
   ]
 }
