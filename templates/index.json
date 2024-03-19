@@ -111,6 +111,58 @@
         "padding_bottom": 40
       }
     },
+    "single_drop_down_set_dxG3KN": {
+      "type": "singleDropDownSet",
+      "blocks": {
+        "text_nbA6kd": {
+          "type": "text",
+          "settings": {
+            "heading": "Hair Mask",
+            "drution": "50 minutes",
+            "price": "450,000",
+            "description": "sdhashdjsl",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_nbA6kd"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "left",
+        "heading-cat": "Hair",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "single_drop_down_set_Gpz4Rf": {
+      "type": "singleDropDownSet",
+      "blocks": {
+        "text_8mUFeq": {
+          "type": "text",
+          "settings": {
+            "heading": "gsfdkfdk",
+            "drution": "sdjksdkj",
+            "price": "sjfjkds",
+            "description": "sjdjsdjs",
+            "book-now-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8mUFeq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "right",
+        "heading-cat": "test",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection_Kwy6Er": {
       "type": "featured-collection",
       "settings": {
@@ -144,6 +196,8 @@
     "bubble_banner_JBRNAC",
     "single_drop_down_set_VEEEtr",
     "single_drop_down_set_f6LeTe",
+    "single_drop_down_set_dxG3KN",
+    "single_drop_down_set_Gpz4Rf",
     "featured_collection_Kwy6Er"
   ]
 }
