@@ -31,13 +31,13 @@
       "type": "header",
       "custom_css": [
         "a {text-transform: uppercase;}",
-        ".header__search{display: none;}"
+        ".header__search {display: none;}"
       ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
-        "menu_color_scheme_2": "scheme-2",
+        "menu_color_scheme_2": "scheme-5",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
