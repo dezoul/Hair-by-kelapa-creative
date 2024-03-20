@@ -59,6 +59,10 @@
     min-height: 100vh;
   }
 
+  .text-left{
+    text-align:left;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -149,7 +153,7 @@
     </div>
   {%- endif -%}
   <div class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} buble-parent">
-    <div class="page-width bubble banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+    <div class="page-width bubble banner__box content-container content-container--full-width-mobile text-left color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
