@@ -9,21 +9,13 @@
             "heading": "Image banner",
             "heading_size": "h1"
           }
-        },
-        "text_mGj7XJ": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "heading_XMiwCk",
-        "text_mGj7XJ"
+        "heading_XMiwCk"
       ],
       "custom_css": [
-        ".banner{z-index:2;}"
+        ".banner {z-index: 2;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
