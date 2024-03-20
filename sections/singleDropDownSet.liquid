@@ -66,11 +66,11 @@
     
     {% for block in section.blocks %}
       <div class="faq-grid">
-        <h3 class="h2">{{block.settings.heading}}</h3>
-        <p>{{block.settings.price}}</p>
+        <h3 class="h3 header-style-2">{{block.settings.heading}}</h3>
+        <p>Rp {{block.settings.price}}</p>
       </div>
       <div>
-        <p>{{block.settings.duration}}</p>
+        <p>{{block.settings.duration}} min</p>
         <p>{{block.settings.description}}</p>
         <p class="text-right"><a href="{{block.settings.book-now-link}}">Book Now</a></p>
       </div>
