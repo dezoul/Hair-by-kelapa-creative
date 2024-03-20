@@ -43,7 +43,7 @@
       "type": "image-banner",
       "custom_css": [
         ".media > img {object-fit: cover; object-position: center 84%; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
-        " @media screen and (min-width: 750px) {.banner{display:none;} }"
+        "@media screen and (min-width: 750px) {.banner {display: none; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/f769a943ce2fd2aaa917d6d548efb2d0.jpg",
@@ -339,10 +339,13 @@
     },
     "image_banner_mVLAB3": {
       "type": "image-banner",
+      "custom_css": [
+        ".banner {border-radius: 5rem; overflow: hidden;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/a6d4719eec4b10f3c0dc3fc0fae7cc3b.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
