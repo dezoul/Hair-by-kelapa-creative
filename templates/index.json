@@ -6,7 +6,7 @@
         "heading_CBiVtP": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "A mindful spa in the heart of Pererenan",
             "heading_size": "h1"
           }
         },
@@ -16,33 +16,22 @@
             "text": "<p>Nestled in Bali's tropical embrace, our contemporary spa blends opulence with mindfulness.<br\/><\/p><p>We source the finest, organic ingredients globally, supporting local trade practices. Our small batch blends preserve therapeutic benefits. Committed to sustainability, we never test on animals. Indulge in treatments free from artificial chemicals and preservatives, a pure celebration of well-being.<br\/><\/p><p>Welcome to a conscious retreat, where luxury meets ethical care.<br\/><\/p><p>Read more...<\/p>",
             "text_style": "body"
           }
-        },
-        "buttons_jcdiPz": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_CBiVtP",
-        "text_UBbhQA",
-        "buttons_jcdiPz"
+        "text_UBbhQA"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -50,6 +39,7 @@
     "image_banner_HUFHBX": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/f769a943ce2fd2aaa917d6d548efb2d0.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -168,7 +158,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "Foot",
+        "heading-cat": "foot",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -194,7 +184,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "right",
-        "heading-cat": "Skin",
+        "heading-cat": "skin",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -231,7 +221,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "Face",
+        "heading-cat": "face",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -257,7 +247,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "right",
-        "heading-cat": "Nail",
+        "heading-cat": "nail",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -283,7 +273,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "Indulgence",
+        "heading-cat": "indulgence",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -309,7 +299,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "right",
-        "heading-cat": "Waxing",
+        "heading-cat": "waxing",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -335,7 +325,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "Vouchers",
+        "heading-cat": "vouchers",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -343,6 +333,7 @@
     "image_banner_mVLAB3": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/a6d4719eec4b10f3c0dc3fc0fae7cc3b.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
