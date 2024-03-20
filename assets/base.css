@@ -3521,7 +3521,7 @@ details-disclosure>details {
 
 body,
 div {
-  font-family: "ivyepic", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -3538,13 +3538,12 @@ h2,
 .h2,
 h3,
 .h3 {
-  font-family: ivyora-text, sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
 }
 
 .header-style-2 {
   font-family: inherit;
-  /* font-family: fahkwang, sans-serif; */
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.1;
@@ -3802,16 +3801,18 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
 }
 
 @media screen and (max-width: 990px) {
-  body header-drawer{
+  body header-drawer {
     margin-left: 0;
     grid-column-start: 4;
   }
-  .header__heading, .header__heading-link {
+
+  .header__heading,
+  .header__heading-link {
     grid-area: left-icons;
     justify-self: flex-start;
-}
+  }
 
-  .header{
+  .header {
     grid-template-columns: 2fr 1fr 1fr;
   }
 }
