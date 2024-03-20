@@ -35,6 +35,9 @@
   height: 0;
   overflow:hidden;
 }
+.margin-0{
+  margin:0;
+}
 
 .clickable{
   cursor: pointer;}
@@ -66,11 +69,11 @@
     
     {% for block in section.blocks %}
       <div class="faq-grid">
-        <h3 class="h3 header-style-2">{{block.settings.heading}}</h3>
-        <p>Rp {{block.settings.price}}</p>
+        <h3 class="h3 header-style-2 margin-0">{{block.settings.heading}}</h3>
+        <p class="margin-0">Rp {{block.settings.price}}</p>
       </div>
       <div>
-        <p>{{block.settings.duration}} min</p>
+        <p class="margin-0">{{block.settings.duration}} min</p>
         <p>{{block.settings.description}}</p>
         <p class="text-right"><a href="{{block.settings.book-now-link}}">Book Now</a></p>
       </div>
