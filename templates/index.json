@@ -43,7 +43,7 @@
           "type": "text",
           "settings": {
             "heading": "Cream bath",
-            "duration": "",
+            "duration": "60",
             "price": "350000",
             "description": "Experience the luxury of this treatment knowing that our carefully crafted hair mask is completely free from harmful toxins. We have meticulously selected pure, clean ingredients, ensuring that your hair is nourished and revitalized without any compromise. Relax as the hydrating properties of aloe vera, the nourishing essence of avocado extracts, and the replenishing power of squalane work their magic, deeply nourishing every strand. Unwind with a soothing head massage, knowing that your hair is being treated with utmost care and without any harmful chemicals.",
             "book-now-link": ""
@@ -53,7 +53,7 @@
           "type": "text",
           "settings": {
             "heading": "scalp massage",
-            "duration": "",
+            "duration": "60",
             "price": "350000",
             "description": "Experience pure bliss with our invigorating scalp treatment. Let our skilled therapists release tension in your neck, head and shoulders, while increasing blood flow to cleanse your scalp and hair. Our specially formulated scalp oil, infused with avocado and ginseng extracts, provides nourishment for a revitalized scalp and healthy hair. Treat yourself to this transformative experience and embrace the rejuvenating power of our\nScalp Massage.",
             "book-now-link": ""
@@ -344,7 +344,7 @@
         "show_view_all": true,
         "view_all_style": "link",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
