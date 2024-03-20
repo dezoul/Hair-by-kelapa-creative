@@ -22,6 +22,9 @@
         "heading_XMiwCk",
         "text_mGj7XJ"
       ],
+      "custom_css": [
+        ".banner{z-index:2;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
         "image_overlay_opacity": 0,
@@ -30,6 +33,21 @@
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_HUFHBX": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -360,6 +378,7 @@
   },
   "order": [
     "bubble_banner_JBRNAC",
+    "image_banner_HUFHBX",
     "single_drop_down_set_VEEEtr",
     "single_drop_down_set_f6LeTe",
     "single_drop_down_set_dxG3KN",
