@@ -3545,7 +3545,7 @@ h3,
 .header-style-2 {
   font-family: inherit;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: 1.1;
   letter-spacing: -0.01em;
 }
