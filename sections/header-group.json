@@ -32,7 +32,7 @@
       "custom_css": [
         "a {text-transform: uppercase;}",
         ".header__search {display: none;}",
-        "summary.header-style-2 {font-size: 3rem;}"
+        "summary.header-style-2 {font-size: 2.5rem;}"
       ],
       "settings": {
         "logo_position": "middle-left",
