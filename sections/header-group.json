@@ -33,8 +33,8 @@
         ".menu-drawer {text-align: right;}",
         "a {text-transform: uppercase;}",
         ".header__search {display: none;}",
-        "summary.header-style-2,button.header-style-2 {font-size: 2.5rem; font-weight: 500;}",
-        ".menu-drawer__menu-item {text-transform: uppercase; font-size: 1.5rem; text-align: right; align-items: flex-end; justify-content: flex-end; background: transparent;}"
+        "summary.header-style-2,button.header-style-2 {font-size: 2.5rem; font-weight: 500; justify-content: flex-end;}",
+        ".menu-drawer__menu-item {text-transform: uppercase; font-size: 1.5rem; justify-content: flex-end; background: transparent;}"
       ],
       "settings": {
         "logo_position": "middle-left",
