@@ -21,6 +21,7 @@
         },
         "footer-0": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "SALON",
             "menu": "footer"
@@ -28,6 +29,7 @@
         },
         "footer-1": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "SHOP",
             "menu": "footer-2"
