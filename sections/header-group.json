@@ -31,7 +31,8 @@
       "type": "header",
       "custom_css": [
         "a {text-transform: uppercase;}",
-        ".header__search {display: none;}"
+        ".header__search {display: none;}",
+        "body .header-style-2 {font-size: 3rem;}"
       ],
       "settings": {
         "logo_position": "middle-left",
