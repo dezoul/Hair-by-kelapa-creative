@@ -30,9 +30,10 @@
     "header": {
       "type": "header",
       "custom_css": [
+        ".menu-drawer{text-align: right }",
         "a {text-transform: uppercase;}",
         ".header__search {display: none;}",
-        "summary.header-style-2 {font-size: 2.5rem;}"
+        "summary.header-style-2 {font-size: 2rem; font-weight: 500;}"
       ],
       "settings": {
         "logo_position": "middle-left",
