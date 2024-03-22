@@ -31,6 +31,10 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+  
+  #shopify-section-{{ section.id }} .banner::after, #shopify-section-{{ section.id }} .banner__media::after{
+    content: initial
+  }
 
 
   #Banner-{{ section.id }} .bubble{
@@ -47,6 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 5rem 0;
   }
   .buble-parent{ width: initial}
     #Banner-{{ section.id }} .bubble{ border-radius: 3rem 0 0 3rem;
@@ -162,7 +167,7 @@
             </h2>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <p>{{ block.settings.text }}</p>
+              {{ block.settings.text }}
             </div>
           {%- when 'buttons' -%}
             <div
@@ -194,7 +199,15 @@
                 </a>
               {%- endif -%}
             </div>
-        {%- endcase -%}
+            {%- when 'dropSec' -%}
+              <div class="" onclick="this.nextElementSibling.classList.toggle('height-0');
+              this.classList.toggle('height-0')">
+                <p class="clickable" onclick="console.log('e.this')"> Read more... </p>
+              </div>
+              <div class="height-0">
+                {{ block.settings.text }}
+              </div>
+          {%- endcase -%}
       {%- endfor -%}
     </div>
   </div>
@@ -459,6 +472,25 @@
           ],
           "default": "body",
           "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "dropSec",
+      "name": "dropdown content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "triggerText",
+          "default": "Read more...",
+          "label": "text that triggers more content"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>hidden content that appears on click</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
         }
       ]
     },
