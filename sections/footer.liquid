@@ -391,7 +391,7 @@
           </div>
           </div>
       {% endcomment %}
-{% if section.settings.whatsapp-number %}
+{% comment %} {% if section.settings.whatsapp-number %}
 <div class="floating-wa-button color-{{ section.settings.whatsapp-style }}">
   <a href="https://api.whatsapp.com/send/?phone={{ section.settings.whatsapp-number }}&text&type=phone_number&app_absent=0">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.216 175.552" width="40px">
@@ -399,7 +399,7 @@
     </svg> <span> book now </span>
   </a>
 </div>
-{% endif  %}
+{% endif  %} {% endcomment %}
 {% schema %}
 {
   "name": "t:sections.footer.name",

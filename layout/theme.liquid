@@ -367,12 +367,12 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    <div class="border-top">
+    {% comment %} <div class="border-top">
       <p class="page-width sub-footer"> 
 
         <span>Copyright 2023</span> | {% for link in linklists['sub-footer'].links -%}{{ link.title | link_to: link.url }} | {%- endfor %} <a href="https://kelapacreative.com">Website by Kelapa Creative</a> 
       </p>
-    </div>
+    </div> {% endcomment %}
     
   </body>
 </html>
