@@ -30,6 +30,7 @@
     "header": {
       "type": "header",
       "custom_css": [
+        "header::after {border-bottom: 0px solid;}",
         ".menu-drawer {text-align: right;}",
         "a {text-transform: uppercase;}",
         ".header__search {display: none;}",
