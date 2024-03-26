@@ -43,6 +43,9 @@
         "footer-0",
         "footer-1"
       ],
+      "custom_css": [
+        ".footer-grid > :first-child::after {border: 0px solid;}"
+      ],
       "settings": {
         "color_scheme": "scheme-5",
         "heading_style": "header-style-2",
