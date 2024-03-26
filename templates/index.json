@@ -13,14 +13,22 @@
         "text_UBbhQA": {
           "type": "text",
           "settings": {
-            "text": "<p>Nestled in Bali's tropical embrace, our contemporary spa blends opulence with mindfulness.<br\/><\/p><p>We source the finest, organic ingredients globally, supporting local trade practices. Our small batch blends preserve therapeutic benefits. Committed to sustainability, we never test on animals. Indulge in treatments free from artificial chemicals and preservatives, a pure celebration of well-being.<br\/><\/p><p>Welcome to a conscious retreat, where luxury meets ethical care.<br\/><\/p><p>Read more...<\/p>",
+            "text": "<p>Nestled in Bali's tropical embrace, our contemporary spa blends opulence with mindfulness.<br\/><\/p><p>We source the finest, organic ingredients globally, supporting local trade practices. Our small batch blends preserve therapeutic benefits. Committed to sustainability, we never test on animals. Indulge in treatments free from artificial chemicals and preservatives, a pure celebration of well-being.<br\/><\/p><p>Welcome to a conscious retreat, where luxury meets ethical care.<br\/><\/p>",
             "text_style": "body"
+          }
+        },
+        "drop_sec_kaFDUN": {
+          "type": "dropSec",
+          "settings": {
+            "triggerText": "Read more...",
+            "text": "<p>hidden content that appears on click so put anything you want on to here<\/p>"
           }
         }
       },
       "block_order": [
         "heading_CBiVtP",
-        "text_UBbhQA"
+        "text_UBbhQA",
+        "drop_sec_kaFDUN"
       ],
       "custom_css": [
         ".banner {z-index: 2;}"
