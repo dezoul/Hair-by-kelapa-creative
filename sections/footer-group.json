@@ -43,6 +43,9 @@
         "footer-0",
         "footer-1"
       ],
+      "custom_css": [
+        ".footer-grid > :first-child::after {border: 0px solid;}"
+      ],
       "settings": {
         "color_scheme": "scheme-5",
         "heading_style": "header-style-2",
@@ -51,7 +54,7 @@
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
