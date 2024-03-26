@@ -39,8 +39,13 @@
   margin:0;
 }
 
+.margin-top-05{
+  margin-top:.5rem
+}
+
 .clickable{
   cursor: pointer;}
+
 
 {%- endstyle -%}
 
@@ -52,8 +57,8 @@
       <h2 class="header-style-2 h2">{{section.settings.heading-inital}}</h2>
     {% endif %}
     <hr class="inital-hr">
-    <div class="" onclick="this.nextElementSibling.classList.toggle('height-0')">
-        <h3 class="h1 clickable {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %} %} ">
+    <div id="service-{{ section.settings.heading-cat }}" class="" onclick="this.nextElementSibling.classList.toggle('height-0')" onfocus="this.nextElementSibling.classList.toggle('height-0')">
+        <h3 class="h1 clickable margin-top-05 {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %}">
         {%  if section.settings.heading-alignment == 'left' and section.settings.icon != null  %} 
           <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
         {% endif %} 
@@ -69,13 +74,13 @@
     
     {% for block in section.blocks %}
       <div class="faq-grid">
-        <h3 class="h3 header-style-2 margin-0">{{block.settings.heading}}</h3>
+        <h3 class="h3 header-style-2 margin-0 ">{{block.settings.heading}}</h3>
         <p class="margin-0">Rp {{block.settings.price}}</p>
       </div>
       <div>
         <p class="margin-0">{{block.settings.duration}} min</p>
         <p>{{block.settings.description}}</p>
-        <p class="text-right"><a href="{{block.settings.book-now-link}}">Book Now</a></p>
+        <p class="text-right"><a href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
       </div>
       {% unless forloop.last %}
         <hr class="trailing-line">
@@ -189,8 +194,8 @@ console.log('#{{ section.id }}')
         },
         {
           "type": "url",
-          "id": "book-now-link",
-          "label": "book-now-link"
+          "id": "book-now-message",
+          "label": "book-now-message"
         }
     ]
   }
