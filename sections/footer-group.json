@@ -7,6 +7,7 @@
       "blocks": {
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "",
             "subtext": "<p>This is a short blurb about how great hair by therapy is, both as a salon and as an online store. <\/p><p><\/p><p>Our Sister Spa - Therapy<\/p>"
@@ -16,7 +17,7 @@
           "type": "text",
           "settings": {
             "heading": "FIND US",
-            "subtext": "<p>Opening hours 9am - 8pm <br\/>1 Main Street Pererenan, Bali<\/p><ul><li><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=6287725855520&text&type=phone_number&app_absent=0\" title=\"Whatsapp Therapy Day Spa\">WA: +62 87862137603<\/a><\/li><li><a href=\"https:\/\/www.instagram.com\/hairbytherapy\/\" title=\"https:\/\/www.instagram.com\/hairbytherapy\/\">IG @hairbytherapy<\/a><\/li><li><a href=\"mailto:hello@hairbytherapy.com\" title=\"mailto:hello@hairbytherapy.com\">hello@hairbytherapy.com<\/a><\/li><\/ul>"
+            "subtext": "<ul><li><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=6287725855520&text&type=phone_number&app_absent=0\" title=\"Whatsapp Therapy Day Spa\">WA: +62 87862137603<\/a><\/li><\/ul><p><\/p><ul><li><a href=\"https:\/\/www.instagram.com\/hairbytherapy\/\" title=\"https:\/\/www.instagram.com\/hairbytherapy\/\">IG @hairbytherapy<\/a><\/li><\/ul><p><\/p><ul><li><a href=\"mailto:hello@hairbytherapy.com\" title=\"mailto:hello@hairbytherapy.com\">hello@hairbytherapy.com<\/a><\/li><\/ul>"
           }
         },
         "footer-0": {
