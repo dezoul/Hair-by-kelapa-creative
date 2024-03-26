@@ -366,6 +366,9 @@
     },
     "featured_collection_Kwy6Er": {
       "type": "featured-collection",
+      "custom_css": [
+        ".slider-buttons.no-js-hidden {display: none;}"
+      ],
       "settings": {
         "title": "shop",
         "heading_size": "h1",
