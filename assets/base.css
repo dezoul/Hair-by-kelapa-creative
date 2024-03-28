@@ -2540,7 +2540,7 @@ product-info .loading__spinner:not(.hidden)~*,
 }
 
 .header__icons> :first-child {
-  min-width: 9rem;
+  min-width: 10rem;
 }
 
 .header__icons .shopify-app-block {
