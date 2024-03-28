@@ -3800,10 +3800,16 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
 
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 989px) {
   body header-drawer {
     margin-left: 0;
-    grid-column-start: 4;
+    grid-column-start: 3;
+  }
+
+  .header__icons {
+    grid-area: initial;
+    grid-column-start: 2;
+    grid-row-start: 1;
   }
 
   .header__heading,
@@ -3813,7 +3819,7 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
   }
 
   .header {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 42px;
   }
 }
 
