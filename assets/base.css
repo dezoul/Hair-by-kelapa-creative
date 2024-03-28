@@ -2539,6 +2539,10 @@ product-info .loading__spinner:not(.hidden)~*,
   padding-right: 0.8rem;
 }
 
+.header__icons> :first-child {
+  min-width: 9rem;
+}
+
 .header__icons .shopify-app-block {
   max-width: 4.4rem;
   max-height: 4.4rem;
@@ -3621,7 +3625,9 @@ body .spa-menu-item {
   padding-bottom: 8rem;
 }
 
-
+.scroll-target {
+  scroll-margin-top: 90px;
+}
 
 .margin-b {
   margin-bottom: 1rem;
