@@ -373,6 +373,40 @@
         <span>Copyright 2023</span> | {% for link in linklists['sub-footer'].links -%}{{ link.title | link_to: link.url }} | {%- endfor %} <a href="https://kelapacreative.com">Website by Kelapa Creative</a> 
       </p>
     </div> {% endcomment %}
-    
+    <script>
+      const dropSec = document.querySelectorAll('.scroll-target');
+      const pageLinks = document.querySelectorAll('header a');
+
+      console.log(dropSec, pageLinks)
+      function openDrops(target) {
+        // console.log(target)
+        target.nextElementSibling.classList.toggle('height-0')
+      }
+
+      pageLinks.forEach(link => {
+        // console.log(link)
+        let target = link.getAttribute("href")
+        if (target.includes('/#service-')) {
+        let linked = dropSec[0]
+        dropSec.forEach(service => {
+            // console.log(service.getAttribute('id'))
+            if((target).includes(service.getAttribute('id'))) {
+              console.log(link, service)
+              // linked = service
+              return
+            }
+          })
+
+          console.log('linked section')
+          console.log(linked)
+          link.addEventListener('click', () => {
+            openDrops(linked)
+          })
+
+  
+        }
+      })
+
+    </script>
   </body>
 </html>
