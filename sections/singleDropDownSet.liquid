@@ -54,10 +54,10 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding page-width drop-trigger">
     {% if section.settings.heading-inital %}
-      <h2 class="header-style-2 h2">{{section.settings.heading-inital}}</h2>
+      <h2 class="header-style-2 h2 margin-bottom-">{{section.settings.heading-inital}}</h2>
     {% endif %}
     <hr class="inital-hr">
-    <div id="service-{{ section.settings.heading-cat }}" class="scroll-target" onclick="this.nextElementSibling.classList.toggle('height-0')" onfocus="this.nextElementSibling.classList.toggle('height-0')">
+    <div id="service-{{ section.settings.heading-cat }}" class="scroll-target" onclick="this.nextElementSibling.classList.toggle('height-0')">
         <h3 class="h1 clickable margin-top-05 {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %}">
         {%  if section.settings.heading-alignment == 'left' and section.settings.icon != null  %} 
           <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
