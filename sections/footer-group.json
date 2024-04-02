@@ -44,7 +44,8 @@
         "footer-1"
       ],
       "custom_css": [
-        ".footer-grid > :first-child::after {border: 0px solid; padding-right: 0;}"
+        ".footer-grid > :first-child::after {border: 0px solid;}",
+        ".footer-grid > :first-child{padding-right: 0; }"
       ],
       "settings": {
         "color_scheme": "scheme-5",
