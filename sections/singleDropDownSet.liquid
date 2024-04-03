@@ -80,7 +80,7 @@
       <div>
         <p class="margin-0">{{block.settings.duration}} min</p>
         <p>{{block.settings.description}}</p>
-        <p class="text-right"><a href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
+        <p class="text-right"><a class="bold-link" href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
       </div>
       {% unless forloop.last %}
         <hr class="trailing-line">

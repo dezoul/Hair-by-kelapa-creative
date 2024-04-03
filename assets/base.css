@@ -3546,6 +3546,15 @@ h3,
   font-weight: 300;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bold-link {
+  font-weight: 600;
+}
+
 .header-style-2 {
   font-family: inherit;
   font-weight: 700;
