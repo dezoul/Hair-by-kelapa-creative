@@ -99,23 +99,12 @@
             "description": "Indulge in the soothing bliss of our Dry Head Massage. Let our skilled therapists work their magic as they gently massage your scalp, relieving tension and promoting relaxation. This oil-free treatment is designed to enhance scalp circulation, ease headaches, and leave you feeling refreshed and rejuvenated.",
             "book-now-message": ""
           }
-        },
-        "text_inyDEY": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "duration": "",
-            "price": "",
-            "description": "",
-            "book-now-message": ""
-          }
         }
       },
       "block_order": [
         "text_jRdVAm",
         "text_YBcaQh",
-        "text_Qxm3xK",
-        "text_inyDEY"
+        "text_Qxm3xK"
       ],
       "settings": {
         "color_scheme": "scheme-4",
