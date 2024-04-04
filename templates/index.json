@@ -132,10 +132,10 @@
         "text_qrmTME": {
           "type": "text",
           "settings": {
-            "heading": "body thing",
-            "duration": "",
-            "price": "1000000",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "heading": "the healing act",
+            "duration": "60 min",
+            "price": "300000",
+            "description": "Experience a traditional Balinese body massage incorporating rhythmic long connections strokes. Recommended for treating stress, muscle pain, sleep problems and anxiety. Ease into mindful meditation while your body and psyche are transported to a state of Tri Hita Karana – the Balinese concept of union between people, environment, and the Gods.",
             "book-now-message": ""
           }
         }
@@ -369,7 +369,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".slider-buttons.no-js-hidden {display: none;}",
-        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: 5rem;padding: 0 5rem; }}"
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: 5rem; padding: 0 5rem; }}"
       ],
       "settings": {
         "title": "shop",
