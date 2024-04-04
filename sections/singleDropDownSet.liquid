@@ -43,6 +43,10 @@
   margin-top:.5rem
 }
 
+.margin-bottom-2{
+  margin-bottom: 2rem;
+}
+
 .clickable{
   cursor: pointer;}
 
@@ -58,7 +62,7 @@
     {% endif %}
     <hr class="inital-hr">
     <div id="service-{{ section.settings.heading-cat }}" class="scroll-target" onclick="this.nextElementSibling.classList.toggle('height-0')">
-        <h3 class="h1 clickable margin-top-05 {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %}">
+        <h3 class="h1 clickable margin-top-05 margin-bottom-2 {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %}">
         {%  if section.settings.heading-alignment == 'left' and section.settings.icon != null  %} 
           <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
         {% endif %} 

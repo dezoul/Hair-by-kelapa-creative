@@ -3551,6 +3551,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.2;
+}
+
 .bold-link {
   font-weight: 600;
 }
@@ -3677,8 +3681,16 @@ header span {
   text-transform: uppercase;
 }
 
+header .menu-drawer__menu-item {
+  padding: .6rem 3rem;
+}
+
 .footer {
   overflow: hidden;
+}
+
+.footer-sub-heading {
+  font-size: 1.1rem;
 }
 
 .footer a,
