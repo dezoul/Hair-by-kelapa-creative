@@ -94,7 +94,7 @@
           "type": "text",
           "settings": {
             "heading": "dry head massage",
-            "duration": "30min",
+            "duration": "30",
             "price": "200000",
             "description": "Indulge in the soothing bliss of our Dry Head Massage. Let our skilled therapists work their magic as they gently massage your scalp, relieving tension and promoting relaxation. This oil-free treatment is designed to enhance scalp circulation, ease headaches, and leave you feeling refreshed and rejuvenated.",
             "book-now-message": ""
@@ -122,7 +122,7 @@
           "type": "text",
           "settings": {
             "heading": "the healing act",
-            "duration": "60 min",
+            "duration": "60",
             "price": "300000",
             "description": "Experience a traditional Balinese body massage incorporating rhythmic long connections strokes. Recommended for treating stress, muscle pain, sleep problems and anxiety. Ease into mindful meditation while your body and psyche are transported to a state of Tri Hita Karana – the Balinese concept of union between people, environment, and the Gods.",
             "book-now-message": ""
@@ -148,7 +148,7 @@
           "type": "text",
           "settings": {
             "heading": "reflexology",
-            "duration": "30 min",
+            "duration": "30",
             "price": "200000",
             "description": "Relieve tension and feel the rush of a high tide as nourished blood flows from your soles to carry away toxins and normalize compromised circulation as the body begins to heal itself.",
             "book-now-message": ""
@@ -174,7 +174,7 @@
           "type": "text",
           "settings": {
             "heading": "a salty affair",
-            "duration": "60 min",
+            "duration": "60",
             "price": "450000",
             "description": "Fortify your connection with the ocean and its rich mineral content by experiencing our custom blended aromatic full body Sea Salt Scrub – a natural exfoliant. Removes toxins from your skin while buffing away the top layer to create an irresistible glow. Enjoy a gentle finger dance on your face and scalp whilst being exfoliated. Finish off with a hydrating body moisturizer leaving your skin vibrant and supple.",
             "book-now-message": ""
@@ -200,7 +200,7 @@
           "type": "text",
           "settings": {
             "heading": "natural dreams",
-            "duration": "75 min",
+            "duration": "75",
             "price": "600000",
             "description": "Treat yourself to a rejuvenating luxury facial that embraces the healing properties of nature’s most hydrating ingredients. Our exquisite treatment is carefully crafted with plant-based, toxic-free elements, such as Avocado oil, Moringa Oil, Frankincense, and Turmeric. This all-encompassing facial experience encompasses a gentle scrub for exfoliation, a nourishing mask for revitalization, and a refreshing toner to complete the ritual. Immerse yourself in the beauty of a facial that cares for your skin with utmost purity, leaving you with a natural, radiant glow.",
             "book-now-message": ""
@@ -226,7 +226,7 @@
           "type": "text",
           "settings": {
             "heading": "therapeutic",
-            "duration": "75 min",
+            "duration": "75",
             "price": "450000",
             "description": "Revitalize your nails with our Therapeutic Plant-Based Manicure, a wellness-focused experience that embraces the power of nature. We prioritize your well-being by using only plant-based, non-toxic products throughout the treatment. Our skilled technicians expertly shape and buff your nails, ensuring a flawless result. Indulge in a gentle exfoliation that leaves your hands feeling velvety smooth, using plant-based ingredients to nourish and renew your skin. Choose (or not) from our collection of stunning nail polishes, all made from plant-based formulas that are free from harmful chemicals. Relax and unwind with a soothing hand massage using our specially crafted, plant-based hand cream, enriched with botanical extracts for deep hydration. Experience the perfect harmony of wellness and nature with our Therapeutic Plant-Based Manicure, where your health and the environment are our top priorities.",
             "book-now-message": ""
