@@ -210,27 +210,16 @@
         "text_zEqLDb": {
           "type": "text",
           "settings": {
-            "heading": "",
-            "duration": "",
-            "price": "",
-            "description": "",
-            "book-now-message": ""
-          }
-        },
-        "text_NEMj8z": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "duration": "",
-            "price": "",
-            "description": "",
+            "heading": "natural dreams",
+            "duration": "75 min",
+            "price": "600000",
+            "description": "Treat yourself to a rejuvenating luxury facial that embraces the healing properties of nature’s most hydrating ingredients. Our exquisite treatment is carefully crafted with plant-based, toxic-free elements, such as Avocado oil, Moringa Oil, Frankincense, and Turmeric. This all-encompassing facial experience encompasses a gentle scrub for exfoliation, a nourishing mask for revitalization, and a refreshing toner to complete the ritual. Immerse yourself in the beauty of a facial that cares for your skin with utmost purity, leaving you with a natural, radiant glow.",
             "book-now-message": ""
           }
         }
       },
       "block_order": [
-        "text_zEqLDb",
-        "text_NEMj8z"
+        "text_zEqLDb"
       ],
       "settings": {
         "color_scheme": "",
