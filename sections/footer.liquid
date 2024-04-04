@@ -126,9 +126,34 @@
                     {% render block %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte ">
-
                       {{ block.settings.subtext }}
-                      
+                    {% if block.settings.whatsapp-text %}
+                      <p class="footer-social">
+                        {% if block.settings.whatsapp-Link %}<a href="{{block.settings.email-Link}}">{% endif  %}
+                        {% if block.settings.whatsApp-icon %} {{block.settings.whatsApp-icon | image_url: width: 30 | image_tag}}{% endif %}
+                          {{block.settings.whatsapp-text}}
+                        {% if block.settings.whatsapp-Link %}</a>
+                        {% endif  %}
+                      </p>
+                    {% endif %}
+                    {% if block.settings.email-text %}
+                        <p class="footer-social">
+                          {% if block.settings.email-Link %}<a href="{{block.settings.email-Link}}">{% endif  %}
+                          {% if block.settings.email-icon %} {{block.settings.email-icon | image_url: width: 30 | image_tag}}{% endif %}
+                            {{block.settings.email-text}}
+                          {% if block.settings.email-Link %}</a>
+                          {% endif  %}
+                        </p>
+                    {% endif %}
+                    {% if block.settings.location-text %}
+                      <p class="footer-social">
+                        {% if block.settings.location-Link %}<a href="{{block.settings.email-Link}}">{% endif %}
+                        {% if block.settings.location-icon %} {{block.settings.location-icon | image_url: width: 30 | image_tag}}{% endif %}
+                          {{block.settings.location-text}}
+                        {% if block.settings.location-Link %}</a>
+                        {% endif %}
+                      </p>
+                  {% endif %}
                     </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
@@ -469,6 +494,52 @@
           "id": "subtext",
           "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "whatsApp-icon",
+          "label": "whatsApp icon"
+        },
+        {
+          "type": "text",
+          "id": "whatsapp-text",
+          "label": "whatsApp text",
+          "default": "+62 87862137603"
+        },
+        {
+          "type": "url",
+          "id": "whatsapp-Link",
+          "label": "link to whatsapp"
+        },
+        {
+          "type": "image_picker",
+          "id": "email-icon",
+          "label": "email icon"
+        },
+        {
+          "type": "text",
+          "id": "email-text",
+          "label": "email text"
+        },
+        {
+          "type": "url",
+          "id": "email-Link",
+          "label": "email link"
+        },
+        {
+          "type": "image_picker",
+          "id": "location-icon",
+          "label": "location icon"
+        },
+        {
+          "type": "text",
+          "id": "location-text",
+          "label": "location text"
+        },
+        {
+          "type": "url",
+          "id": "location-Link",
+          "label": "location link"
         }
       ]
     },

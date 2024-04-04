@@ -3700,6 +3700,23 @@ header .menu-drawer__menu-item {
   color: inherit;
 }
 
+.footer-grid>:first-child {
+  border: 0px solid transparent !important;
+}
+
+.footer .footer-social:not(:has(a)) {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer .footer-social a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
 .sub-footer {
   text-align: center;
 }
