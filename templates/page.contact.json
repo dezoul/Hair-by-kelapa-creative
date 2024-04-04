@@ -5,7 +5,9 @@
       "settings": {
         "heading": "Speak to our team.",
         "heading_size": "h1",
-        "color_scheme": "scheme-2",
+        "heading_style": "header-style-1",
+        "rich_para": "<p>Quick bit of text explaining the form.<\/p>",
+        "color_scheme": "scheme-4",
         "padding_top": 68,
         "padding_bottom": 68
       }
