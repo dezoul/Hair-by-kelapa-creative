@@ -10,14 +10,28 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "subtext": "<p>This is a short blurb about how great hair by therapy is, both as a salon and as an online store. <\/p><p><\/p><p>Our Sister Spa - Therapy<\/p>"
+            "hours": "9am - 8pm",
+            "subtext": "<p>This is a short blurb about how great hair by therapy is, both as a salon and as an online store. <\/p><p><\/p><p>Our Sister Spa - Therapy<\/p>",
+            "whatsapp-text": "+62 87862137603",
+            "whatsapp-Link": "",
+            "email-text": "",
+            "email-Link": "",
+            "location-text": "",
+            "location-Link": ""
           }
         },
         "1a42f897-3200-47b7-8c0b-7fafa0cf2c0b": {
           "type": "text",
           "settings": {
             "heading": "Hours",
-            "subtext": "<ul><li><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=6287725855520&text&type=phone_number&app_absent=0\" title=\"Whatsapp Therapy Day Spa\">+62 87862137603<\/a><\/li><li><a href=\"mailto:hello@hairbytherapy.com\" title=\"mailto:hello@hairbytherapy.com\">hello@hairbytherapy.com<\/a><\/li><\/ul><p>Jl. Pantai Pererenan No.99, Pererenan<\/p>"
+            "hours": "9am - 8pm",
+            "subtext": "",
+            "whatsapp-text": "+62 87862137603",
+            "whatsapp-Link": "",
+            "email-text": "hello@hairbytherapy.com",
+            "email-Link": "mailto:hello@hairbytherapy.com",
+            "location-text": "Jl. Pantai Pererenan No.99, Pererenan",
+            "location-Link": ""
           }
         },
         "footer-0": {
@@ -45,7 +59,7 @@
       ],
       "custom_css": [
         ".footer-grid > :first-child::after {border: 0px solid;}",
-        ".footer-grid > :first-child{padding-right: 0; }"
+        ".footer-grid > :first-child {padding-right: 0;}"
       ],
       "settings": {
         "color_scheme": "scheme-5",
