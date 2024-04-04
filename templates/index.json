@@ -347,7 +347,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".slider-buttons.no-js-hidden {display: none;}",
-        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: 5rem; padding: 0 5rem; }}"
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: min(5vw, 10rem); padding: 0 min(5vw, 10rem); }}"
       ],
       "settings": {
         "title": "shop",
