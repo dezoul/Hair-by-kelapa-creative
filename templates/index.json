@@ -349,7 +349,7 @@
       "type": "image-banner",
       "custom_css": [
         ".banner {border-radius: 5rem; overflow: hidden;}",
-        "@media (max-width: 450px) {.banner {aspect-ratio: 0.8;}}"
+        "@media (max-width: 450px) {.banner {aspect-ratio: 0.8; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/a6d4719eec4b10f3c0dc3fc0fae7cc3b.jpg",
@@ -368,7 +368,8 @@
     "featured_collection_Kwy6Er": {
       "type": "featured-collection",
       "custom_css": [
-        ".slider-buttons.no-js-hidden {display: none;}"
+        ".slider-buttons.no-js-hidden {display: none;}",
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: 5rem;padding: 0 5rem; }}"
       ],
       "settings": {
         "title": "shop",
