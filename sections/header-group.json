@@ -30,6 +30,7 @@
     "header": {
       "type": "header",
       "custom_css": [
+        "svg{max-width: 9rem}",
         "header::after {border-bottom: 0px solid;}",
         ".menu-drawer {text-align: right;}",
         ".header__search {display: none;}",
