@@ -3697,7 +3697,8 @@ header .menu-drawer__menu-item {
 }
 
 .footer-sub-heading {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .footer a,
