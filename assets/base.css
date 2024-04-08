@@ -3711,13 +3711,14 @@ header .menu-drawer__menu-item {
   border: 0px solid transparent !important;
 }
 
-.footer .footer-social:not(:has(a)) {
+/* .footer .footer-social:not(:has(a)) {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
+} */
 
-.footer .footer-social a {
+.footer .footer-social a,
+.footer .footer-social span {
   display: flex;
   align-items: center;
   gap: 1rem;
