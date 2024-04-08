@@ -28,7 +28,7 @@
 {%- endif -%}
 
 {%- style -%}
-  #Banner-{{ section.id }}{
+  #Banner-{{ section.id }} .banner__media{
     background-image: url({{section.settings.image | image_url: width: 3840 }});
     background-size:cover;
     background-position: center;
@@ -58,8 +58,13 @@
     align-items: center;
     justify-content: flex-end;
     padding: 5rem 0;
+  }
+  #Banner-{{ section.id }}  .banner__media{
     background-attachment: fixed;
   }
+  
+
+
   .buble-parent{ width: initial}
     #Banner-{{ section.id }} .bubble{ border-radius: 3rem 0 0 3rem;
      margin: 0;
