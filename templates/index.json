@@ -31,7 +31,8 @@
         "drop_sec_kaFDUN"
       ],
       "custom_css": [
-        ".banner {z-index: 2;}"
+        ".banner {z-index: 2;}",
+        "@media (max-width: 749px){.banner__media {min-height: 80vh;}}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
