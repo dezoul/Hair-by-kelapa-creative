@@ -32,7 +32,8 @@
       ],
       "custom_css": [
         ".banner {z-index: 2;}",
-        "@media (max-width: 749px){.banner__media {min-height: 80vh;}}"
+        ".banner h2 {max-width: 24rem;}",
+        "@media (max-width: 749px) {.banner__media {min-height: 80vh; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
@@ -348,7 +349,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".slider-buttons.no-js-hidden {display: none;}",
-        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: min(5vw, 10rem); padding: 0 min(5vw, 10rem); }}"
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: min(10vw, 10rem); padding: 0 min(10vw, 10rem); }}"
       ],
       "settings": {
         "title": "shop",
