@@ -3692,6 +3692,10 @@ header .menu-drawer__menu-item {
   padding: .6rem 3rem;
 }
 
+.has-submenu ul a {
+  font-weight: 500;
+}
+
 .footer {
   overflow: hidden;
 }
