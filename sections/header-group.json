@@ -30,11 +30,13 @@
     "header": {
       "type": "header",
       "custom_css": [
+        "svg{max-width: 9rem}",
         "header::after {border-bottom: 0px solid;}",
         ".menu-drawer {text-align: right;}",
         ".header__search {display: none;}",
         ".base-level-link.header-style-2,summary.header-style-2,button.header-style-2 {font-size: 2.5rem; font-weight: 500; justify-content: flex-end; text-transform: capitalize;}",
-        ".menu-drawer__menu-item {font-size: 1.7rem; justify-content: flex-end; background: transparent;}"
+        ".menu-drawer__menu-item {font-size: 1.7rem; justify-content: flex-end; background: transparent;}",
+        "header span {text-transform: capitalize;}"
       ],
       "settings": {
         "logo_position": "middle-left",
@@ -51,7 +53,8 @@
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20,
-        "whatsapp-message": ""
+        "whatsapp-number": 6287725855520,
+        "whatsapp-message": "message to show up"
       }
     }
   },

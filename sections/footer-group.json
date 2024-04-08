@@ -59,7 +59,8 @@
       ],
       "custom_css": [
         ".footer-grid > :first-child::after {border: 0px solid;}",
-        ".footer-grid > :first-child {padding-right: 0;}"
+        ".footer-grid > :first-child {padding-right: 0;}",
+        "h2{font-weight:400}"
       ],
       "settings": {
         "color_scheme": "scheme-5",
