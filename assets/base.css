@@ -3548,6 +3548,7 @@ h3,
 .h3 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
+  margin-bottom: 1.5em;
 }
 
 a {
@@ -3557,6 +3558,8 @@ a {
 
 p {
   line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 2em;
 }
 
 .bold-link {
