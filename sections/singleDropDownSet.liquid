@@ -61,17 +61,19 @@
       <h2 class="header-style-2 h2 margin-b-3-5">{{section.settings.heading-inital}}</h2>
     {% endif %}
     <hr class="inital-hr">
-    <div id="service-{{ section.settings.heading-cat }}" class="scroll-target" onclick="this.nextElementSibling.classList.toggle('height-0')">
+    <div id="service-{{ section.settings.heading-cat }}" class="scroll-target"  onclick="this.nextElementSibling.classList.toggle('height-0')">
+      <a href="/#service-{{ section.settings.heading-cat }}">
         <h3 class="h1 clickable margin-top-05 margin-bottom-2 {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %}">
-        {%  if section.settings.heading-alignment == 'left' and section.settings.icon != null  %} 
-          <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
-        {% endif %} 
-           {{section.settings.heading-cat}}
-           {%  if section.settings.heading-alignment == 'right' and section.settings.icon != null %} 
+          {%  if section.settings.heading-alignment == 'left' and section.settings.icon != null  %} 
             <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
           {% endif %} 
-          </h3>
-    </div>
+          {{section.settings.heading-cat}}
+          {%  if section.settings.heading-alignment == 'right' and section.settings.icon != null %} 
+            <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
+          {% endif %} 
+        </h3>
+      </a>
+      </div>
 
 {% comment %} drop down container {% endcomment %}
     <div class="height-0 drop-container">

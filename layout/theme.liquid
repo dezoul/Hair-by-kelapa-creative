@@ -401,7 +401,9 @@
           console.log(linked)
           link.addEventListener('click', () => {
             
-            openDrops(linked)
+            openDrops(linked);
+            console.log('burger close', document.querySelector('#Details-menu-drawer-container .header__icon'))
+            document.querySelector('#Details-menu-drawer-container .header__icon').click()
           })
 
   
