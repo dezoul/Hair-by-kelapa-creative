@@ -81,10 +81,69 @@
     {% for block in section.blocks %}
       <div class="faq-grid">
         <h3 class="h3 header-style-2 margin-0 ">{{block.settings.heading}}</h3>
-        <p class="margin-0">Rp {{block.settings.price}}</p>
-      </div>
-      <div>
-        <p class="margin-0">{{block.settings.duration}} min</p>
+        </div>
+        <div>
+          <div class="flex-between">
+            <p class="margin-0">{{block.settings.shortDescription1}}</p>
+            <p class="margin-0">Rp {{block.settings.price1}}</p>
+          </div>
+          
+          {% if block.settings.shortdescription2 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription2}}</p>
+              <p class="margin-0">Rp {{block.settings.price2}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription3 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription3}}</p>
+              <p class="margin-0">Rp {{block.settings.price3}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription4 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription4}}</p>
+              <p class="margin-0">Rp {{block.settings.price4}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription5 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription5}}</p>
+              <p class="margin-0">Rp {{block.settings.price5}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription6 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription6}}</p>
+              <p class="margin-0">Rp {{block.settings.price6}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription7 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription7}}</p>
+              <p class="margin-0">Rp {{block.settings.price7}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription8 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription8}}</p>
+              <p class="margin-0">Rp {{block.settings.price8}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription9 %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription9}}</p>
+              <p class="margin-0">Rp {{block.settings.price9}}</p>
+            </div>
+          {% endif %}
+          {% if block.settings.shortdescription10  %}
+            <div class="flex-between">
+              <p class="margin-0">{{block.settings.shortDescription10}}</p>
+              <p class="margin-0">Rp {{block.settings.price10}}</p>
+            </div>
+          {% endif %}
+
+            
         <p>{{block.settings.description}}</p>
         <p class="text-right"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
       </div>
@@ -185,23 +244,113 @@ console.log('#{{ section.id }}')
         },
         {
           "type": "text",
-          "id": "duration",
-          "label": "duration"
+          "id": "shortDescription1",
+          "label": "first short description"
         },
         {
           "type": "text",
-          "id": "price",
-          "label": "price"
+          "id": "price1",
+          "label": "first price"
         },
         {
           "type": "textarea",
           "id": "description",
-          "label": "description"
+          "label": "first description"
         },
         {
           "type": "text",
           "id": "book-now-message",
           "label": "book-now-message"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription2",
+          "label": "second short description"
+        },
+        {
+          "type": "text",
+          "id": "price2",
+          "label": "second price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription3",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price3",
+          "label": "first price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription4",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price4",
+          "label": "first price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription5",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price5",
+          "label": "first price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription6",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price6",
+          "label": "first price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription7",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price7",
+          "label": "first price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription8",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price8",
+          "label": "first price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription9",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price9",
+          "label": "first price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription10",
+          "label": "first short description"
+        },
+        {
+          "type": "text",
+          "id": "price10",
+          "label": "first price"
         }
     ]
   }
