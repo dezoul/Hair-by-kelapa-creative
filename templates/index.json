@@ -279,13 +279,13 @@
         "text_nbA6kd": {
           "type": "text",
           "settings": {
-            "heading": "reflexology",
-            "shortDescription1": "",
-            "price1": "",
-            "description": "Relieve tension and feel the rush of a high tide as nourished blood flows from your soles to carry away toxins and normalize compromised circulation as the body begins to heal itself.",
+            "heading": "the healing act",
+            "shortDescription1": "60 min",
+            "price1": "300,000",
+            "description": "Experience a blend of traditional Balinese body massage techniques, including soothing rhythmic strokes that promote inner relaxation. Our specially formulated plant-based massage oil infused with calming notes of rose, black pepper & frankincense essential oils not only cater to specific benefits like relaxation, cleansing and tension release but also provide a host of nurturing elements for your skin. Perfect for relieving stress, muscle discomfort, sleep issues and anxiety. Let your mind wander into a state of peaceful reflection as your body and soul synchronize in harmony with Tri Hita Karana – a Balinese philosophy emphasizing the unity of individuals, nature and spirituality.\n\nFor an extended journey, opt for the 90-minute session, which begins with a luxurious 10 minute Foot Ritual followed by an 80 minute immersive treatment to enhance your relaxation experience.",
             "book-now-message": "",
-            "shortDescription2": "",
-            "price2": "",
+            "shortDescription2": "90 min",
+            "price2": "420,000",
             "shortDescription3": "",
             "price3": "",
             "shortDescription4": "",
@@ -312,7 +312,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "foot",
+        "heading-cat": "the body",
         "padding_top": 0,
         "padding_bottom": 0
       }
