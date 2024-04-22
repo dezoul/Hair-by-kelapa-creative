@@ -439,10 +439,10 @@
         "text_8mUFeq": {
           "type": "text",
           "settings": {
-            "heading": "a salty affair",
-            "shortDescription1": "",
-            "price1": "",
-            "description": "Fortify your connection with the ocean and its rich mineral content by experiencing our custom blended aromatic full body Sea Salt Scrub – a natural exfoliant. Removes toxins from your skin while buffing away the top layer to create an irresistible glow. Enjoy a gentle finger dance on your face and scalp whilst being exfoliated. Finish off with a hydrating body moisturizer leaving your skin vibrant and supple.",
+            "heading": "a salty ritual",
+            "shortDescription1": "60 min",
+            "price1": "500,000",
+            "description": "Indulge in a truly Balinese spa experience with our Sea Salt Scrub ritual. Enriched with local calendula flowers and hand-harvested Balinese sea salt from the village of Kusumba, renowned for its salt-making tradition, this ritual offers holistic renewal of your skin. The soothing properties of Balinese calendula combined with the mineral-infused Kusumba Sea Salt will elevate your skin's luminosity by gently exfoliating to unveil a radiant complexion that embodies the beauty of Bali.\n\nOur salt scrub is meticulously crafted without harmful toxins, inviting you to embrace mindful self-care inspired by Balinese wellness practices. Every element, including the premium sea salt and locally sourced marigold, embodies the essence of an authentic Balinese spa ritual, ensuring a renewed sense of sublime. \n\nYour spa ritual begins with a luxurious foot ritual, followed by a 50-minute body scrub featuring a momentary face and scalp massage. Our nurturing therapists will conclude the ritual by applying a nourishing body moisturizer, ensuring your skin exudes radiance and feels soft. \n\nUnsuitable for sensitive skin.",
             "book-now-message": "",
             "shortDescription2": "",
             "price2": "",
@@ -472,7 +472,7 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "right",
-        "heading-cat": "skin",
+        "heading-cat": "the skin",
         "padding_top": 0,
         "padding_bottom": 0
       }
