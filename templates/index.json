@@ -824,7 +824,7 @@
         "heading-alignment": "right",
         "heading-cat": "waxing",
         "padding_top": 0,
-        "padding_bottom": 40
+        "padding_bottom": 0
       }
     },
     "single_drop_down_set_XjiqyC": {
@@ -865,7 +865,7 @@
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
-        "heading-alignment": "right",
+        "heading-alignment": "left",
         "heading-cat": "the art of giving",
         "padding_top": 0,
         "padding_bottom": 40
