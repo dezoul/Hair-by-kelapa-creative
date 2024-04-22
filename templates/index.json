@@ -229,11 +229,40 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_XqCWWT": {
+          "type": "text",
+          "settings": {
+            "heading": "natural dreams",
+            "shortDescription1": "75 min",
+            "price1": "700,000",
+            "description": "Embark on a rejuvenating journey with our non-invasive traditional cleansing facial that harnesses the potent benefits of plant-derived ingredients, entirely free from toxins. This comprehensive facial experience incorporates the goodness of Sacha Inchi & Moringa oil, Jicama, Avocado & Calendula extracts and Cyprus & Bergamot essential oils.\n\nEnjoy a serene escape as your skin is treated to a purifying cleanse, a tranquil facial massage, gentle exfoliation scrub, and a decadent nourishing mask. Designed to be gentle yet effective, our non-invasive approach ensures your skin receives the utmost care and attention without harsh treatments. \n\nSurrender to the calming scents and rejuvenating touch of our botanical treasures as your complexion is revitalized, leaving you with a fresh, radiant glow. Immerse yourself in the pure essence of nature with this holistic facial experience that respects and nurtures your skin with the finest plant-based ingredients.",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
         "text_qrmTME",
-        "text_aqhtGL"
+        "text_aqhtGL",
+        "text_XqCWWT"
       ],
       "settings": {
         "color_scheme": "scheme-4",
