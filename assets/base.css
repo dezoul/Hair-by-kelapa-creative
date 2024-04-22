@@ -3813,6 +3813,29 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
   display: none;
 }
 
+/* dans shop tweaks  */
+
+body .facets__summary {
+  border: 1px solid;
+  padding: 1rem 2.5rem 1rem 1rem;
+  margin-bottom: 0;
+}
+
+body .facets__disclosure {
+  margin-right: 1.5rem
+}
+
+body .facets__summary .icon-caret {
+  right: .5rem;
+}
+
+body .facets__heading {
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+
 @media screen and (max-width: 989px) {
   .footer-grid {
     display: grid;
