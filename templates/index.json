@@ -754,50 +754,6 @@
         "padding_bottom": 0
       }
     },
-    "single_drop_down_set_XjiqyC": {
-      "type": "singleDropDownSet",
-      "blocks": {
-        "text_f3bkKe": {
-          "type": "text",
-          "settings": {
-            "heading": "Upper Lip",
-            "shortDescription1": "",
-            "price1": "",
-            "description": "",
-            "book-now-message": "",
-            "shortDescription2": "",
-            "price2": "",
-            "shortDescription3": "",
-            "price3": "",
-            "shortDescription4": "",
-            "price4": "",
-            "shortDescription5": "",
-            "price5": "",
-            "shortDescription6": "",
-            "price6": "",
-            "shortDescription7": "",
-            "price7": "",
-            "shortDescription8": "",
-            "price8": "",
-            "shortDescription9": "",
-            "price9": "",
-            "shortDescription10": "",
-            "price10": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_f3bkKe"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "heading-inital": "",
-        "heading-alignment": "right",
-        "heading-cat": "waxing",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "single_drop_down_set_4z6U4t": {
       "type": "singleDropDownSet",
       "blocks": {
@@ -866,9 +822,53 @@
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "the art of giving",
+        "heading-cat": "waxing",
         "padding_top": 0,
         "padding_bottom": 40
+      }
+    },
+    "single_drop_down_set_XjiqyC": {
+      "type": "singleDropDownSet",
+      "blocks": {
+        "text_f3bkKe": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "shortDescription1": "",
+            "price1": "",
+            "description": "With our Holistic Indulgence Cards, you are not just giving a gift – you are giving a transformative experience that promotes inner harmony and outer radiance. Let your loved ones unwind, recharge and reconnect with themselves in a serene sanctuary dedicated to holistic wellness.\n\nEnquire with our team to learn more about our gifting services.",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_f3bkKe"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading-inital": "",
+        "heading-alignment": "right",
+        "heading-cat": "the art of giving",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_banner_mVLAB3": {
@@ -934,8 +934,8 @@
     "single_drop_down_set_WhWUpK",
     "single_drop_down_set_RTYmqF",
     "single_drop_down_set_FrHi6h",
-    "single_drop_down_set_XjiqyC",
     "single_drop_down_set_4z6U4t",
+    "single_drop_down_set_XjiqyC",
     "image_banner_mVLAB3",
     "featured_collection_Kwy6Er"
   ]
