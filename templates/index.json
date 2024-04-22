@@ -155,41 +155,12 @@
             "shortDescription10": "",
             "price10": ""
           }
-        },
-        "text_Qxm3xK": {
-          "type": "text",
-          "settings": {
-            "heading": "dry head massage",
-            "shortDescription1": "",
-            "price1": "",
-            "description": "Indulge in the soothing bliss of our Dry Head Massage. Let our skilled therapists work their magic as they gently massage your scalp, relieving tension and promoting relaxation. This oil-free treatment is designed to enhance scalp circulation, ease headaches, and leave you feeling refreshed and rejuvenated.",
-            "book-now-message": "",
-            "shortDescription2": "",
-            "price2": "",
-            "shortDescription3": "",
-            "price3": "",
-            "shortDescription4": "",
-            "price4": "",
-            "shortDescription5": "",
-            "price5": "",
-            "shortDescription6": "",
-            "price6": "",
-            "shortDescription7": "",
-            "price7": "",
-            "shortDescription8": "",
-            "price8": "",
-            "shortDescription9": "",
-            "price9": "",
-            "shortDescription10": "",
-            "price10": ""
-          }
         }
       },
       "block_order": [
         "text_jRdVAm",
         "text_cnDCNr",
-        "text_YBcaQh",
-        "text_Qxm3xK"
+        "text_YBcaQh"
       ],
       "settings": {
         "color_scheme": "scheme-4",
@@ -206,10 +177,10 @@
         "text_qrmTME": {
           "type": "text",
           "settings": {
-            "heading": "the healing act",
-            "shortDescription1": "",
-            "price1": "",
-            "description": "Experience a traditional Balinese body massage incorporating rhythmic long connections strokes. Recommended for treating stress, muscle pain, sleep problems and anxiety. Ease into mindful meditation while your body and psyche are transported to a state of Tri Hita Karana – the Balinese concept of union between people, environment, and the Gods.",
+            "heading": "quick glow",
+            "shortDescription1": "30 min",
+            "price1": "Rp 300,000",
+            "description": "Indulge in a rejuvenating Express Facial Massage, designed for those seeking a quick retreat from their daily hustle or for individuals looking to experience the soothing benefits of facial massage for the first time. \n\nOur expert therapists will gently stimulate circulation in your facial, neck and head regions, as delicate strokes and gentle pressure work to revitalize your skin and invigorate your senses. It is a perfect introduction to the world of facial treatments, offering a glimpse into the transformative power of touch and skincare techniques while highlighting the benefits of using plant-based, toxic-free products. Allow yourself a moment of relaxation and self-care as you unwind and let the worries of the day fade away.",
             "book-now-message": "",
             "shortDescription2": "",
             "price2": "",
@@ -239,7 +210,7 @@
         "color_scheme": "scheme-4",
         "heading-inital": "",
         "heading-alignment": "right",
-        "heading-cat": "body",
+        "heading-cat": "the face",
         "padding_top": 0,
         "padding_bottom": 0
       }
