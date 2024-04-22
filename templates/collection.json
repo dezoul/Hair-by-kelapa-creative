@@ -2,6 +2,9 @@
   "sections": {
     "image_banner_ttKPQi": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15597047677002__image_banner_ttKPQi {border-radius: 0 0 min(10vw, 10rem) min(10vw, 10rem);"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/a6d4719eec4b10f3c0dc3fc0fae7cc3b.jpg",
         "image_overlay_opacity": 0,
