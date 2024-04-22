@@ -538,6 +538,34 @@
     "single_drop_down_set_WhWUpK": {
       "type": "singleDropDownSet",
       "blocks": {
+        "text_KddbYA": {
+          "type": "text",
+          "settings": {
+            "heading": "relaxology",
+            "shortDescription1": "30 min",
+            "price1": "200,000",
+            "description": "Indulge in our Calming Foot Massage, a blissful experience tailored for relaxation enthusiasts. Our skilled therapists will envelop you with gentle, soothing strokes, designed to alleviate tension in your feet and lower legs. Enhancing this experience is our specially crafted hydrating foot butter, a luxurious blend of shea butter, rosemary and lemon essential oils, designed to deeply moisturize and revitalize your skin, leaving you feeling refreshed and balanced from toe to heel.\n\nFor an indulgent journey, select the 90-minute session that commences with a luxurious 10-minute Foot Ritual, leading into an 80-minute immersive treatment to enhance your relaxation experience.",
+            "book-now-message": "",
+            "shortDescription2": "60 min",
+            "price2": "300,000",
+            "shortDescription3": "90 min",
+            "price3": "420,000",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
+        },
         "text_zEqLDb": {
           "type": "text",
           "settings": {
@@ -568,13 +596,14 @@
         }
       },
       "block_order": [
+        "text_KddbYA",
         "text_zEqLDb"
       ],
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
         "heading-alignment": "left",
-        "heading-cat": "face",
+        "heading-cat": "the soles",
         "padding_top": 0,
         "padding_bottom": 0
       }
