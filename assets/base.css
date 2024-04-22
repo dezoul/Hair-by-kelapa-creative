@@ -3818,7 +3818,7 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
 body .facets__summary {
   border: 1px solid;
   padding: 1rem 2.5rem 1rem 1rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 
 body .facets__disclosure {
