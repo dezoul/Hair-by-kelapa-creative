@@ -801,6 +801,34 @@
     "single_drop_down_set_4z6U4t": {
       "type": "singleDropDownSet",
       "blocks": {
+        "text_gc3Y64": {
+          "type": "text",
+          "settings": {
+            "heading": "female waxing",
+            "shortDescription1": "",
+            "price1": "",
+            "description": "Experience our plant-based, toxin-free waxing services, carefully formulated with a combination of sugar, lemon & water. Our wax treatments offer a delicate and efficient hair removal solution, tailored for those who embrace a holistic approach to skincare.",
+            "book-now-message": "",
+            "shortDescription2": "upper lip",
+            "price2": "120,000",
+            "shortDescription3": "chin",
+            "price3": "120,000",
+            "shortDescription4": "eyebrow",
+            "price4": "170,000",
+            "shortDescription5": "under arm",
+            "price5": "120,000",
+            "shortDescription6": "full arm",
+            "price6": "300,000",
+            "shortDescription7": "half leg",
+            "price7": "250,000",
+            "shortDescription8": "full leg",
+            "price8": "350,000",
+            "shortDescription9": "bikini",
+            "price9": "300,000",
+            "shortDescription10": "brazilian",
+            "price10": "350,000"
+          }
+        },
         "text_Bam4an": {
           "type": "text",
           "settings": {
@@ -831,6 +859,7 @@
         }
       },
       "block_order": [
+        "text_gc3Y64",
         "text_Bam4an"
       ],
       "settings": {
