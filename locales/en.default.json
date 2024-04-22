@@ -184,9 +184,9 @@
       "clear": "Clear",
       "clear_all": "Remove all",
       "from": "From",
-      "filter_and_sort": "Filter and sort",
-      "filter_by_label": "Filter:",
-      "filter_button": "Filter",
+      "filter_and_sort": "Filter and sort products",
+      "filter_by_label": "Filter products:",
+      "filter_button": "Filter products",
       "filters_selected": {
         "one": "{{ count }} selected",
         "other": "{{ count }} selected"
