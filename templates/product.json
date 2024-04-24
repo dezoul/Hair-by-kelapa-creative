@@ -87,6 +87,20 @@
             "image_ratio": "square",
             "enable_quick_add": false
           }
+        },
+        "text_Fh8RQx": {
+          "type": "text",
+          "settings": {
+            "text": "Same Day Shipping",
+            "text_style": "body"
+          }
+        },
+        "text_QAdxUH": {
+          "type": "text",
+          "settings": {
+            "text": "Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -100,7 +114,9 @@
         "collapsible-row-0",
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8",
         "40cc4533-858f-4421-a186-008f13e578fb",
-        "complementary_TwpTV9"
+        "complementary_TwpTV9",
+        "text_Fh8RQx",
+        "text_QAdxUH"
       ],
       "custom_css": [
         ".product__accordion .accordion__title {font-weight: 500;}",
@@ -198,6 +214,7 @@
         },
         "1f89711d-f329-4a60-81cc-27151602a082": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "SAME DAY SHIPPING",
             "text": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR<\/p>",
