@@ -67,7 +67,7 @@
     {% endif %}
     <hr class="inital-hr">
     <div id="service-{{ section.settings.heading-cat | replace: ' ', '-' }}" class="scroll-target"  onclick="this.nextElementSibling.classList.toggle('height-0')">
-      <a href="/#service-{{ section.settings.heading-cat }}">
+      <a href="/#service-{{ section.settings.heading-cat | replace: ' ', '-' }}">
         <h3 class="h1 clickable margin-top-05 margin-bottom-2 {%  if section.settings.heading-alignment == 'right' %} text-right {% endif %}">
           {%  if section.settings.heading-alignment == 'left' and section.settings.icon != null  %} 
             <span>{{ section.settings.icon | image_url: width: 20 | image_tag }}</span>
