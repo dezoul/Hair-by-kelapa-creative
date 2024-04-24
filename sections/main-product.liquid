@@ -82,6 +82,16 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+            {%- when 'vendor' -%}
+              <p
+            class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle  product-subtitle {% elsif block.settings.text_style == 'vendor' %} h1 header-style-2{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+          <a href="{{block.settings.link}}">
+            {{- block.settings.text -}}
+            </a> 
+
+          </p>
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
@@ -683,6 +693,48 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "default": "Text block",
+          "label": "t:sections.main-product.blocks.text.settings.text.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "default": "/collections/all",
+          "label": "t:sections.main-product.blocks.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "uppercase",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+            },
+            {
+              "value": "vendor",
+              "label": "Vendor"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.main-product.blocks.text.settings.text_style.label"
+        }
+      ]
     },
     {
       "type": "text",
