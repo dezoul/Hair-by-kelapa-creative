@@ -214,6 +214,7 @@
         },
         "1f89711d-f329-4a60-81cc-27151602a082": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "SAME DAY SHIPPING",
             "text": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR<\/p>",
