@@ -520,10 +520,10 @@
       {%- if section.settings.media_position == 'right' -%}
         <div class="grid__item product__media-wrapper small-hide">
           {%- if section.settings.product != blank -%}
-            {% if product.settings.metafields.custom.brand %}
-              <div>
-                <h3> shop - {{product.settings.metafields.custom.brand}} </h3>
+            <div>
+              <h3> shop - {{product.settings.metafields.custom.brand}} </h3>
               </div>
+              {% if product.settings.metafields.custom.brand %}
             {% endif %}  
             <media-gallery
               id="MediaGallery-{{ section.id }}-right"
