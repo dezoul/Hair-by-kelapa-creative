@@ -66,9 +66,9 @@
         "40cc4533-858f-4421-a186-008f13e578fb": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Pair it with",
+            "heading": "Free Same-Day Shipping",
             "icon": "none",
-            "content": "{{ product.metafields.custom.pair_with | metafield_tag }}",
+            "content": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.<br\/><\/p>",
             "page": ""
           }
         }
@@ -177,9 +177,9 @@
         "h2 {margin-bottom: 2rem;}"
       ],
       "settings": {
-        "title": "No Nasties.",
+        "title": "no nasties.",
         "heading_size": "h0",
-        "heading_style": "header-style-2",
+        "heading_style": "header-style-1",
         "heading-alignment": "left",
         "image_width": "full",
         "para": "",
