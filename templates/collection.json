@@ -49,6 +49,9 @@
         "heading_EC4dYY",
         "text_KADgC7"
       ],
+      "custom_css": [
+        ".rich-text__wrapper {width:100%;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
