@@ -85,6 +85,9 @@
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8",
         "40cc4533-858f-4421-a186-008f13e578fb"
       ],
+      "custom_css": [
+        ".product__accordion .summary__title {font-weight: 700; }"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
