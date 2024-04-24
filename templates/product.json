@@ -89,7 +89,8 @@
         "40cc4533-858f-4421-a186-008f13e578fb"
       ],
       "custom_css": [
-        ".product__accordion .accordion__title {font-weight: 500;}"
+        ".product__accordion .accordion__title {font-weight: 500;}",
+        ".product-form__buttons span {font-weight: 500; text-transform:lowercase}"
       ],
       "settings": {
         "enable_sticky_info": true,
