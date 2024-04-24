@@ -159,7 +159,7 @@
         "template--15125915631690__1f1d2e4e-c67d-4408-87d4-036bf5ecec39-column-2": {
           "type": "column",
           "settings": {
-            "title": "100% VEGAN",
+            "title": "100% Vegan",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
             "heading_style": "header-style-2",
             "link_label": "",
@@ -179,7 +179,7 @@
         "a4bf8940-0159-4cde-8315-18a4ed9c88ff": {
           "type": "column",
           "settings": {
-            "title": "PH BALANCED",
+            "title": "pH Balanced",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
             "heading_style": "header-style-2",
             "link_label": "",
@@ -189,7 +189,7 @@
         "80125be9-4cab-490a-b434-b52e65a5d225": {
           "type": "column",
           "settings": {
-            "title": "NO ANIMAL TESTING",
+            "title": "No Animal Testing",
             "text": "<p>A delicate hand soap, perfect for daily use on all skin types. <\/p>",
             "heading_style": "header-style-2",
             "link_label": "",
@@ -219,7 +219,7 @@
         "h2 {margin-bottom: 2rem;}"
       ],
       "settings": {
-        "title": "no nasties.",
+        "title": "no nasties",
         "heading_size": "h0",
         "heading_style": "header-style-1",
         "heading-alignment": "left",
