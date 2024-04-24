@@ -91,7 +91,7 @@
         "text_Fh8RQx": {
           "type": "text",
           "settings": {
-            "text": "Same Day Shipping",
+            "text": "<strong>Same Day Shipping<\/strong>",
             "text_style": "body"
           }
         },
