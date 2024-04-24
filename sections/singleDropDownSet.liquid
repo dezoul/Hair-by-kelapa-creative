@@ -152,6 +152,7 @@
 
             
         <p>{{block.settings.description}}</p>
+
         <p class="text-right book-p"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
       </div>
       {% unless forloop.last %}
@@ -260,7 +261,7 @@ console.log('#{{ section.id }}')
           "label": "1st price"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "description",
           "label": "description"
         },
