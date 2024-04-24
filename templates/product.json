@@ -86,7 +86,7 @@
         "40cc4533-858f-4421-a186-008f13e578fb"
       ],
       "custom_css": [
-        ".product__accordion .summary__title {font-weight: 700; }"
+        ".product__accordion .accordion__title {font-weight: 500;}"
       ],
       "settings": {
         "enable_sticky_info": true,
