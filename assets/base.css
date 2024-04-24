@@ -474,6 +474,7 @@ table:not([class]) th {
 
 .uppercase {
   text-transform: uppercase;
+  margin-bottom: .5rem;
 }
 
 .light {
@@ -3545,11 +3546,19 @@ h1,
 h2,
 .h2,
 h3,
-.h3 {
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 300;
   margin-bottom: 1.5em;
 }
+
+
 
 a {
   color: inherit;
@@ -3814,6 +3823,10 @@ li:has(a.pagination__item.link.pagination__item-arrow) {
 }
 
 /* dans shop tweaks  */
+
+body {
+  letter-spacing: 0.02em !important;
+}
 
 body .facets__summary {
   border: 1px solid;

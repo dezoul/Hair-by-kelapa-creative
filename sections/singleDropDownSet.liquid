@@ -83,10 +83,12 @@
         <h3 class="h3 header-style-2 margin-0 ">{{block.settings.heading}}</h3>
         </div>
         <div>
+          {% if block.settings.shortDescription1 !="" %}
           <div class="flex-between">
             <p class="margin-0">{{block.settings.shortDescription1}}</p>
             <p class="margin-0">Rp {{block.settings.price1}}</p>
-          </div>
+            </div>
+          {% endif  %}
           
           {% if block.settings.shortDescription2 !="" %}
             <div class="flex-between">
