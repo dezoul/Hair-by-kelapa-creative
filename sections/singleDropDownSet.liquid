@@ -25,6 +25,11 @@
     margin-top: 0rem;
 }
 
+.book-p{
+  margin-bottom: 0;
+  padding-bottom: 1rem
+}
+
   hr.trailing-line {
     width: 50%;
     margin-right: auto;
@@ -147,7 +152,7 @@
 
             
         <p>{{block.settings.description}}</p>
-        <p class="text-right"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
+        <p class="text-right book-p"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
       </div>
       {% unless forloop.last %}
         <hr class="trailing-line">
