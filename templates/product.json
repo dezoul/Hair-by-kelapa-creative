@@ -7,13 +7,13 @@
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
-            "text_style": "vendor"
+            "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
           "settings": {
-            "heading_style": "header-style-1"
+            "heading_style": "header-style-2"
           }
         },
         "variant_picker": {
@@ -66,9 +66,9 @@
         "40cc4533-858f-4421-a186-008f13e578fb": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Pair it with",
+            "heading": "Free Same-Day Shipping",
             "icon": "none",
-            "content": "{{ product.metafields.custom.pair_with | metafield_tag }}",
+            "content": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.<br\/><\/p>",
             "page": ""
           }
         }
@@ -85,9 +85,12 @@
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8",
         "40cc4533-858f-4421-a186-008f13e578fb"
       ],
+      "custom_css": [
+        ".product__accordion .accordion__title {font-weight: 500;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -177,9 +180,9 @@
         "h2 {margin-bottom: 2rem;}"
       ],
       "settings": {
-        "title": "No Nasties.",
+        "title": "no nasties.",
         "heading_size": "h0",
-        "heading_style": "header-style-2",
+        "heading_style": "header-style-1",
         "heading-alignment": "left",
         "image_width": "full",
         "para": "",
@@ -211,55 +214,11 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
-    },
-    "d7c1ca8e-628c-4857-a8db-68009610105c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "What does your hair really need?",
-            "heading_size": "h1"
-          }
-        },
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>While you can’t really go wrong with any of the products on our website (because after all, we’ve curated the best of the best here) we know that each person’s hair is different and has different needs.  So to really figure out the best products for you take our online quiz and we’ll send you personalised recommendations or book a complimentary consultation with one of our  experienced hair stylists in the salon. <\/p>"
-          }
-        },
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "TAKE THE QUIZ",
-            "button_link": "\/",
-            "button_style_secondary": false,
-            "button_label_2": "BOOK A CONSULTATION",
-            "button_link_2": "\/",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-heading-1",
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-text-1",
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 80,
-        "border-top": true,
-        "padding_bottom": 80
-      }
     }
   },
   "order": [
     "main",
     "1f1d2e4e-c67d-4408-87d4-036bf5ecec39",
-    "related-products",
-    "d7c1ca8e-628c-4857-a8db-68009610105c"
+    "related-products"
   ]
 }

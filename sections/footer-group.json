@@ -61,7 +61,7 @@
         ".footer-grid > :first-child::after {border: 0px solid;}",
         ".footer-grid > :first-child {padding-right: 0;}",
         "h2 {font-weight: 550; font-size: 2.5rem;}",
-        "p{margin-bottom:1.2em;}"
+        "p {margin-bottom: 1.2em;}"
       ],
       "settings": {
         "color_scheme": "scheme-5",
