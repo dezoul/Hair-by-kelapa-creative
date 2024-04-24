@@ -8,7 +8,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/a6d4719eec4b10f3c0dc3fc0fae7cc3b.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -41,13 +41,16 @@
         "text_KADgC7": {
           "type": "text",
           "settings": {
-            "text": "<p>Immerse yourself in a world of soothing,<br\/>plant-powered products, designed with mindfulness<br\/>and holistic wellness in mind.<br\/><\/p>"
+            "text": "<p>Immerse yourself in a world of soothing, plant-powered products, designed with mindfulness and holistic wellness in mind.<br\/><\/p>"
           }
         }
       },
       "block_order": [
         "heading_EC4dYY",
         "text_KADgC7"
+      ],
+      "custom_css": [
+        ".rich-text__wrapper {width:100%;}"
       ],
       "settings": {
         "desktop_content_position": "left",

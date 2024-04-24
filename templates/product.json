@@ -74,6 +74,19 @@
             "content": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.<br\/><\/p>",
             "page": ""
           }
+        },
+        "complementary_TwpTV9": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Also pairs well with",
+            "make_collapsible_row": false,
+            "icon": "none",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -86,10 +99,14 @@
         "buy_buttons",
         "collapsible-row-0",
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8",
-        "40cc4533-858f-4421-a186-008f13e578fb"
+        "40cc4533-858f-4421-a186-008f13e578fb",
+        "complementary_TwpTV9"
       ],
       "custom_css": [
-        ".product__accordion .accordion__title {font-weight: 500;}"
+        ".product__accordion .accordion__title {font-weight: 500;}",
+        ".product-form__buttons span {font-weight: 500; text-transform: lowercase;}",
+        ".card.card--standard.card--media.card--horizontal {display: flex; flex-direction: column;}",
+        ".card__inner {max-width: 100%;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -105,6 +122,25 @@
         "enable_video_looping": false,
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You might also <em>love<\/em>.",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "1f1d2e4e-c67d-4408-87d4-036bf5ecec39": {
@@ -193,35 +229,17 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 84,
         "padding_bottom": 88
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You might also <em>love<\/em>.",
-        "heading_size": "h2",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-2",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "1",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
     }
   },
   "order": [
     "main",
-    "1f1d2e4e-c67d-4408-87d4-036bf5ecec39",
-    "related-products"
+    "related-products",
+    "1f1d2e4e-c67d-4408-87d4-036bf5ecec39"
   ]
 }
