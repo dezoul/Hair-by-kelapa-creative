@@ -47,7 +47,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Product details",
             "icon": "none",
@@ -57,7 +56,6 @@
         },
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "What it’s great for",
             "icon": "none",
@@ -91,14 +89,14 @@
         "text_Fh8RQx": {
           "type": "text",
           "settings": {
-            "text": "Same Day Shipping",
+            "text": "<strong>Same Day Shipping<\/strong>",
             "text_style": "body"
           }
         },
         "text_QAdxUH": {
           "type": "text",
           "settings": {
-            "text": "Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR",
+            "text": "Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.",
             "text_style": "body"
           }
         }
