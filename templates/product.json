@@ -3,11 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "caption": {
-          "type": "text",
+        "vendor_KfVwq8": {
+          "type": "vendor",
           "settings": {
             "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "link": "{{ product.metafields.custom.vendor.value }}",
+            "text_style": "body"
           }
         },
         "title": {
@@ -47,6 +48,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product details",
             "icon": "none",
@@ -56,6 +58,7 @@
         },
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "What it’s great for",
             "icon": "none",
@@ -102,7 +105,7 @@
         }
       },
       "block_order": [
-        "caption",
+        "vendor_KfVwq8",
         "title",
         "variant_picker",
         "description",
