@@ -47,7 +47,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Product details",
             "icon": "none",
@@ -57,7 +56,6 @@
         },
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "What it’s great for",
             "icon": "none",
