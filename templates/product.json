@@ -7,13 +7,13 @@
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
-            "text_style": "vendor"
+            "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
           "settings": {
-            "heading_style": "header-style-1"
+            "heading_style": "header-style-2"
           }
         },
         "variant_picker": {
@@ -87,7 +87,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -211,55 +211,11 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
-    },
-    "d7c1ca8e-628c-4857-a8db-68009610105c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "What does your hair really need?",
-            "heading_size": "h1"
-          }
-        },
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>While you can’t really go wrong with any of the products on our website (because after all, we’ve curated the best of the best here) we know that each person’s hair is different and has different needs.  So to really figure out the best products for you take our online quiz and we’ll send you personalised recommendations or book a complimentary consultation with one of our  experienced hair stylists in the salon. <\/p>"
-          }
-        },
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "TAKE THE QUIZ",
-            "button_link": "\/",
-            "button_style_secondary": false,
-            "button_label_2": "BOOK A CONSULTATION",
-            "button_link_2": "\/",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-heading-1",
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-text-1",
-        "template--15125915631690__d7c1ca8e-628c-4857-a8db-68009610105c-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 80,
-        "border-top": true,
-        "padding_bottom": 80
-      }
     }
   },
   "order": [
     "main",
     "1f1d2e4e-c67d-4408-87d4-036bf5ecec39",
-    "related-products",
-    "d7c1ca8e-628c-4857-a8db-68009610105c"
+    "related-products"
   ]
 }
