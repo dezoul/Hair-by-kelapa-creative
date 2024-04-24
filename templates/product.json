@@ -105,7 +105,8 @@
       "custom_css": [
         ".product__accordion .accordion__title {font-weight: 500;}",
         ".product-form__buttons span {font-weight: 500; text-transform: lowercase;}",
-        ".card.card--standard.card--media.card--horizontal{display:flex; flex-direction:column}"
+        ".card.card--standard.card--media.card--horizontal {display: flex; flex-direction: column;}",
+        ".card__inner {max-width: 100%;}"
       ],
       "settings": {
         "enable_sticky_info": true,
