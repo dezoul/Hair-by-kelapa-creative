@@ -3848,6 +3848,11 @@ body .facets__heading {
   font-size: 1.5rem;
 }
 
+/* dans product tweaks */
+
+.product .price-item {
+  font-weight: 500;
+}
 
 @media screen and (max-width: 989px) {
   .footer-grid {
