@@ -3,11 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "caption": {
-          "type": "text",
+        "vendor_KfVwq8": {
+          "type": "vendor",
           "settings": {
             "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "link": "{{ product.metafields.custom.vendor.value }}",
+            "text_style": "body"
           }
         },
         "title": {
@@ -38,9 +39,15 @@
           "settings": {
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Product details",
             "icon": "none",
@@ -50,7 +57,6 @@
         },
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "What it’s great for",
             "icon": "none",
@@ -66,13 +72,6 @@
             "icon": "none",
             "content": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.<br\/><\/p>",
             "page": ""
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
           }
         },
         "complementary_TwpTV9": {
@@ -104,16 +103,16 @@
         }
       },
       "block_order": [
-        "caption",
+        "vendor_KfVwq8",
         "title",
         "variant_picker",
         "description",
         "quantity_selector",
         "price",
+        "buy_buttons",
         "collapsible-row-0",
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8",
         "40cc4533-858f-4421-a186-008f13e578fb",
-        "buy_buttons",
         "complementary_TwpTV9",
         "text_Fh8RQx",
         "text_QAdxUH"
