@@ -5,33 +5,25 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "subtext": "<p>This is a short blurb about how great hair by therapy is, both as a salon and as an online store. <\/p><p><\/p><p>Our Sister Spa - Therapy<\/p>"
-          }
-        },
         "1a42f897-3200-47b7-8c0b-7fafa0cf2c0b": {
           "type": "text",
           "settings": {
-            "heading": "Hours",
+            "heading": "",
             "subtext": "<p>Indulge in our peaceful spa in Pererenan, Bali, only a stone's throw from lively Canggu. Experience the holistic benefits of our plant-based, cruelty-free spa rituals that enrich your well-being. Immerse yourself in our thoughtfully curated holistic wellness treatments such as massages, scrubs, facials, reflexology and more to rediscover the art of self-care.<\/p>"
           }
         },
         "social_DcwXmw": {
           "type": "social",
           "settings": {
-            "heading": "Heading",
-            "hours": "+62 87862137603",
+            "heading": "our spa",
+            "hours": "open hours 9am - 8pm",
             "whatsapp-text": "+62 87862137603",
             "whatsapp-Link": "",
-            "email-text": "",
+            "email-text": "hello@hairbytherapy.com",
             "email-Link": "",
-            "insta-text": "",
+            "insta-text": "@hairbytherapy",
             "insta-Link": "",
-            "location-text": "",
+            "location-text": "Jl. Pantai Pererenan No.99, Pererenan, Bali",
             "location-Link": ""
           }
         },
@@ -60,7 +52,6 @@
         }
       },
       "block_order": [
-        "footer-2",
         "1a42f897-3200-47b7-8c0b-7fafa0cf2c0b",
         "social_DcwXmw",
         "footer-0",
