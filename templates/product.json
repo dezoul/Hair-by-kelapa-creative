@@ -76,19 +76,6 @@
             "page": ""
           }
         },
-        "complementary_TwpTV9": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Also pairs well with",
-            "make_collapsible_row": false,
-            "icon": "none",
-            "product_list_limit": 10,
-            "products_per_page": 1,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": false
-          }
-        },
         "text_Fh8RQx": {
           "type": "text",
           "settings": {
@@ -101,6 +88,20 @@
           "settings": {
             "text": "Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.",
             "text_style": "body"
+          }
+        },
+        "complementary_TwpTV9": {
+          "type": "complementary",
+          "disabled": true,
+          "settings": {
+            "block_heading": "Also pairs well with",
+            "make_collapsible_row": false,
+            "icon": "none",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
           }
         }
       },
@@ -115,9 +116,9 @@
         "collapsible-row-0",
         "35572ada-5bfc-4ad4-8f40-3511e9335ef8",
         "40cc4533-858f-4421-a186-008f13e578fb",
-        "complementary_TwpTV9",
         "text_Fh8RQx",
-        "text_QAdxUH"
+        "text_QAdxUH",
+        "complementary_TwpTV9"
       ],
       "custom_css": [
         ".product__accordion .accordion__title {font-weight: 500;}",
@@ -143,11 +144,10 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
-        "heading": "You might also <em>love<\/em>.",
+        "heading": "Pairs well with...",
         "heading_size": "h2",
-        "products_to_show": 3,
+        "products_to_show": 4,
         "columns_desktop": 3,
         "color_scheme": "scheme-2",
         "image_ratio": "square",
