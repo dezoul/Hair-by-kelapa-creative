@@ -3535,7 +3535,7 @@ div {
   font-style: normal;
 }
 
-span {
+span:not(.badge) {
   font-family: inherit !important;
   color: inherit !important;
 }
