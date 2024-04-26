@@ -26,16 +26,16 @@
   recom preformed 
   {{recommendations.performed }}
   intent {{recommendations.intent}}
+
   --->
-</product-recommendations>
 {% comment %} recommendations.performed? and {% endcomment %}
 
 {% if  product.recommendations.products_count > 0 %}
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
-  <product-recommendations
+  {% comment %} <product-recommendations
     class="related-products page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}"
-  >
+  > {% endcomment %}
       <h2 class="related-products__heading inline-richtext {{ section.settings.heading_size }}">
         {{ section.settings.heading }}
       </h2>
@@ -56,14 +56,14 @@
           </li>
         {% endfor %}
       </ul>
-      </product-recommendations>
+      {% comment %} </product-recommendations> {% endcomment %}
       {% if section.settings.image_shape == 'arch' %}
         {% render 'mask-arch' %}
       {%- endif -%}
       </div>
     {% endif %}
 
-
+  </product-recommendations>
 {% schema %}
 {
   "name": "t:sections.related-products.name",
