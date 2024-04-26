@@ -30,7 +30,7 @@
   --->
 {% comment %} recommendations.performed? and {% endcomment %}
 
-{% if  product.recommendations.products_count > 0 %}
+{% if  recommendations.products_count > 0 %}
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
   {% comment %} <product-recommendations
     class="related-products page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
