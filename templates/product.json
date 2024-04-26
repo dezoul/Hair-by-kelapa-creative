@@ -144,10 +144,13 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.grid {flex-wrap: nowrap; overflow-x: scroll; padding: 0 min(10vw, 10rem); }}"
+      ],
       "settings": {
         "heading": "Pairs well with...",
         "heading_size": "h1",
-        "products_to_show": 2,
+        "products_to_show": 3,
         "columns_desktop": 3,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
