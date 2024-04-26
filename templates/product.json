@@ -147,7 +147,7 @@
       "custom_css": [
         ".grid {padding: 0 min(10vw, 10rem);}",
         "@media screen and (max-width: 750px) {.grid {flex-wrap: nowrap; overflow-x: scroll; }}",
-        "@media screen and (min-width: 750) {.grid--1-col-tablet-down .grid__item{width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3); max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3); }}"
+        "@media screen and (min-width: 750) {[id*=related-products] .grid--1-col-tablet-down .grid__item {width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3); max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3); }}"
       ],
       "settings": {
         "heading": "Pairs well with...",
