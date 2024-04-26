@@ -3526,6 +3526,13 @@ details-disclosure>details {
 
 html {
   scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
 }
 
 body,
@@ -3676,6 +3683,31 @@ body .spa-menu-item {
   line-height: 1.1;
   margin-top: 0;
 }
+
+product-recommendations .grid {
+  padding: 0 min(10vw, 10rem);
+}
+
+@media screen and (max-width: 750px) {
+  product-recommendations .grid {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}
+
+@media (min-width: 750px) {
+
+  product-recommendations .grid {
+    padding: 0 5rem;
+  }
+
+  product-recommendations .grid--3-col-desktop .grid__item {
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+  }
+
+}
+
 
 .multicolumn-card .multicolumn-card__image-wrapper .multicolumn-card__image.fancy-img {
   position: relative;
