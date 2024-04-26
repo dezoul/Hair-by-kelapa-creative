@@ -146,7 +146,7 @@
       "type": "related-products",
       "settings": {
         "heading": "Pairs well with...",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "products_to_show": 3,
         "columns_desktop": 3,
         "color_scheme": "scheme-2",
