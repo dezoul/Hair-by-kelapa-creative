@@ -19,6 +19,7 @@
     }
   }
 {%- endstyle -%}
+<product-recommendations  data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=3&intent=complementary">
 <!--- 
   recon count
   {{recommendations.products_count}}
@@ -26,6 +27,7 @@
   {{recommendations.performed }}
   intent {{recommendations.intent}}
   --->
+</product-recommendations>
 {% comment %} recommendations.performed? and {% endcomment %}
 
 {% if  product.recommendations.products_count > 0 %}
