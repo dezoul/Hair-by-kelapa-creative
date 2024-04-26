@@ -145,7 +145,8 @@
     "related-products": {
       "type": "related-products",
       "custom_css": [
-        "@media screen and (max-width: 750px) {.grid {flex-wrap: nowrap; overflow-x: scroll; padding: 0 min(10vw, 10rem); }}"
+        ".grid {padding: 0 min(10vw, 10rem);}",
+        " @media screen and (max-width: 750px) {.grid {flex-wrap: nowrap; overflow-x: scroll; }}"
       ],
       "settings": {
         "heading": "Pairs well with...",
