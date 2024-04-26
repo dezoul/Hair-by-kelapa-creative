@@ -19,14 +19,14 @@
     }
   }
 {%- endstyle -%}
-<div data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4&intent=related">
 <!--- 
   recon count
   {{recommendations.products_count}}
   recom preformed 
   {{recommendations.performed }}
- --->
+  --->
 {% comment %} recommendations.performed? and {% endcomment %}
+
 {% if  recommendations.products_count > 0 %}
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
   <product-recommendations
@@ -59,7 +59,7 @@
       {%- endif -%}
       </div>
     {% endif %}
-    </div>
+
 
 {% schema %}
 {
