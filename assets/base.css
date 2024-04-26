@@ -3615,6 +3615,10 @@ p {
   align-self: flex-end;
 }
 
+.nice-text {
+  text-wrap: balance;
+}
+
 body .spa-menu-item {
   margin-bottom: 2rem;
   align-items: flex-start;
@@ -3760,6 +3764,7 @@ header .menu-drawer__menu-item {
 .floating-wa-button a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 .footer-grid>:first-child {
