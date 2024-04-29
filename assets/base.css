@@ -3574,7 +3574,7 @@ a {
 
 p {
   line-height: 1.5;
-  font-weight: 450;
+  font-weight: 400;
   margin-bottom: 2em;
 }
 
@@ -3759,6 +3759,12 @@ header .menu-drawer__menu-item {
   font-weight: 400;
 }
 
+body .footer .footer__content-top.page-width a {
+  font-size: inherit;
+  font-weight: 400;
+  color: inherit;
+}
+
 .footer a,
 .sub-footer a,
 .floating-wa-button a {
@@ -3797,7 +3803,7 @@ header .menu-drawer__menu-item {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr .5fr 1fr 1fr;
+  grid-template-columns: 2fr .5fr 1.6fr 1fr;
   column-gap: var(--grid-desktop-horizontal-spacing);
   row-gap: var(--grid-desktop-vertical-spacing);
 }
@@ -3839,6 +3845,11 @@ header .menu-drawer__menu-item {
 .floating-wa-button a * {
   flex-shrink: 0;
   display: inline-block;
+}
+
+.margin-y-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* collection */
@@ -3897,6 +3908,11 @@ body .facets__heading {
   margin-bottom: 2rem;
   font-size: 1.5rem;
   letter-spacing: inherit;
+}
+
+.card__heading.h5 {
+  font-size: 1.9rem;
+  line-height: 1.2;
 }
 
 /* dans product tweaks */
