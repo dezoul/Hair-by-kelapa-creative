@@ -3704,6 +3704,15 @@ section {
 
 product-recommendations .grid {
   padding: 0 min(10vw, 10rem);
+  scroll-snap-align: center;
+  scroll-snap-type: x mandatory;
+}
+
+product-recommendations .grid .grid__item {
+  scroll-snap-align: center;
+  scroll-snap-type: x mandatory;
+  scroll-margin-right: min(10vw, 10rem);
+  scroll-margin-left: min(10vw, 10rem)
 }
 
 @media screen and (max-width: 750px) {
