@@ -3665,7 +3665,8 @@ body .spa-menu-item {
   padding-bottom: 8rem;
 }
 
-.scroll-target {
+.scroll-target,
+section {
   scroll-margin-top: 90px;
 }
 
@@ -3679,6 +3680,10 @@ body .spa-menu-item {
 
 .margin-b-3-5 {
   margin-bottom: 3.5rem;
+}
+
+.margin-b-0 {
+  margin-bottom: 0rem
 }
 
 .margin-x-auto {
