@@ -79,7 +79,8 @@
 }
 
 .mega-menu .mega-menu__list--condensed {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .mega-menu__list--condensed .mega-menu__link {
