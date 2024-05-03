@@ -37,7 +37,8 @@
         ".base-level-link.header-style-2,summary.header-style-2,button.header-style-2 {font-size: 2.5rem; font-weight: 500; justify-content: flex-end; text-transform: capitalize;}",
         ".menu-drawer__menu-item {font-size: 1.7rem; justify-content: flex-end; background: transparent;}",
         "header span {text-transform: capitalize;}",
-        "#MegaMenu-Content-1{background-color: rgb(194, 181, 163)}"
+        "#MegaMenu-Content-1 {background-color: rgb(194, 181, 163);}",
+        "#MegaMenu-Content-1 * {color:black}"
       ],
       "settings": {
         "logo_position": "middle-left",
