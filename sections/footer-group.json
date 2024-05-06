@@ -18,13 +18,13 @@
             "heading": "our spa",
             "hours": "open hours 9am - 8pm",
             "whatsapp-text": "+62 87862137603",
-            "whatsapp-Link": "https:\/\/api.whatsapp.com\/send\/?phone=6287725855520&text=&type=phone_number&app_absent=0",
-            "email-text": "hello@hairbytherapy.com",
-            "email-Link": "",
-            "insta-text": "@hairbytherapy",
-            "insta-Link": "",
+            "whatsapp-Link": "https:\/\/api.whatsapp.com\/send\/?phone=6287862137603&text=&type=phone_number&app_absent=0",
+            "email-text": "escape@therapy.co.id",
+            "email-Link": "mailto:escape@therapy.co.id",
+            "insta-text": "@therapy.bali",
+            "insta-Link": "https:\/\/www.instagram.com\/therapy.bali\/",
             "location-text": "Jl. Pantai Pererenan No.99, Pererenan, Bali",
-            "location-Link": ""
+            "location-Link": "https:\/\/www.google.com\/maps\/place\/Jl.+Pantai+Pererenan+No.99,+Pererenan,+Kec.+Mengwi,+Kabupaten+Badung,+Bali+80351\/@-8.6444786,115.1255792,17z\/data=!3m1!4b1!4m6!3m5!1s0x2dd2386fbe1e8d29:0xf54ba602933efddd!8m2!3d-8.6444786!4d115.1281541!16s%2Fg%2F11c199hvs6?entry=ttu"
           }
         },
         "footer-0": {
