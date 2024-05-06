@@ -898,8 +898,7 @@
         "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: min(10vw, 10rem); padding: 0 min(10vw, 10rem); }}"
       ],
       "settings": {
-        "title": "shop",
-        "heading_size": "h1",
+        "title": "Shop",
         "description": "",
         "show_description": false,
         "description_style": "body",
