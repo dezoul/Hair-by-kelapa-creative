@@ -114,6 +114,15 @@
             "content": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.<\/p>",
             "page": ""
           }
+        },
+        "collapsible_tab_E6RmL4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product details",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.details_drop_down | metafield_tag }}",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -130,7 +139,8 @@
         "text_Fh8RQx",
         "text_QAdxUH",
         "complementary_TwpTV9",
-        "collapsible_tab_tqf8yP"
+        "collapsible_tab_tqf8yP",
+        "collapsible_tab_E6RmL4"
       ],
       "custom_css": [
         ".product__accordion .accordion__title {font-weight: 500;}",
