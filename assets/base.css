@@ -3666,6 +3666,11 @@ body .spa-menu-item {
   padding-bottom: 8rem;
 }
 
+.height-0 {
+  height: 0;
+  overflow: hidden;
+}
+
 .scroll-target,
 section {
   scroll-margin-top: 90px;
@@ -4059,5 +4064,19 @@ body .footer-block__details-content {
   .media.split-banner-img-gap:not(.order-2) img {
     left: calc(3.4rem + max(calc(50vw - calc(var(--page-width) / 2)), 0px));
     width: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .mobile-show {
+    display: block;
+  }
+
+  .mobile-show.height-0 {
+    height: initial;
+  }
+
+  .mobile-hide {
+    display: none;
   }
 }
