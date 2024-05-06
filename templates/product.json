@@ -110,7 +110,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Same Day Shipping",
-            "icon": "check_mark",
+            "icon": "none",
             "content": "<p>Get free same-day shipping to popular destinations across Bali on orders over 1.5 mill IDR that your hair is being treated with utmost care and without any harmful chemicals.<\/p>",
             "page": ""
           }
