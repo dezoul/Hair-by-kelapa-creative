@@ -51,7 +51,7 @@
       ],
       "custom_css": [
         ".rich-text__wrapper {width: 100%;}",
-        ".rich-text__heading{font-weight:500 ;}"
+        ".rich-text__heading {font-weight: 500; font-size: 24px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
