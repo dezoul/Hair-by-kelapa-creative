@@ -20,7 +20,7 @@
             "whatsapp-text": "+62 87862137603",
             "whatsapp-Link": "https:\/\/api.whatsapp.com\/send\/?phone=6287862137603&text=&type=phone_number&app_absent=0",
             "email-text": "escape@therapy.co.id",
-            "email-Link": "",
+            "email-Link": "mailto:escape@therapy.co.id",
             "insta-text": "@therapy.bali",
             "insta-Link": "https:\/\/www.instagram.com\/therapy.bali\/",
             "location-text": "Jl. Pantai Pererenan No.99, Pererenan, Bali",
