@@ -50,7 +50,8 @@
         "text_KADgC7"
       ],
       "custom_css": [
-        ".rich-text__wrapper {width: 100%;}"
+        ".rich-text__wrapper {width: 100%;}",
+        ".rich-text__heading{font-weight:500 ;}"
       ],
       "settings": {
         "desktop_content_position": "left",
