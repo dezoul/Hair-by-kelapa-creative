@@ -2538,6 +2538,7 @@ product-info .loading__spinner:not(.hidden)~*,
   display: flex;
   grid-area: icons;
   justify-self: end;
+  align-items: center;
   padding-right: 0.8rem;
 }
 
@@ -2592,6 +2593,22 @@ product-info .loading__spinner:not(.hidden)~*,
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+}
+
+.desk-logo-hide {
+  display: none;
+}
+
+@media (min-width: 990px) {
+  .header__icon--cart {
+    position: relative;
+    margin-right: 1.9rem;
+  }
+
+  .desk-logo-hide {
+    display: block;
+  }
+
 }
 
 .header__icon--menu[aria-expanded='true']::before {
@@ -4048,7 +4065,7 @@ body .footer-block__details-content {
   }
 
   .header {
-    grid-template-columns: 2fr 1fr 42px;
+    grid-template-columns: 2fr 132px 42px;
   }
 }
 
