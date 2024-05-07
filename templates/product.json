@@ -181,8 +181,8 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "1",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "1f1d2e4e-c67d-4408-87d4-036bf5ecec39": {
