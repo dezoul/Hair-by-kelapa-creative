@@ -4071,16 +4071,19 @@ body .footer-block__details-content {
   }
 }
 
-@media screen and (max-width: 750px) {
+.mobile-show {
+  display: block;
+}
+
+
+@media screen and (min-width: 750px) {
   .mobile-show {
-    display: block;
-  }
-
-  .mobile-show.height-0 {
-    height: initial;
-  }
-
-  .mobile-hide {
     display: none;
+  }
+
+
+
+  .desk-full {
+    height: initial !important;
   }
 }
