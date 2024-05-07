@@ -551,7 +551,7 @@ a:not([href]) {
 hr {
   border: none;
   height: 0.1rem;
-  background-color: rgba(var(--color-foreground), 0.2);
+  background-color: rgba(var(--color-foreground), 0.4);
   display: block;
   margin: 5rem 0;
 }
@@ -3764,6 +3764,10 @@ header span {
 
 header .menu-drawer__menu-item {
   padding: .6rem 3rem;
+}
+
+header .link {
+  font-weight: 500;
 }
 
 .has-submenu ul a {

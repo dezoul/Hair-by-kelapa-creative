@@ -217,9 +217,9 @@
             {%- when 'dropSec' -%}
               <div class="" onclick="this.nextElementSibling.classList.toggle('height-0');this.nextElementSibling.nextElementSibling.classList.toggle('height-0');
               this.classList.toggle('height-0')">
-                <p class="clickable mobile-hide margin-b-0" onclick="console.log('e.this')"> Read more... </p>
+                <p class="clickable mobile-show margin-b-0" onclick="console.log('e.this')"> Read more... </p>
               </div>
-              <div class="height-0 mobile-show">
+              <div class="height-0 mobile-hide">
                 {{ block.settings.text }}
               </div>
               <div class="height-0" onclick="this.previousElementSibling.classList.toggle('height-0');this.previousElementSibling.previousElementSibling.classList.toggle('height-0');
