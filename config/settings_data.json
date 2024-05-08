@@ -112,6 +112,12 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/bg-solid.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/therapy-day-spa-logo.jpg",
+    "checkout_logo_position": "left",
+    "checkout_body_background_color": "#ede8e2",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#e3dcd2",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
