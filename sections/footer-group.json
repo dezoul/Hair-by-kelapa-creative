@@ -15,10 +15,10 @@
         "social_DcwXmw": {
           "type": "social",
           "settings": {
-            "heading": "our spa",
+            "heading": "",
             "hours": "open hours 9am - 8pm",
             "whatsapp-text": "+62 87862137603",
-            "whatsapp-Link": "https:\/\/api.whatsapp.com\/send\/?phone=6287862137603&text=&type=phone_number&app_absent=0",
+            "whatsapp-Link": "https:\/\/api.whatsapp.com\/send\/?phone=6287862137603&textHello%20Therapy%20Day%20Spa%20team,%20I%20would%20like%20to…=&type=phone_number&app_absent=0",
             "email-text": "escape@therapy.co.id",
             "email-Link": "mailto:escape@therapy.co.id",
             "insta-text": "@therapy.bali",
@@ -46,7 +46,7 @@
         "link_list_pYQHX8": {
           "type": "link_list",
           "settings": {
-            "heading": "explore",
+            "heading": "",
             "menu": "footer"
           }
         }
