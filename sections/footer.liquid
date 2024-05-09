@@ -76,7 +76,7 @@
                           </a>
                         </div>
                           {% else %}
-                      {% if block.settings.heading %}
+                      {% if block.settings.heading != "" %}
                           <div>
                         <h2 class="footer-block__heading base-heading inline-richtext margin-bottom-0 {{ section.settings.heading_style }} "> 
                           {{- block.settings.heading -}}
