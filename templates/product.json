@@ -108,6 +108,7 @@
         },
         "collapsible_tab_tqf8yP": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Same Day Shipping",
             "icon": "none",
@@ -118,7 +119,7 @@
         "collapsible_tab_E6RmL4": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Product details",
+            "heading": "Product Specifications",
             "icon": "none",
             "content": "{{ product.metafields.custom.details_drop_down | metafield_tag }}",
             "page": ""
