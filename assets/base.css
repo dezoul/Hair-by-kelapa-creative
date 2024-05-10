@@ -2612,6 +2612,8 @@ product-info .loading__spinner:not(.hidden)~*,
 
 }
 
+
+
 .header__icon--menu[aria-expanded='true']::before {
   content: '';
   top: 100%;
@@ -3832,6 +3834,17 @@ body .footer .footer__content-top.page-width a {
   gap: 1rem;
 }
 
+
+.footer-block__details-content>li:not(:last-child) {
+  margin-right: 1.5rem;
+  margin-top: 3px !important;
+  margin-bottom: 10px !important;
+}
+
+.footer__content-top.page-width {
+  padding-left: min(10vw, 10rem);
+  padding-right: min(10vw, 10rem);
+}
 
 .sub-footer {
   text-align: center;
