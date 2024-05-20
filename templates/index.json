@@ -65,7 +65,8 @@
         "heading_tmgiby"
       ],
       "custom_css": [
-        ".media > img {object-fit: cover; object-position: center 84%; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}"
+        ".media > img {object-fit: cover; object-position: center 84%; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
+        ".gradient{background-color:transparent;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/f769a943ce2fd2aaa917d6d548efb2d0.jpg",
