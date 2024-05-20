@@ -3617,6 +3617,12 @@ p {
   text-align: right;
 }
 
+.header:not(.drawer-menu).page-width {
+  padding-left: var(--side-padding-universal);
+  padding-right: var(--side-padding-universal);
+
+}
+
 .split-banner {
   display: grid;
   grid-template-columns: 1fr 1fr;
