@@ -56,7 +56,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
-        "show_text_below": true,
+        "show_text_below": false,
         "padding_top": 40,
         "border-top": false,
         "padding_bottom": 52
