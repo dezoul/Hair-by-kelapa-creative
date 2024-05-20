@@ -37,24 +37,12 @@
             "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
             "text_style": "body"
           }
-        },
-        "buttons_PyBbEG": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_9h6wGN",
         "heading_eQcRGp",
-        "text_K7kej9",
-        "buttons_PyBbEG"
+        "text_K7kej9"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/f769a943ce2fd2aaa917d6d548efb2d0.jpg",
