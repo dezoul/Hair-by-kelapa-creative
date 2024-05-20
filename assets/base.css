@@ -3586,9 +3586,7 @@ h6,
   margin-bottom: 1.5em;
 }
 
-.header-style-1 {
-  font-size: 3rem;
-}
+
 
 
 a {
@@ -3626,6 +3624,8 @@ p {
 .split-banner>* {
   width: 100%;
 }
+
+
 
 .self-top {
   align-self: flex-start;
@@ -4040,7 +4040,12 @@ body .footer-block__details-content {
   }
 
   .split-banner {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .split-banner.banner--mobile-text-above {
+    flex-direction: column-reverse;
   }
 
   .mobile-grid-first-row {
