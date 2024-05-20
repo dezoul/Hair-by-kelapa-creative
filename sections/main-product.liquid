@@ -79,7 +79,7 @@
           {%- case block.type -%}
             {%- when 'vendor' -%}
               <p
-            class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle  product-subtitle {% elsif block.settings.text_style == 'vendor' %} h1 header-style-2" style="font-size: 1.5rem; padding-bottom: 0.5rem; {% endif %}"
+            class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle  product-subtitle {% elsif block.settings.text_style == 'vendor' %} h1 header-style-2" style="font-size: 1.5rem; padding-bottom: 0.5rem; {% else %} {% endif %}"
             {{ block.shopify_attributes }}
           >
           <a href="{{block.settings.link}}">

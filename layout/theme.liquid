@@ -367,66 +367,6 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {% comment %} <div class="border-top">
-      <p class="page-width sub-footer"> 
-
-        <span>Copyright 2023</span> | {% for link in linklists['sub-footer'].links -%}{{ link.title | link_to: link.url }} | {%- endfor %} <a href="https://kelapacreative.com">Website by Kelapa Creative</a> 
-      </p>
-    </div> {% endcomment %}
-    <script>
-      const dropSec = document.querySelectorAll('.scroll-target');
-      const pageLinks = document.querySelectorAll('header a');
-
-      console.log(dropSec, pageLinks)
-      function openDrops(target) {
-        // console.log(target)
-        target.nextElementSibling.classList.toggle('height-0')
-      }
-
-      pageLinks.forEach(link => {
-        // console.log(link)
-        let target = link.getAttribute("href")
-        console.log(target)
-        if (target.includes('/#service-')) {
-        let linked = dropSec[0]
-        dropSec.forEach(service => {
-            // console.log(service.getAttribute('id'))
-            if((target).includes(service.getAttribute('id'))) {
-              console.log(link, service)
-              linked = service
-            }
-          })
-
-          console.log('linked section')
-          console.log(linked)
-          link.addEventListener('click', () => {
-            
-            openDrops(linked);
-            console.log('burger close', document.querySelector('#Details-menu-drawer-container .header__icon'))
-            document.querySelector('#Details-menu-drawer-container .header__icon').click()
-          })
-
-  
-        }
-      })
-
-
-      const contactButton = document.querySelector('#HeaderDrawer-contact')
-      
-      console.log(contactButton)
-      contactButton.addEventListener('click', () => {
-            document.querySelector('#Details-menu-drawer-container .header__icon').click()
-      })
-
-      const spaMenuButton = document.querySelector('#HeaderDrawer-spa-menu')
-      
-      console.log(spaMenuButton)
-      spaMenuButton.addEventListener('click', () => {
-            document.querySelector('#Details-menu-drawer-container .header__icon').click()
-      })
-
-
-
-    </script>
+   
   </body>
 </html>

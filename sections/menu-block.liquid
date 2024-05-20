@@ -1,0 +1,331 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+
+ .section-{{ section.id }}-padding .grid-menu { display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3rem;
+}
+
+.custom-menu-nav{
+  display:flex;
+}
+{%- endstyle -%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    <div class="grid-menu page-width">
+      <div class="custom-menu-nav">
+        {% assign menuLinks = section.settings.menu-links | split: "," %}
+      {% for menuLink in menuLinks %}
+        <span data-menu-targeter="{{menuLink |  replace: " ","-" }}">
+        {{menuLink}}
+        </span>
+      {% endfor %}
+      </div>
+
+      <div class="custom-treatment-menu">
+      {% for block in section.blocks %}
+        <div class="treatments" data-menu-target="{{block.settings.cat |  replace: " ","-" }}">
+
+
+          <div class="faq-grid">
+            <h3 class="h3 header-style-2 margin-0 ">{{block.settings.heading}}</h3>
+            </div>
+            <div>
+              {% if block.settings.shortDescription1 !="" %}
+              <div class="flex-between">
+                <p class="margin-0">{{block.settings.shortDescription1}}</p>
+                <p class="margin-0">{{block.settings.price1}} Rp</p>
+                </div>
+              {% endif  %}
+              
+              {% if block.settings.shortDescription2 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription2}}</p>
+                  <p class="margin-0">{{block.settings.price2}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription3 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription3}}</p>
+                  <p class="margin-0">{{block.settings.price3}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription4 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription4}}</p>
+                  <p class="margin-0">{{block.settings.price4}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription5 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription5}}</p>
+                  <p class="margin-0">{{block.settings.price5}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription6 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription6}}</p>
+                  <p class="margin-0">{{block.settings.price6}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription7 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription7}}</p>
+                  <p class="margin-0">{{block.settings.price7}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription8 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription8}}</p>
+                  <p class="margin-0">{{block.settings.price8}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription9 !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription9}}</p>
+                  <p class="margin-0">{{block.settings.price9}} Rp</p>
+                </div>
+              {% endif %}
+              {% if block.settings.shortDescription10  !="" %}
+                <div class="flex-between">
+                  <p class="margin-0">{{block.settings.shortDescription10}}</p>
+                  <p class="margin-0">{{block.settings.price10}} Rp</p>
+                </div>
+              {% endif %}
+    
+                
+            <p>{{block.settings.description}}</p>
+    
+            <p class="text-right book-p"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
+          </div>
+          {% unless forloop.last %}
+            <hr class="trailing-line">
+          {% endunless %}
+
+        </div>
+        {% endfor %}
+
+
+      </div>
+
+    </div>  
+
+
+  </div>
+</div>
+
+<script>
+  const menuLinks = document.querySelectorAll('.custom-menu-nav span')
+  const treatments = document.querySelectorAll('.custom-treatment-menu .treatments')
+
+        function filterMenu() {
+          // console.log(this, this.dataset.menuTargeter)
+          let target = this.dataset.menuTargeter
+          treatments.forEach( treatment => {
+            if (target == treatment.dataset.menuTarget) {
+              treatment.classList.remove('hidden')
+            } else {
+              treatment.classList.add('hidden')
+            }
+          }
+          )
+        }
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', filterMenu)
+      }
+      )
+
+  console.log( "new", menuLinks, treatments)
+</script>
+
+{% schema %}
+{
+  "name": "Custom Menu block",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "menu-links",
+      "label": "Menu Categories",
+      "info": "Seperate each category with a , and no space"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],"blocks": [
+       {
+      "type": "text",
+      "name": "treatment",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "treatment heading"
+        },
+        {
+          "type": "text",
+          "id": "cat",
+          "label": "Menu category"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription1",
+          "label": "1st short description"
+        },
+        {
+          "type": "text",
+          "id": "price1",
+          "label": "1st price"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "description"
+        },
+        {
+          "type": "text",
+          "id": "book-now-message",
+          "label": "book-now-message"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription2",
+          "label": "2nd short description"
+        },
+        {
+          "type": "text",
+          "id": "price2",
+          "label": "2nd price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription3",
+          "label": "3rd short description"
+        },
+        {
+          "type": "text",
+          "id": "price3",
+          "label": "3rd price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription4",
+          "label": "4th short description"
+        },
+        {
+          "type": "text",
+          "id": "price4",
+          "label": "4th price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription5",
+          "label": "5th short description"
+        },
+        {
+          "type": "text",
+          "id": "price5",
+          "label": "5th price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription6",
+          "label": "6th short description"
+        },
+        {
+          "type": "text",
+          "id": "price6",
+          "label": "6th price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription7",
+          "label": "7th short description"
+        },
+        {
+          "type": "text",
+          "id": "price7",
+          "label": "7th price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription8",
+          "label": "8th short description"
+        },
+        {
+          "type": "text",
+          "id": "price8",
+          "label": "8th price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription9",
+          "label": "9th short description"
+        },
+        {
+          "type": "text",
+          "id": "price9",
+          "label": "9th price"
+        },
+        {
+          "type": "text",
+          "id": "shortDescription10",
+          "label": "10th short description"
+        },
+        {
+          "type": "text",
+          "id": "price10",
+          "label": "10th price"
+        }
+    ]
+  }
+  ],
+  "presets": [
+    {
+      "name": "Custom Menu block"
+    }
+  ]
+}
+{% endschema %}
+
+
