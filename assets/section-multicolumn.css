@@ -104,8 +104,8 @@
   }
 
   .multicolumn-list:not(.slider) {
-    padding-left: min(10vw, 10rem);
-    padding-right: min(10vw, 10rem);
+    padding-left: var(--side-padding-universal);
+    padding-right: var(--side-padding-universal);
   }
 }
 

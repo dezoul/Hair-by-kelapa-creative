@@ -340,7 +340,7 @@
 }
 
 .banner__box {
-  padding: 4rem min(10vw, 10rem);
+  padding: 4rem var(--side-padding-universal);
   position: relative;
   height: fit-content;
   align-items: center;

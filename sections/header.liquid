@@ -87,7 +87,7 @@
 
 {%- style -%}
   .header {
-    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px min(10vw, 10rem) {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px min(10vw, 10rem);
+    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px var(--side-padding-universal) {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px var(--side-padding-universal);
   }
 
   .section-header {

@@ -3,6 +3,7 @@
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
+  --side-padding-universal: min(10vw, 10rem);
 }
 
 .product-card-wrapper .card,
@@ -96,8 +97,8 @@ html.no-js .no-js-hidden {
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding-left: min(10vw, 10rem);
-  padding-right: min(10vw, 10rem);
+  padding-left: var(--side-padding-universal);
+  padding-right: var(--side-padding-universal);
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
@@ -816,8 +817,8 @@ summary::-webkit-details-marker {
 
 .title-wrapper--self-padded-tablet-down,
 .title-wrapper--self-padded-mobile {
-  padding-left: min(10vw, 10rem);
-  padding-right: min(10vw, 10rem);
+  padding-left: var(--side-padding-universal);
+  padding-right: var(--side-padding-universal);
 }
 
 @media screen and (min-width: 750px) {
@@ -3728,7 +3729,7 @@ section {
 }
 
 product-recommendations .grid {
-  padding: 0 min(10vw, 10rem);
+  padding: 0 var(--side-padding-universal);
   scroll-snap-align: center;
   scroll-snap-type: x mandatory;
 }
@@ -3736,8 +3737,8 @@ product-recommendations .grid {
 product-recommendations .grid .grid__item {
   scroll-snap-align: center;
   scroll-snap-type: x mandatory;
-  scroll-margin-right: min(10vw, 10rem);
-  scroll-margin-left: min(10vw, 10rem)
+  scroll-margin-right: var(--side-padding-universal);
+  scroll-margin-left: var(--side-padding-universal)
 }
 
 @media screen and (max-width: 750px) {
@@ -3841,8 +3842,8 @@ body .footer .footer__content-top.page-width a {
 }
 
 .footer__content-top.page-width {
-  padding-left: min(10vw, 10rem);
-  padding-right: min(10vw, 10rem);
+  padding-left: var(--side-padding-universal);
+  padding-right: var(--side-padding-universal);
 }
 
 .sub-footer {
@@ -4119,14 +4120,14 @@ body .footer-block__details-content {
   }
 
   .media.split-banner-img-gap.order-2 img {
-    right: calc(min(10vw, 10rem) + max(calc(50vw - calc(var(--page-width) / 2)), 0px));
+    right: calc(var(--side-padding-universal) + max(calc(50vw - calc(var(--page-width) / 2)), 0px));
+    width: calc(100% - calc(var(--side-padding-universal) + max(calc(50vw - calc(var(--page-width) / 2)), 0px)));
     left: initial;
-    width: auto;
   }
 
   .media.split-banner-img-gap:not(.order-2) img {
-    left: calc(min(10vw, 10rem) + max(calc(50vw - calc(var(--page-width) / 2)), 0px));
-    width: auto;
+    left: calc(var(--side-padding-universal) + max(calc(50vw - calc(var(--page-width) / 2)), 0px));
+    width: calc(100% - calc(var(--side-padding-universal) + max(calc(50vw - calc(var(--page-width) / 2)), 0px)));
   }
 }
 

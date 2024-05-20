@@ -982,7 +982,7 @@
       "disabled": true,
       "custom_css": [
         ".slider-buttons.no-js-hidden {display: none;}",
-        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: min(10vw, 10rem); padding: 0 min(10vw, 10rem); }}"
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}"
       ],
       "settings": {
         "title": "Shop",
