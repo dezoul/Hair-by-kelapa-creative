@@ -4051,6 +4051,30 @@ body .footer-block__details-content {
   }
 }
 
+
+
+/* simple banner */
+
+.simple-banner {
+  position: relative;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.simple-banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
 @media screen and (min-width: 990px) {
   .header--middle-left {
     grid-template-areas: "heading navigation icons";
