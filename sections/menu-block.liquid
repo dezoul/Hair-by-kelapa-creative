@@ -4,34 +4,74 @@
     padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
   }
 
+  .custom-menu-nav{
+  display:flex;
+  height:fit-content;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  gap:1rem;
+  padding: 1.5rem min(10vw, 10rem) 0rem;
+  overflow-x: scroll;
+  max-width: 100vw;
+  background-color: #C4B4A4;
+}
+
+.custom-menu-nav > span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    flex-shrink: 0;
+}
+
+.custom-menu-nav > .active {
+  font-weight: 600
+}
+
+.grid-menu{
+  padding-top:calc(2rem + 23px );
+}
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .section-{{ section.id }}-padding .grid-menu { display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3rem;
+    
+}
+.grid-menu{
+  padding-top:0;
+}
+.custom-menu-nav{
+  flex-direction: column;
+  position: sticky;
+  top: 90px;
+  padding: 0;
+  background-color:transparent;
+} 
   }
 
 
- .section-{{ section.id }}-padding .grid-menu { display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 3rem;
-}
 
-.custom-menu-nav{
-  display:flex;
-}
+
+
 {%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="section-{{ section.id }}-padding">
-    <div class="grid-menu page-width">
+  <div class="section-{{ section.id }}-padding relative">
+    <div class="grid-menu page-width ">
       <div class="custom-menu-nav">
+        <span class="active" data-menu-targeter="all">
+          all treatments
+        </span>
         {% assign menuLinks = section.settings.menu-links | split: "," %}
       {% for menuLink in menuLinks %}
-        <span data-menu-targeter="{{menuLink |  replace: " ","-" }}">
+        <span  data-menu-targeter="{{menuLink |  replace: " ","-" }}">
         {{menuLink}}
-        </span>
-      {% endfor %}
-      </div>
+        </span>{% endfor %}</div>
 
       <div class="custom-treatment-menu">
       {% for block in section.blocks %}
@@ -132,22 +172,36 @@
         function filterMenu() {
           // console.log(this, this.dataset.menuTargeter)
           let target = this.dataset.menuTargeter
+          // console.log(target)
+          menuLinks.forEach( link => {
+            if (target == link.dataset.menuTargeter) {
+              link.classList.add('active')
+              } else {
+                link.classList.remove('active')
+            }
+          }
+          )
           treatments.forEach( treatment => {
-            if (target == treatment.dataset.menuTarget) {
+            // console.log(target)
+            if (target == 'all'){
               treatment.classList.remove('hidden')
-            } else {
-              treatment.classList.add('hidden')
+            } else { 
+              if (target == treatment.dataset.menuTarget) {
+                    treatment.classList.remove('hidden')
+                  } else {
+                    treatment.classList.add('hidden')
+                  }
             }
           }
           )
         }
 
 menuLinks.forEach(link => {
-  link.addEventListener('click', filterMenu)
+       link.addEventListener('click', filterMenu)
       }
-      )
+    )
 
-  console.log( "new", menuLinks, treatments)
+  // console.log( "new", menuLinks, treatments)
 </script>
 
 {% schema %}
