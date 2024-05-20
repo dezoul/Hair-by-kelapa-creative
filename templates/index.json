@@ -30,6 +30,7 @@
         "text_UBbhQA",
         "drop_sec_kaFDUN"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner {z-index: 2;}",
         ".banner h2 {max-width: 35rem; margin-bottom: 2.5rem;}",
@@ -51,9 +52,20 @@
     },
     "image_banner_HUFHBX": {
       "type": "image-banner",
+      "blocks": {
+        "heading_tmgiby": {
+          "type": "heading",
+          "settings": {
+            "heading": "An oasis in the heart \u2028of Pererenan",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tmgiby"
+      ],
       "custom_css": [
-        ".media > img {object-fit: cover; object-position: center 84%; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
-        "@media screen and (min-width: 750px) {.banner {display: none; }}"
+        ".media > img {object-fit: cover; object-position: center 84%; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/f769a943ce2fd2aaa917d6d548efb2d0.jpg",
@@ -162,6 +174,7 @@
         "text_cnDCNr",
         "text_YBcaQh"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "heading-inital": "Spa Menu",
@@ -264,6 +277,7 @@
         "text_aqhtGL",
         "text_XqCWWT"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "heading-inital": "",
@@ -424,6 +438,7 @@
         "text_JtQMQa",
         "text_je7Krh"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -526,6 +541,7 @@
         "text_6EHrhH",
         "text_4FYB7w"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -599,6 +615,7 @@
         "text_KddbYA",
         "text_zEqLDb"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -672,6 +689,7 @@
         "text_YVXQpb",
         "text_nDRRkV"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -745,6 +763,7 @@
         "text_DDK4wc",
         "text_7agQ89"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -818,6 +837,7 @@
         "text_gc3Y64",
         "text_Bam4an"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -862,6 +882,7 @@
       "block_order": [
         "text_f3bkKe"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "heading-inital": "",
@@ -873,6 +894,7 @@
     },
     "image_banner_mVLAB3": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".banner {border-radius: 5rem; overflow: hidden;}",
         "@media (max-width: 450px) {.banner {aspect-ratio: 0.8; }}"
@@ -893,6 +915,7 @@
     },
     "featured_collection_Kwy6Er": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".slider-buttons.no-js-hidden {display: none;}",
         "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: min(10vw, 10rem); padding: 0 min(10vw, 10rem); }}"
