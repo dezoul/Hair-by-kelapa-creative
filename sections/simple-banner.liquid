@@ -3,6 +3,9 @@
     padding-top: calc({{ section.settings.padding_top }}px * 0.75);
     padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
   }
+  .section-{{ section.id }}-padding img{
+    opacity: {{section.settings.bgOpacity}};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -15,7 +18,7 @@
   <div class="section-{{ section.id }}-padding simple-banner" style="min-height: {{section.settings.minHeight}}vh">
   {% if section.settings.image != null %}
   {{ section.settings.image | image_url: width: 2000 | image_tag: widths: '400, 600, 800, 1000, 1200, 1600, 2000' }}
-  <div class="relative page-width ">
+  <div class="relative page-width">
     <h2 class="header-style-1">
       {{ section.settings.heading }}
     </h2>
@@ -48,6 +51,15 @@
       "max": 100,
       "default": 50,
       "unit": "vh"
+    },
+    {
+      "type": "range",
+      "id": "bgOpacity",
+      "label": "background transaparency",
+      "min": 5,
+      "max": 100,
+      "default": 80,
+      "unit": "%"
     },
     {
       "type": "color_scheme",
