@@ -1,5 +1,16 @@
 {
   "sections": {
+    "simple_banner_p3URUw": {
+      "type": "simple-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+        "heading": "An oasis in the heart\u2028of Pererenan",
+        "minHeight": 50,
+        "color_scheme": "scheme-3",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "bubble_banner_bmGxbH": {
       "type": "bubble-banner",
       "blocks": {
@@ -64,9 +75,10 @@
       "block_order": [
         "heading_tmgiby"
       ],
+      "disabled": true,
       "custom_css": [
         ".media > img {object-fit: cover; object-position: center 84%; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
-        ".gradient{background-color:transparent;}"
+        ".gradient {background-color: transparent;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/f769a943ce2fd2aaa917d6d548efb2d0.jpg",
@@ -948,6 +960,7 @@
     }
   },
   "order": [
+    "simple_banner_p3URUw",
     "bubble_banner_bmGxbH",
     "image_banner_HUFHBX",
     "single_drop_down_set_VEEEtr",
