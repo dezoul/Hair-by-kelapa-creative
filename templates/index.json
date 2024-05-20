@@ -45,7 +45,7 @@
         "text_K7kej9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/f769a943ce2fd2aaa917d6d548efb2d0.jpg",
+        "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
         "image_height": "medium",
         "img-position": "img-left",
         "img-side-gap": true,
@@ -56,7 +56,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
-        "show_text_below": true,
+        "show_text_above": true,
         "padding_top": 40,
         "border-top": false,
         "padding_bottom": 52
