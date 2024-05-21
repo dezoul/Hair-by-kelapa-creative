@@ -176,6 +176,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_RdGYyr": {
+          "type": "text",
+          "settings": {
+            "heading": "the body",
+            "cat": "the face",
+            "shortDescription1": "60 min",
+            "price1": "300,000",
+            "description": "<p>Experience a blend of traditional Balinese body massage techniques, including soothing rhythmic strokes that promote inner relaxation. Our specially formulated plant-based massage oil infused with calming notes of rose, black pepper & frankincense essential oils not only cater to specific benefits like relaxation, cleansing and tension release but also provide a host of nurturing elements for your skin. Perfect for relieving stress, muscle discomfort, sleep issues and anxiety. Let your mind wander into a state of peaceful reflection as your body and soul synchronize in harmony with Tri Hita Karana – a Balinese philosophy emphasizing the unity of individuals, nature and spirituality.<\/p><p><br\/>For an extended journey, opt for the 90-minute session, which begins with a luxurious 10 minute Foot Ritual followed by an 80 minute immersive treatment to enhance your relaxation experience.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "90 min",
+            "price2": "420,000",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -184,7 +213,8 @@
         "text_NAHjAN",
         "text_erF4iY",
         "text_gbTL9U",
-        "text_6X93z9"
+        "text_6X93z9",
+        "text_RdGYyr"
       ],
       "settings": {
         "menu-links": "the crown,the face,",
