@@ -292,6 +292,64 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_HWfmCg": {
+          "type": "text",
+          "settings": {
+            "heading": "the mum to be",
+            "cat": "the body",
+            "shortDescription1": "60 min",
+            "price1": "500,000",
+            "description": "<p>Experience the soothing comfort of our specially curated Pregnancy Massage, expertly delivered by our skilled and caring therapists. Featuring our luxurious plant-based oils, specifically crafted for their gentle and safe formula, this treatment is tailored to alleviate the discomforts of pregnancy and promote relaxation. Trust in our dedicated team to provide a nurturing and rejuvenating experience that prioritizes your well-being and the safety of both you and your baby.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
+        },
+        "text_CQ4dw9": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "cat": "",
+            "shortDescription1": "",
+            "price1": "",
+            "description": "",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -304,7 +362,9 @@
         "text_RdGYyr",
         "text_Cdtf4V",
         "text_QteJN4",
-        "text_RNwYDM"
+        "text_RNwYDM",
+        "text_HWfmCg",
+        "text_CQ4dw9"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,",
