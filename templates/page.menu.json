@@ -118,13 +118,43 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_gbTL9U": {
+          "type": "text",
+          "settings": {
+            "heading": "sparkling iceballs",
+            "cat": "the face",
+            "shortDescription1": "60 min",
+            "price1": "500,000",
+            "description": "<p>Indulge in our luxurious plant derived, toxic free Pressure Point Facial Massage, a revitalizing spa ritual specifically designed to rejuvenate your skin and relax your mind. This therapeutic facial massage targets key pressure points on the face, promoting increased circulation and stimulating relaxation to enhance your overall well-being. During the treatment, our skilled therapists will expertly apply gentle pressure to specific points on your face to help release tension and revitalize your skin. By activating these pressure points, the massage encourages improved blood flow, which can promote a healthy, radiant complexion.<\/p><p><br\/>To conclude this exquisite experience, iceballs are delicately glided over your skin. The cooling sensation of the ice helps to soothe any inflammation, reduce puffiness and further invigorate your senses. This refreshing final touch leaves you feeling rejuvenated and with a radiant glow.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
         "text_AC8Xx7",
         "text_ritGFr",
         "text_NAHjAN",
-        "text_erF4iY"
+        "text_erF4iY",
+        "text_gbTL9U"
       ],
       "settings": {
         "menu-links": "the crown,the face,",
