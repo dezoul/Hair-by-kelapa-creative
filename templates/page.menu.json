@@ -466,6 +466,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_KMP8Ac": {
+          "type": "text",
+          "settings": {
+            "heading": "therapeutic manicure",
+            "cat": "the nails",
+            "shortDescription1": "75 min",
+            "price1": "450,000",
+            "description": "<p>Revitalize your nails and hands with our Therapeutic Manicure, a wellness-focused experience that embraces the power of nature. We prioritize your well-being by using only plant-based, non-toxic products throughout the treatment.<\/p><p><br\/>Our skilled technicians expertly shape and buff your nails, ensuring a flawless result followed by gentle exfoliation that leaves your hands feeling velvety smooth. Relax and unwind with a soothing hand massage using our specially crafted, hand cream, enriched with botanical extracts for deep hydration. Choose (or not) from our collection of stunning nail polishes, all made from plant-based formulas that are free from harmful chemicals.<\/p><p> <br\/>In line with our commitment to your wellbeing, all our non-metal tools are one-time use, ensuring utmost hygiene and quality of service. After the treatment, we hand them back to you, ensuring a personalized and safe experience.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -484,7 +513,8 @@
         "text_U7WDgw",
         "text_4tEGKW",
         "text_T8JH4t",
-        "text_PnUWyc"
+        "text_PnUWyc",
+        "text_KMP8Ac"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,the skin,the soles",
