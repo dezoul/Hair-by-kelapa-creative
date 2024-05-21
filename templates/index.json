@@ -138,7 +138,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
         "image_height": "large",
-        "img-position": "img-left",
+        "img-position": "img-right",
         "img-side-gap": true,
         "desktop_content_position": "middle",
         "show_text_box": true,
@@ -147,7 +147,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
-        "show_text_above": true,
+        "show_text_above": false,
         "padding_top": 100,
         "border-top": false,
         "padding_bottom": 100
