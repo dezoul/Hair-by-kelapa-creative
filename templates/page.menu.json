@@ -263,6 +263,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_RNwYDM": {
+          "type": "text",
+          "settings": {
+            "heading": "back in harmony",
+            "cat": "the body",
+            "shortDescription1": "30 min",
+            "price1": "200,000",
+            "description": "<p>Experience the ultimate indulgence with our tailored therapeutic massage, meticulously crafted to target tension and tightness in your back, shoulders and neck. Whether you are desk-bound, a surfing enthusiast or a weary traveler seeking relief, this specialized treatment is expertly designed to dissolve stress and promote relaxation under the skilled hands of our therapists. Infused with our premium, plant-based oils free of harsh chemicals, this luxurious session guarantees a deeply revitalizing experience, leaving you feeling invigorated and renewed.<br\/><\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "60 min",
+            "price2": "300,000",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -274,7 +303,8 @@
         "text_6X93z9",
         "text_RdGYyr",
         "text_Cdtf4V",
-        "text_QteJN4"
+        "text_QteJN4",
+        "text_RNwYDM"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,",
