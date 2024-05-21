@@ -56,10 +56,10 @@
           {{ section.settings.title }}
         </h2>
       {%- endif -%}
-      {% if section.settings.secondHeading %}
-        {{ section.settings.secondHeading }}
-      {% endif %}
       <h3 class="h0 heading-style-1">
+        {% if section.settings.secondHeading %}
+          {{ section.settings.secondHeading }}
+        {% endif %}
         
       </h3>
       {%- if section.settings.description != blank
