@@ -3921,6 +3921,11 @@ body .footer .footer__content-top.page-width a {
   margin-bottom: 1rem;
 }
 
+.custom-footer-grid {
+  display: grid;
+
+}
+
 /* collection */
 
 a.pagination__item.pagination__item--current {
@@ -4026,9 +4031,6 @@ body .footer-block__details-content {
   }
 
 
-  .footer .footer__content-top .footer-block:nth-child(n+3) {
-    display: none;
-  }
 
 
 

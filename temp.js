@@ -4,3 +4,10 @@ document.querySelector('.drop-trigger').addEventListener("click", () => {
 
 
 bob.addEventListener
+
+
+if (target != 'all') {
+
+} else {
+
+}
