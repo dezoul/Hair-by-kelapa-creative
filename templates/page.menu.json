@@ -350,6 +350,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_U7WDgw": {
+          "type": "text",
+          "settings": {
+            "heading": "botanical bliss",
+            "cat": "the skin",
+            "shortDescription1": "60 min",
+            "price1": "500,000",
+            "description": "<p>Embark on a sensory journey with our Indonesian-inspired Sugar Scrub Ritual, featuring an exotic blend of locally sourced ingredients that capture the essence of Indonesia's rich botanicals. This luxurious scrub showcases the star ingredients of our archipelago – Moringa oil, lemongrass, nutmeg, turmeric and eucalyptus essential oils – known for their aromatic and healing properties.<\/p><p><br\/>Moringa oil deeply nourishes and moisturizes, while lemongrass and eucalyptus essential oils invigorate the senses with their refreshing scents. The warm notes of nutmeg and the healing properties of turmeric work together to promote healthy, glowing skin. Our sugar-based scrub is mindfully formulated to be plant powered and toxic-free so you can indulge in peace.<\/p><p> <br\/>This 60 minute indulgence begins with a 10 minute Foot Ritual to soothe your senses, followed by a 50-minute treatment. Immerse yourself in the rejuvenating power of local botanicals and emerge with soft, glowing skin that reflects the beauty of our Indonesian archipelago.<\/p><p><br\/>Suitable for sensitive skin.<\/p>",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -364,7 +393,8 @@
         "text_QteJN4",
         "text_RNwYDM",
         "text_HWfmCg",
-        "text_CQ4dw9"
+        "text_CQ4dw9",
+        "text_U7WDgw"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,the skin,",
