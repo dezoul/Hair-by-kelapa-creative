@@ -611,6 +611,35 @@
             "shortDescription10": "finger per digit",
             "price10": "12,000"
           }
+        },
+        "text_XwGMTx": {
+          "type": "text",
+          "settings": {
+            "heading": "male",
+            "cat": "waxing",
+            "shortDescription1": "shoulder",
+            "price1": "200,000 - 400,000",
+            "description": "",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "back",
+            "price2": "300,000 - 600,000",
+            "shortDescription3": "chest",
+            "price3": "280,000 - 400,000",
+            "shortDescription4": "stomach",
+            "price4": "250,000 - 400,000",
+            "shortDescription5": "full leg",
+            "price5": "400,000 - 650,000",
+            "shortDescription6": "half leg",
+            "price6": "300,000 - 500,000",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -634,7 +663,8 @@
         "text_H9V3Pk",
         "text_nGcAi8",
         "text_TeLA7P",
-        "text_6VT6ad"
+        "text_6VT6ad",
+        "text_XwGMTx"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,the skin,the soles,the bundles,waxing",
