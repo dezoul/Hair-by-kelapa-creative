@@ -89,12 +89,42 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_erF4iY": {
+          "type": "text",
+          "settings": {
+            "heading": "quick glow",
+            "cat": "the face",
+            "shortDescription1": "30 min",
+            "price1": "300,000",
+            "description": "<p>Indulge in a rejuvenating Express Facial Massage, designed for those seeking a quick retreat from their daily hustle or for individuals looking to experience the soothing benefits of facial massage for the first time.<\/p><p> <br\/>Our expert therapists will gently stimulate circulation in your facial, neck and head regions, as delicate strokes and gentle pressure work to revitalize your skin and invigorate your senses. It is a perfect introduction to the world of facial treatments, offering a glimpse into the transformative power of touch and skincare techniques while highlighting the benefits of using plant-based, toxic-free products. Allow yourself a moment of relaxation and self-care as you unwind and let the worries of the day fade away. <\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
         "text_AC8Xx7",
         "text_ritGFr",
-        "text_NAHjAN"
+        "text_NAHjAN",
+        "text_erF4iY"
       ],
       "settings": {
         "menu-links": "the crown,the face,",
