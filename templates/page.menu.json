@@ -495,6 +495,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_H9V3Pk": {
+          "type": "text",
+          "settings": {
+            "heading": "therapeutic pedicure",
+            "cat": "the soles",
+            "shortDescription1": "75 min",
+            "price1": "450,000",
+            "description": "<p>Immerse yourself in ultimate self-care with our Therapeutic Pedicure, where your foot health and wellbeing are our top priorities.<\/p><p><br\/>We prioritize your wellbeing by using only plant-based, non-toxic products throughout the treatment. Our skilled technicians will expertly shape and buff your nails, ensuring a flawless result followed by exfoliation that leaves your feet feeling soft and renewed. Your feet will be treated to a mini massage using our specially formulated, plant-based foot cream, enriched with botanical extracts for deep hydration and relaxation. Choose (or not) from our selection of exquisite nail polishes, all crafted from plant-based formulas that are free from harmful chemicals.<\/p><p><br\/>In line with our commitment to your wellbeing, all our non-metal tools are one-time use, ensuring utmost hygiene and quality of service. After the treatment, we hand them back to you, ensuring a personalized and safe experience.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -514,7 +543,8 @@
         "text_4tEGKW",
         "text_T8JH4t",
         "text_PnUWyc",
-        "text_KMP8Ac"
+        "text_KMP8Ac",
+        "text_H9V3Pk"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,the skin,the soles",
