@@ -2,8 +2,72 @@
   "sections": {
     "menu_block_jW4T4a": {
       "type": "menu-block",
+      "blocks": {
+        "text_AC8Xx7": {
+          "type": "text",
+          "settings": {
+            "heading": "cream bath",
+            "cat": "the crown",
+            "shortDescription1": "60n min",
+            "price1": "350,000",
+            "description": "<p>Embark on a truly Balinese experience by indulging in the luxurious tradition of a Cream Bath ritual. Not to be missed on your Bali itinerary, this experience encompasses a blissful combination of rich heritage and modern hair care. Our carefully curated hair mask, free from harmful toxins, blends the hydrating properties of aloe vera, the nourishing essence of avocado extracts and the replenishing power of squalane to deeply nourish every strand. Relax as you enjoy a soothing head massage, ensuring your hair is treated with utmost care and respect, leaving your crown feeling rejuvenated.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
+        },
+        "text_ritGFr": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "cat": "",
+            "shortDescription1": "",
+            "price1": "",
+            "description": "",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_AC8Xx7",
+        "text_ritGFr"
+      ],
       "settings": {
-        "menu-links": "",
+        "menu-links": "the crown,the face,",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
