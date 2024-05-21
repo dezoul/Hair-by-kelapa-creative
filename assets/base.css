@@ -4213,19 +4213,13 @@ body .footer-block__details-content {
 }
 
 
-@media screen and (min-width: 900px) {
-
-  /* .split-banner .media.split-banner-img-gap:not(.order-2) img {
-    position: absolute;
-    right: var(--side-padding-universal);
-    left: initial
-    width: calc(100% - calc(var(--side-padding-universal) * 2));
-    left: initial;
-} */
-
-}
 
 @media screen and (min-width: 990px) {
+
+
+  .split-banner .half-right {
+    text-align: right;
+  }
 
 
   .media.split-banner-img-gap.order-2 img {
