@@ -62,6 +62,128 @@
         "padding_bottom": 100
       }
     },
+    "horizontal_scroll_multi_coloumns_VaBxPm": {
+      "type": "horizontal-scroll-multi-coloumns",
+      "blocks": {
+        "column_rqi3fy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+            "para": "A short blurb here.",
+            "link-url": ""
+          }
+        },
+        "column_qqzX6L": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+            "para": "A short blurb here.",
+            "link-url": ""
+          }
+        },
+        "column_CQn68m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+            "para": "A short blurb here.",
+            "link-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rqi3fy",
+        "column_qqzX6L",
+        "column_CQn68m"
+      ],
+      "settings": {
+        "pre-heading": "OUR SPACE",
+        "heading": "A haven of peace \u2028and tranquillity",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "split_image_banner_6FFbMe": {
+      "type": "split-image-banner",
+      "blocks": {
+        "heading_aK6ykB": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR THERAPISTS",
+            "heading_style": "header-style-2",
+            "heading_size": "h2"
+          }
+        },
+        "heading_g4bjWB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skilled therapists with years of experience.",
+            "heading_style": "header-style-1",
+            "heading_size": "h0"
+          }
+        },
+        "text_XAJX6V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We warmly invite you to our mindful spa nestled in the  serene village of Pererenan, just a breath away from vibrant Canggu in  beautiful Bali. At our sanctuary, we believe in the transformative power  of plant derived, toxin and cruelty free spa rituals to elevate your well-being and self-care journey. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aK6ykB",
+        "heading_g4bjWB",
+        "text_XAJX6V"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+        "image_height": "large",
+        "img-position": "img-left",
+        "img-side-gap": true,
+        "desktop_content_position": "middle",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_above": true,
+        "padding_top": 100,
+        "border-top": false,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_Kwy6Er": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".slider-buttons.no-js-hidden {display: none;}",
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}"
+      ],
+      "settings": {
+        "title": "Shop",
+        "description": "<p>A thoughtfully curated collection.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "everything",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "bubble_banner_bmGxbH": {
       "type": "bubble-banner",
       "blocks": {
@@ -238,6 +360,7 @@
         "text_cnDCNr",
         "text_YBcaQh"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "heading-inital": "Spa Menu",
@@ -340,6 +463,7 @@
         "text_aqhtGL",
         "text_XqCWWT"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "heading-inital": "",
@@ -974,43 +1098,14 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "featured_collection_Kwy6Er": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".slider-buttons.no-js-hidden {display: none;}",
-        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}"
-      ],
-      "settings": {
-        "title": "Shop",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "everything",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
     }
   },
   "order": [
     "simple_banner_p3URUw",
     "split_image_banner_7dQHHz",
+    "horizontal_scroll_multi_coloumns_VaBxPm",
+    "split_image_banner_6FFbMe",
+    "featured_collection_Kwy6Er",
     "bubble_banner_bmGxbH",
     "image_banner_HUFHBX",
     "single_drop_down_set_VEEEtr",
@@ -1022,7 +1117,6 @@
     "single_drop_down_set_FrHi6h",
     "single_drop_down_set_4z6U4t",
     "single_drop_down_set_XjiqyC",
-    "image_banner_mVLAB3",
-    "featured_collection_Kwy6Er"
+    "image_banner_mVLAB3"
   ]
 }
