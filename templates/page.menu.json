@@ -234,6 +234,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_QteJN4": {
+          "type": "text",
+          "settings": {
+            "heading": "the ultimate euphoria",
+            "cat": "the body",
+            "shortDescription1": "90 min",
+            "price1": "600,000",
+            "description": "<p>Allow us to calm your senses with our gentle yet deeply relaxing bespoke signature body massage, meticulously crafted with plant-derived non-toxic ingredients sourced exclusively from within the Indonesian archipelago. Enhanced with nourishing Moringa and Sacha Inchi oils, this massage is infused with the aromatic essences of lemongrass, turmeric, nutmeg and eucalyptus essential oils, all derived from the abundant flora of the region. Immerse yourself in the harmonious blend of these natural Indonesian treasures, guiding you into a state of blissful tranquility. Ease muscle tension and detoxify your body while your mind luxuriates in the therapeutic warmth of a comforting back and neck heating pad. <\/p><p><br\/>Your experience begins with a luxurious foot ritual, followed by an indulgent 80-minute treatment, ensuring a truly revitalizing journey from the heart of Indonesia.<br\/><\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -244,7 +273,8 @@
         "text_gbTL9U",
         "text_6X93z9",
         "text_RdGYyr",
-        "text_Cdtf4V"
+        "text_Cdtf4V",
+        "text_QteJN4"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,",
