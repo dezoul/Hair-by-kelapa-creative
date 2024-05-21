@@ -98,6 +98,9 @@
         "column_qqzX6L",
         "column_CQn68m"
       ],
+      "custom_css": [
+        "@media (max-width: 990px) {.gradient {background-color: #c4b4a4; }}"
+      ],
       "settings": {
         "pre-heading": "OUR SPACE",
         "heading": "A haven of peace \u2028and tranquillity",
@@ -160,7 +163,8 @@
       "type": "featured-collection",
       "custom_css": [
         ".slider-buttons.no-js-hidden {display: none;}",
-        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}"
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}",
+        "@media (max-width: 990px) {.gradient {background-color: #c4b4a4; }}"
       ],
       "settings": {
         "title": "Shop",
