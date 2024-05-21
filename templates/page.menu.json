@@ -640,6 +640,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_tT98Pc": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "cat": "the art of giving",
+            "shortDescription1": "",
+            "price1": "",
+            "description": "<p>With our Holistic Indulgence Cards, you are not just giving a gift – you are giving a transformative experience that promotes inner harmony and outer radiance. Let your loved ones unwind, recharge and reconnect with themselves in a serene sanctuary dedicated to holistic wellness.<\/p><p><br\/>Enquire with our team to learn more about our gifting services.<\/p>",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -664,7 +693,8 @@
         "text_nGcAi8",
         "text_TeLA7P",
         "text_6VT6ad",
-        "text_XwGMTx"
+        "text_XwGMTx",
+        "text_tT98Pc"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,the skin,the soles,the bundles,waxing",
