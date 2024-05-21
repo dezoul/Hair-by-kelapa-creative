@@ -3688,6 +3688,10 @@ body .spa-menu-item {
   margin-right: auto;
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 .half-left {
   margin-left: max(calc(50vw - calc(var(--page-width) / 2)), 0px);
 }
