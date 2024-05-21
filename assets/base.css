@@ -2603,7 +2603,7 @@ product-info .loading__spinner:not(.hidden)~*,
 @media (min-width: 990px) {
   .header__icon--cart {
     position: relative;
-    margin-right: 1.9rem;
+    /* margin-right: 1.9rem; */
   }
 
   .desk-logo-hide {
