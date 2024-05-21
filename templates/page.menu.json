@@ -437,6 +437,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_PnUWyc": {
+          "type": "text",
+          "settings": {
+            "heading": "reflexology",
+            "cat": "the soles",
+            "shortDescription1": "30 min",
+            "price1": "250,000",
+            "description": "<p>Immerse yourself in our blissful Foot Reflexology, an ancient art that offers holistic relaxation and rejuvenation. Let our skilled therapists apply targeted pressure to specific points on your feet, aligning with various organs and systems of the body. Our massage features a specially crafted, plant-based, non-toxic hydrating foot butter, designed to nourish dry, cracked or rough skin. This luxurious blend of shea butter, rosemary and lemon essential oils works together to deeply cleanse, hydrate and revitalize your soles. Experience improved circulation, increased energy flow and profound relaxation as you indulge in this treatment that supports your body's natural healing processes.<\/p><p><br\/>Indulge in a 90-minute session for an extended relaxation experience. Begin with a lavish 10-minute Foot Ritual, leading seamlessly into an 80-minute treatment that will immerse you in a state of complete restoration.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "60 min",
+            "price2": "350,000",
+            "shortDescription3": "90 min",
+            "price3": "470,000",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -454,7 +483,8 @@
         "text_CQ4dw9",
         "text_U7WDgw",
         "text_4tEGKW",
-        "text_T8JH4t"
+        "text_T8JH4t",
+        "text_PnUWyc"
       ],
       "settings": {
         "menu-links": "the crown,the face,the body,the skin,the soles",
