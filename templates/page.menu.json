@@ -524,6 +524,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_nGcAi8": {
+          "type": "text",
+          "settings": {
+            "heading": "two slices of heaven",
+            "cat": "the bundles",
+            "shortDescription1": "1 hr 45 min",
+            "price1": "650,000",
+            "description": "<p>Enhance your spa experience with our deluxe package, which includes The Healing Act 60-minute massage along with your choice of a body scrub or mask. Your experience kicks off with a calming 10-minute Foot Ritual, preparing you for a restorative 95-minute treatment that will elevate your self-care routine. <\/p><p><br\/>Should you wish to further elevate your experience by upgrading to a different body massage option, please do not hesitate to inquire with our team.<\/p>",
+            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -544,10 +573,11 @@
         "text_T8JH4t",
         "text_PnUWyc",
         "text_KMP8Ac",
-        "text_H9V3Pk"
+        "text_H9V3Pk",
+        "text_nGcAi8"
       ],
       "settings": {
-        "menu-links": "the crown,the face,the body,the skin,the soles",
+        "menu-links": "the crown,the face,the body,the skin,the soles,the bundles",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
