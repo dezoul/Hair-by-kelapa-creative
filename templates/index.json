@@ -99,7 +99,7 @@
         "column_CQn68m"
       ],
       "custom_css": [
-        "@media (max-width: 990px) {.gradient {background-color:#C4B4A4; }}"
+        "@media (max-width: 990px) {.gradient {background-color: #c4b4a4; }}"
       ],
       "settings": {
         "pre-heading": "OUR SPACE",
@@ -163,7 +163,8 @@
       "type": "featured-collection",
       "custom_css": [
         ".slider-buttons.no-js-hidden {display: none;}",
-        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}"
+        "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}",
+        "@media (max-width: 990px) {.gradient {background-color: #c4b4a4; }}"
       ],
       "settings": {
         "title": "Shop",
