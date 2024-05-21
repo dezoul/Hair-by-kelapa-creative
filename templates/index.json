@@ -3,7 +3,7 @@
     "simple_banner_p3URUw": {
       "type": "simple-banner",
       "custom_css": [
-        "h2{max-width:50rem}"
+        "h2 {max-width: 50rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
