@@ -582,6 +582,35 @@
             "shortDescription10": "",
             "price10": ""
           }
+        },
+        "text_6VT6ad": {
+          "type": "text",
+          "settings": {
+            "heading": "waxing",
+            "cat": "waxing",
+            "shortDescription1": "",
+            "price1": "",
+            "description": "<p>Experience our plant-based, toxin-free waxing services, carefully formulated with a combination of sugar, lemon & water. Our wax treatments offer a delicate and efficient hair removal solution, tailored for those who embrace a holistic approach to skincare.<\/p>",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": ""
+          }
         }
       },
       "block_order": [
@@ -604,10 +633,11 @@
         "text_KMP8Ac",
         "text_H9V3Pk",
         "text_nGcAi8",
-        "text_TeLA7P"
+        "text_TeLA7P",
+        "text_6VT6ad"
       ],
       "settings": {
-        "menu-links": "the crown,the face,the body,the skin,the soles,the bundles",
+        "menu-links": "the crown,the face,the body,the skin,the soles,the bundles,waxing",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
