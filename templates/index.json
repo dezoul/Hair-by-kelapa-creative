@@ -164,8 +164,8 @@
       ],
       "settings": {
         "title": "Shop",
-        "secondHeading": "",
-        "description": "<p>A thoughtfully curated collection.<\/p>",
+        "secondHeading": "A thoughtfully curated collection.",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "everything",
