@@ -3938,9 +3938,10 @@ body .footer .footer__content-top.page-width a {
 
 .sub-footer a,
 .sub-footer span {
-  padding: 1rem 1.3rem;
+  padding-left: 0.5rem;
   display: inline-block;
-  font-size: min(2.4vw, 1.5rem);
+  font-size: min(2.4vw, 1.2rem);
+  opacity: 0.8;
 }
 
 .footer-grid {
