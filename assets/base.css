@@ -4210,6 +4210,7 @@ body .footer-block__details-content {
   flex-wrap: nowrap;
   overflow-x: scroll;
   gap: 2rem;
+  padding-bottom: 3rem;
 }
 
 .horizontal-grid>div {
