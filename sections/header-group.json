@@ -32,7 +32,7 @@
       "custom_css": [
         "svg {max-width: 9rem;}",
         "header::after {border-bottom: 0px solid;}",
-        ".menu-drawer {text-align: right;}",
+        ".menu-drawer {text-align: right; min-width: 50%;}",
         ".header__search {display: none;}",
         ".menu-drawer__menu-item {font-size: 1.7rem; justify-content: flex-end; background: transparent;}",
         "header span {text-transform: capitalize;}",
