@@ -144,12 +144,11 @@
         "collapsible_tab_E6RmL4"
       ],
       "custom_css": [
-        ".product__accordion .accordion__title {font-weight: 500;}",
+        ".product__accordion .accordion__title {font-weight: 500; font-size: 1.5rem;}",
         ".product-form__buttons span {font-weight: 500; text-transform: lowercase;}",
         ".card.card--standard.card--media.card--horizontal {display: flex; flex-direction: column;}",
         ".card__inner {max-width: 100%;}",
-        ".caption-with-letter-spacing {font-size: 1.4rem; letter-spacing: 0.1em; line-height: calc(1 + 0.2 \/ var(--font-body-scale)); text-transform: uppercase; font-weight: 600; opacity: 0.8; padding-bottom: 0.3em;}",
-        ".product__accordion .accordion__title {font-weight: 500; font-size: 1.5rem;}"
+        ".caption-with-letter-spacing {font-size: 1.4rem; letter-spacing: 0.1em; line-height: calc(1 + 0.2 \/ var(--font-body-scale)); text-transform: uppercase; font-weight: 600; opacity: 0.8; padding-bottom: 0.3em;}"
       ],
       "settings": {
         "enable_sticky_info": true,
