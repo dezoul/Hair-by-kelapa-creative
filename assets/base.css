@@ -2593,7 +2593,7 @@ product-info .loading__spinner:not(.hidden)~*,
 
 .header__icon--cart {
   position: relative;
-  margin-right: -1.2rem;
+  margin-right: -1.6rem;
 }
 
 .desk-logo-hide {
@@ -3849,7 +3849,7 @@ header span {
 }
 
 header .menu-drawer__menu-item {
-  padding: .6rem 3rem;
+  padding: .6rem var(--side-padding-universal) .6rem 3rem;
 }
 
 header .link {
