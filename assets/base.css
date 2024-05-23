@@ -3661,6 +3661,10 @@ p {
   text-transform: uppercase;
 }
 
+.transform-init {
+  text-transform: initial;
+}
+
 .header__inline-menu {
   text-align: right;
 }
@@ -3895,7 +3899,7 @@ body .footer .footer__content-top.page-width a {
 
 .footer a:hover path,
 .sub-footer a:hover path {
-  fill: #C4B4A4;
+  stroke: #C4B4A4;
 }
 
 .footer-grid>:first-child {
@@ -4296,7 +4300,7 @@ header button.header-style-2 {
 @media screen and (min-width: 990px) {
 
 
-  .split-banner .half-right {
+  .split-banner .half-left {
     text-align: right;
   }
 

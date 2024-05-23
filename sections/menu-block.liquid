@@ -119,7 +119,7 @@ padding-bottom: 1rem;
 
 
           <div class="faq-grid">
-            <h3 class="h3 header-style-2 margin-0 ">{{block.settings.heading}}</h3>
+            <h3 class="h3 header-style-2 margin-0 transform-init">{{block.settings.heading}}</h3>
             </div>
             <div>
               {% if block.settings.shortDescription1 !="" %}
@@ -209,6 +209,17 @@ padding-bottom: 1rem;
   const menuLinks = document.querySelectorAll('.custom-menu-nav span')
   const treatments = document.querySelectorAll('.custom-treatment-menu .treatments')
   const fullmenu = document.querySelector('#menu-start')
+
+  function scrollToTargetAdjusted(offset){
+
+    var headerOffset = offset;
+    var elementPosition = fullmenu.getBoundingClientRect().top;
+    var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    window.scrollTo({
+         top: offsetPosition,
+         behavior: "smooth"
+    });
+}
         function filterMenu() {
           // console.log(this, this.dataset.menuTargeter)
           let target = this.dataset.menuTargeter
@@ -234,10 +245,9 @@ padding-bottom: 1rem;
             }
           }
           )
-          // setTimeout(() => {
-          //   fullmenu.scrollIntoView('alignToTop')
-            
-          // }, 100)
+          
+          setTimeout(scrollToTargetAdjusted(70), 100)
+
         }
 
 menuLinks.forEach(link => {
