@@ -262,7 +262,7 @@
       ],
       "custom_css": [
         "h2 {margin-bottom: 2rem;}",
-        "@media (max-width: 500px ) {.grid--2-col-tablet-down .grid__item{width: 100%}}"
+        "@media (max-width: 500px) {.multicolumn-list__item.grid__item {width: 100%; }}"
       ],
       "settings": {
         "title": "no nasties",
