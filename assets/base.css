@@ -3554,6 +3554,7 @@ html {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+  height: 0;
   /* make scrollbar transparent */
 }
 
@@ -3595,6 +3596,10 @@ h6,
 
 .h0 {
   font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
+.h2 {
+  font-size: 1.5rem;
 }
 
 .card__heading.h5 {
@@ -3644,6 +3649,10 @@ p {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .bold-link {
   font-weight: 600;
 }
@@ -3651,9 +3660,9 @@ p {
 .header-style-2 {
   font-family: inherit;
   font-weight: 700;
-  /* text-transform: uppercase; */
   line-height: 1.1;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
 }
 
 .header__inline-menu {

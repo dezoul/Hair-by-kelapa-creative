@@ -6,12 +6,12 @@
 
   .custom-menu-nav{
     display: flex;
+    gap: 0.5rem;
     height: fit-content;
     position: sticky;
     top: 71px;
     margin-top: calc(-2rem - 23px - calc({{ section.settings.padding_top }}px * 0.75));
     margin-left: calc(-1* var(--side-padding-universal));
-    gap: 1rem;
     padding: 1.5rem var(--side-padding-universal) 0rem;
     overflow-x: scroll;
     max-width: 100vw;
@@ -20,12 +20,12 @@
 }
 
 .custom-menu-nav > span {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    flex-shrink: 0;
-    cursor: pointer
+  font-size:2.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  flex-shrink: 0;
+  cursor: pointer
 }
 
 .custom-menu-nav > .active {
@@ -39,6 +39,21 @@
 .custom-treatment-menu{
   padding-top: calc({{ section.settings.padding_top }}px * 0.75);
 }
+
+@media screen and (max-width: 750px) {
+
+.custom-menu-nav > span {
+  display: inline-block;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.custom-menu-nav {
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+}
+
 
 @media screen and (min-width: 750px) {
     .section-{{section.id}}-padding {
@@ -85,16 +100,16 @@
 
 
 {%- endstyle -%}
-<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="color-{{ section.settings.color_scheme }} gradient" id="menu-start">
   <div class="section-{{ section.id }}-padding relative">
     <div class="grid-menu page-width ">
       <div class="custom-menu-nav">
-        <span class="active" data-menu-targeter="all">
+        <span href="#menu-start" class="active" data-menu-targeter="all">
           all treatments
         </span>
         {% assign menuLinks = section.settings.menu-links | split: "," %}
       {% for menuLink in menuLinks %}
-        <span  data-menu-targeter="{{menuLink |  replace: " ","-" }}">
+        <span href="#menu-start"  data-menu-targeter="{{menuLink |  replace: " ","-" }}">
         {{menuLink}}
         </span>{% endfor %}</div>
 
@@ -193,7 +208,7 @@
 <script>
   const menuLinks = document.querySelectorAll('.custom-menu-nav span')
   const treatments = document.querySelectorAll('.custom-treatment-menu .treatments')
-
+  const fullmenu = document.querySelector('#menu-start')
         function filterMenu() {
           // console.log(this, this.dataset.menuTargeter)
           let target = this.dataset.menuTargeter
@@ -219,6 +234,10 @@
             }
           }
           )
+          setTimeout(() => {
+            fullmenu.scrollIntoView('alignToTop')
+            
+          }, 100)
         }
 
 menuLinks.forEach(link => {
