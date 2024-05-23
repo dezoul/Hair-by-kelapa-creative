@@ -3602,13 +3602,9 @@ h6,
   font-size: 1.5rem;
 }
 
-.card__heading.h5 {
-  font-size: 1.5rem;
-  line-height: 1;
-  font-weight: 400;
-}
 
-p {
+
+footer p {
   font-size: 1.3rem;
 }
 
@@ -3625,7 +3621,7 @@ p {
     font-size: calc(var(--font-heading-scale) * 4.5rem);
   }
 
-  p {
+  footer p {
     font-size: 1.5rem;
   }
 
@@ -3814,6 +3810,9 @@ product-recommendations .grid .grid__item {
     flex-wrap: nowrap;
     overflow-x: scroll;
   }
+
+
+
 }
 
 @media (min-width: 750px) {
@@ -4098,8 +4097,9 @@ body .facets__heading {
 }
 
 .card__heading.h5 {
-  font-size: 1.9rem;
-  line-height: 1.2;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
 }
 
 /* dans product tweaks */
@@ -4271,6 +4271,11 @@ header button.header-style-2 {
 
   .header {
     grid-template-columns: 2fr 132px 42px;
+  }
+
+  .half-left,
+  .half-right {
+    margin-bottom: 2rem;
   }
 }
 
