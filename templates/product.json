@@ -261,7 +261,8 @@
         "1f89711d-f329-4a60-81cc-27151602a082"
       ],
       "custom_css": [
-        "h2 {margin-bottom: 2rem;}"
+        "h2 {margin-bottom: 2rem;}",
+        "@media (max-width: 500px ) {.grid--2-col-tablet-down .grid__item{width: 100%}}"
       ],
       "settings": {
         "title": "no nasties",
