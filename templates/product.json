@@ -172,7 +172,7 @@
 
       ],
       "settings": {
-        "heading": "Pairs well with...",
+        "heading": "pairs well with...",
         "heading_size": "h1",
         "products_to_show": 3,
         "columns_desktop": 3,
@@ -183,7 +183,7 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "1",
-        "padding_top": 60,
+        "padding_top": 20,
         "padding_bottom": 60
       }
     },
@@ -261,7 +261,8 @@
         "1f89711d-f329-4a60-81cc-27151602a082"
       ],
       "custom_css": [
-        "h2 {margin-bottom: 2rem;}"
+        "h2 {margin-bottom: 2rem;}",
+        "@media (max-width: 500px) {.multicolumn-list__item.grid__item {min-width: 100%; }}"
       ],
       "settings": {
         "title": "no nasties",
@@ -275,7 +276,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "scheme-4",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 88
