@@ -3589,6 +3589,30 @@ h6,
   margin-bottom: .75em;
 }
 
+.h0 {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
+.card__heading.h5 {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.card__information .price {
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  line-height: calc(1 + .5 / var(--font-body-scale));
+  opacity: 0.8;
+}
+
+
+@media only screen and (min-width: 750px) {
+  .h0 {
+    font-size: calc(var(--font-heading-scale) * 4.5rem);
+  }
+}
+
 
 
 
