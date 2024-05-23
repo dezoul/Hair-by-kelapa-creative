@@ -4021,13 +4021,13 @@ body .footer .footer__content-top.page-width a {
 @media (max-width: 900px) {
 
 
-  .custom-footer-nav {
+  /* .custom-footer-nav {
     flex-direction: column;
   }
 
   .custom-footer-nav>*:nth-child(2n) {
     display: none;
-  }
+  } */
 
 }
 
