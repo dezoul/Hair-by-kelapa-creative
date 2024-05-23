@@ -3870,6 +3870,16 @@ body .footer .footer__content-top.page-width a {
   display: inline-block;
 }
 
+.footer a:hover,
+.sub-footer a:hover {
+  color: #C4B4A4;
+}
+
+.footer a:hover path,
+.sub-footer a:hover path {
+  fill: #C4B4A4;
+}
+
 .footer-grid>:first-child {
   border: 0px solid transparent !important;
 }
