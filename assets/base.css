@@ -4223,6 +4223,16 @@ body .footer-block__details-content {
   height: auto;
 }
 
+header .base-level-link.header-style-2,
+header summary.header-style-2,
+header button.header-style-2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  justify-content: flex-end;
+  text-transform: capitalize;
+  letter-spacing: inherit;
+}
+
 @media screen and (min-width: 990px) {
   .header--middle-left {
     grid-template-areas: "heading navigation icons";
