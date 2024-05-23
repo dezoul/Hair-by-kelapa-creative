@@ -162,6 +162,7 @@
     "featured_collection_Kwy6Er": {
       "type": "featured-collection",
       "custom_css": [
+        ".h0{margin-bottom:1em;}",
         ".slider-buttons.no-js-hidden {display: none;}",
         "@media screen and (max-width: 989px) {.collection .slider--tablet.product-grid {scroll-padding-left: var(--side-padding-universal); padding: 0 var(--side-padding-universal); }}",
         "@media (max-width: 990px) {.gradient {background-color: #c4b4a4; }}"
