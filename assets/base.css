@@ -3599,6 +3599,10 @@ h6,
   font-weight: 400;
 }
 
+p {
+  font-size: 1.3rem;
+}
+
 .card__information .price {
   font-size: 1.2rem;
   letter-spacing: 0;
@@ -3611,6 +3615,11 @@ h6,
   .h0 {
     font-size: calc(var(--font-heading-scale) * 4.5rem);
   }
+
+  p {
+    font-size: 1.5rem;
+  }
+
 }
 
 
