@@ -210,10 +210,10 @@ padding-bottom: 1rem;
   const treatments = document.querySelectorAll('.custom-treatment-menu .treatments')
   const fullmenu = document.querySelector('#menu-start')
 
-  function scrollToTargetAdjusted(offset){
+  function scrollToTargetAdjusted(offset,element){
 
     var headerOffset = offset;
-    var elementPosition = fullmenu.getBoundingClientRect().top;
+    var elementPosition = element.getBoundingClientRect().top;
     var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
     window.scrollTo({
          top: offsetPosition,
@@ -245,8 +245,8 @@ padding-bottom: 1rem;
             }
           }
           )
-          
-          setTimeout(scrollToTargetAdjusted(70), 100)
+
+          setTimeout(scrollToTargetAdjusted(70,fullmenu), 100)
 
         }
 
