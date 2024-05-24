@@ -68,7 +68,8 @@
       "custom_css": [
         ".h5 {font-size: 1.9rem; line-height: 1.2;}",
         "img {mix-blend-mode: multiply;}",
-        ".media--transparent {\/* background-color: #fcfbf9; *\/ background-color: #f4f0e8; opacity: 1;}"
+        ".media--transparent {\/* background-color: #fcfbf9; *\/ background-color: #f4f0e8; opacity: 1;}",
+        ".active-facets-mobile{display:none}"
       ],
       "settings": {
         "products_per_page": 16,
