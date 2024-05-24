@@ -3665,6 +3665,10 @@ p {
   text-transform: initial;
 }
 
+.letter-spacing-init {
+  letter-spacing: initial;
+}
+
 .header__inline-menu {
   text-align: right;
 }
