@@ -37,7 +37,9 @@
         ".menu-drawer__menu-item {font-size: 1.7rem; justify-content: flex-end; background: transparent;}",
         "header span {text-transform: capitalize;}",
         "#MegaMenu-Content-1 {background-color: rgb(194, 181, 163);}",
-        "#MegaMenu-Content-1 * {color: black;}"
+        "#MegaMenu-Content-1 * {color: black;}",
+        ".header__heading-logo-wrapper {margin-left: -5px;}",
+        "@media (max)"
       ],
       "settings": {
         "logo_position": "middle-left",
