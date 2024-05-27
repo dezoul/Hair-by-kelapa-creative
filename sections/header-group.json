@@ -39,7 +39,7 @@
         "#MegaMenu-Content-1 {background-color: rgb(194, 181, 163);}",
         "#MegaMenu-Content-1 * {color: black;}",
         ".header__heading-logo-wrapper {margin-left: -5px;}",
-        "@media (max)"
+        "@media (max-width: 990px) {.header__heading-logo {margin-left: -9px; margin-right: 9px;}}"
       ],
       "settings": {
         "logo_position": "middle-left",
