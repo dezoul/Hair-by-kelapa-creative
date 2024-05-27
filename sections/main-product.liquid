@@ -26,9 +26,7 @@
       }
     }
 
-    .treatments .flex-between {
-      padding: 2px 0;
-    }
+
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -203,6 +201,10 @@
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
             {%- when 'collapsible_tab' -%}
+
+              {% if block.settings.content != "" %}
+
+
               <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
@@ -220,6 +222,7 @@
                   </div>
                 </details>
               </div>
+            {% endif %}
             {%- when 'quantity_selector' -%}
               <div
                 id="Quantity-Form-{{ section.id }}"

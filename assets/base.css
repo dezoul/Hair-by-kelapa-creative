@@ -3562,6 +3562,11 @@ body {
   line-height: calc(1 + 0.5 / var(--font-body-scale));
 }
 
+* {
+
+  font-family: "Red Hat Display", sans-serif !important;
+}
+
 body,
 div {
   font-family: "Red Hat Display", sans-serif;
@@ -3658,7 +3663,7 @@ a {
 p {
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .text-center {
@@ -3978,6 +3983,13 @@ body .footer .footer__content-top.page-width a {
   opacity: 0.8;
 }
 
+@media (max-width:899px) {
+  .sub-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 2fr .5fr 1.6fr 1fr;
@@ -4040,7 +4052,8 @@ body .footer .footer__content-top.page-width a {
 
 .custom-footer-nav {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 1rem;
 }
 
 @media (max-width: 900px) {

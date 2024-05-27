@@ -40,6 +40,16 @@
   padding-top: calc({{ section.settings.padding_top }}px * 0.75);
 }
 
+.treatments .h3{
+  margin-bottom: .2em
+}
+
+.treatments .flex-between {
+    padding: 2px 0;
+}
+
+.book-p { margin-top: 3rem;}
+
 @media screen and (max-width: 750px) {
 
 .custom-menu-nav > span {
@@ -94,9 +104,9 @@ padding-bottom: 1rem;
 
   @media screen and (max-width: 400px) {
 
-.custom-menu-nav{
-  top: 65px;
-} 
+    .custom-menu-nav{
+      top: 65px;
+    } 
   }
 
 
@@ -121,11 +131,14 @@ padding-bottom: 1rem;
         <div class="treatments" data-menu-target="{{block.settings.cat |  replace: " ","-" }}">
 
 
-          <div class="faq-grid">
+          <div class="">
             <h3 class="h3 transform-init header-style-2 margin-0 letter-spacing-init ">{{block.settings.heading}}
 
             </h3>
-            </div>
+          </div>
+          {% if block.settings.shortDescription4 !="" %}
+            <div>{{block.settings.description}}</div>
+          {% endif %}
             <div>
               {% if block.settings.shortDescription1 !="" %}
               <div class="flex-between">
@@ -189,10 +202,14 @@ padding-bottom: 1rem;
                 </div>
               {% endif %}
     
-                
-            <p>{{block.settings.description}}</p>
     
-            <p class="text-right book-p"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287725855520&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
+              {% if block.settings.shortDescription4 == "" %}
+                <div>{{block.settings.description}}</div>
+              {% endif %}
+              
+            
+    
+            <p class="text-right book-p"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287862137603&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
           </div>
           {% unless forloop.last %}
             <hr class="trailing-line">
