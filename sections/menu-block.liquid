@@ -18,7 +18,7 @@
   gap: 0.5rem;
   height: fit-content;
   overflow-x: scroll;    
-  padding: 1.5rem var(--side-padding-universal) 0rem;
+  padding: 1.5rem var(--side-padding-universal) 1.5rem;
 }
 
 
@@ -64,13 +64,9 @@
 .custom-menu-nav span:nth-child(1){
   margin-left: -1rem;
 }
-.custom-menu-nav {
-padding-top: 1rem;
-padding-bottom: 1rem;
-}
 
 .custom-menu-nav::before,.custom-menu-nav::after{
-      content: " ";
+      pointer-events:none;
       position:absolute;
       top:0;
       height: 100%;
@@ -83,6 +79,7 @@ padding-bottom: 1rem;
       background-image: linear-gradient(to right, #C4B4A4ff,#C4B4A400 );
   }
   .custom-menu-nav::after{
+      content: " ";
       right:0;
       background-image: linear-gradient(to left, #C4B4A4ff,#C4B4A400 );
   }
