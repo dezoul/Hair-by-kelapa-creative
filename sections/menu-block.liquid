@@ -5,23 +5,25 @@
   }
 
   .custom-menu-nav{
-    display: flex;
-    gap: 0.5rem;
-    height: fit-content;
     position: sticky;
     top: 71px;
+    background-color: #C4B4A4;
     margin-top: calc(-2rem - 23px - calc({{ section.settings.padding_top }}px * 0.75));
     margin-left: calc(-1* var(--side-padding-universal));
-    padding: 1.5rem var(--side-padding-universal) 0rem;
-    overflow-x: scroll;
-    max-width: 100vw;
-    background-color: #C4B4A4;
     width: calc(100% + 2* var(--side-padding-universal));
+}
+
+.scroll-element{
+  display: flex;
+  gap: 0.5rem;
+  height: fit-content;
+  overflow-x: scroll;    
+  padding: 1.5rem var(--side-padding-universal) 0rem;
 }
 
 
 
-.custom-menu-nav > span {
+.custom-menu-nav span {
   font-size:2.2rem;
   font-weight: 300;
   line-height: 1.5;
@@ -30,7 +32,7 @@
   cursor: pointer
 }
 
-.custom-menu-nav > .active {
+.custom-menu-nav .active {
   font-weight: 600
 }
 
@@ -54,35 +56,33 @@
 
 @media screen and (max-width: 750px) {
 
-.custom-menu-nav > span {
+.custom-menu-nav span {
   display: inline-block;
   padding: 1rem;
   margin-right: 1rem;
 }
-.custom-menu-nav > span:nth-child(1){
+.custom-menu-nav span:nth-child(1){
   margin-left: -1rem;
 }
 .custom-menu-nav {
 padding-top: 1rem;
 padding-bottom: 1rem;
 }
-#menu-start{
-  position:relative;
-}
-#menu-start::before,#menu-start::after{
+
+.custom-menu-nav::before,.custom-menu-nav::after{
       content: " ";
       position:absolute;
       top:0;
-      height: 73px;
+      height: 100%;
       width: calc(2 * var(--side-padding-universal));
       z-index: 9;
   }
 
-#menu-start::before{
+  .custom-menu-nav::before{
       left:0;
       background-image: linear-gradient(to right, #C4B4A4ff,#C4B4A400 );
   }
-  #menu-start::after{
+  .custom-menu-nav::after{
       right:0;
       background-image: linear-gradient(to left, #C4B4A4ff,#C4B4A400 );
   }
@@ -139,16 +139,20 @@ padding-bottom: 1rem;
 {%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient" id="menu-start">
   <div class="section-{{ section.id }}-padding relative">
-    <div class="grid-menu page-width ">
+    <div class="grid-menu page-width">
       <div class="custom-menu-nav">
-        <span href="#menu-start" class="active" data-menu-targeter="all">
-          all treatments
-        </span>
-        {% assign menuLinks = section.settings.menu-links | split: "," %}
-      {% for menuLink in menuLinks %}
-        <span href="#menu-start"  data-menu-targeter="{{menuLink |  replace: " ","-" }}">
-        {{menuLink}}
-        </span>{% endfor %}</div>
+        <div class="scroll-element">
+          <span href="#menu-start" class="active" data-menu-targeter="all">
+            all treatments
+          </span>
+          {% assign menuLinks = section.settings.menu-links | split: "," %}
+        {% for menuLink in menuLinks %}
+          <span href="#menu-start"  data-menu-targeter="{{menuLink |  replace: " ","-" }}">
+          {{menuLink}}
+          </span>{% endfor %}
+          </div>
+
+      </div>
 
       <div class="custom-treatment-menu">
       {% for block in section.blocks %}
@@ -267,9 +271,9 @@ padding-bottom: 1rem;
     });
 }
         function filterMenu() {
-          // console.log(this, this.dataset.menuTargeter)
+          console.log(this, this.dataset.menuTargeter)
           let target = this.dataset.menuTargeter
-          // console.log(target)
+          console.log(target)
           menuLinks.forEach( link => {
             if (target == link.dataset.menuTargeter) {
               link.classList.add('active')
@@ -279,7 +283,7 @@ padding-bottom: 1rem;
           }
           )
           treatments.forEach( treatment => {
-            // console.log(target)
+            console.log(target)
             if (target == 'all'){
               treatment.classList.remove('hidden')
             } else { 
@@ -301,7 +305,7 @@ menuLinks.forEach(link => {
       }
     )
 
-  // console.log( "new", menuLinks, treatments)
+  console.log( "new", menuLinks, treatments)
 </script>
 
 {% schema %}
