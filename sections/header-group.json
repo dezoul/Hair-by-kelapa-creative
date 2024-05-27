@@ -39,7 +39,7 @@
         "#MegaMenu-Content-1 {background-color: rgb(194, 181, 163);}",
         "#MegaMenu-Content-1 * {color: black;}",
         ".header__heading-logo-wrapper {margin-left: -5px;}",
-        "@media (max)"
+        "@media (max-width: 990px) {.header__heading-logo {margin-left: -9px; margin-right: 9px; }}"
       ],
       "settings": {
         "logo_position": "middle-left",
@@ -56,7 +56,7 @@
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20,
-        "whatsapp-number": 6287725855520,
+        "whatsapp-number": 6287862137603,
         "whatsapp-message": "Hello Therapy Day Spa team, I would like to…"
       }
     }
