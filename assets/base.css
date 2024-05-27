@@ -3627,7 +3627,27 @@ footer p {
 
 }
 
+@media only screen and (max-width: 750px) {
 
+  .header-style-1,
+  .header-style-2,
+  .h0,
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    text-align: left !important;
+  }
+
+}
 
 
 a {
@@ -3733,6 +3753,10 @@ body .spa-menu-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.faq-grid .flex-between {
+  padding: 2px 0;
 }
 
 .mx-auto {
