@@ -6,7 +6,7 @@
 
   .custom-menu-nav{
     position: sticky;
-    top: 71px;
+    top: 68px;
     background-color: #C4B4A4;
     margin-top: calc(-2rem - 23px - calc({{ section.settings.padding_top }}px * 0.75));
     margin-left: calc(-1* var(--side-padding-universal));
@@ -105,13 +105,19 @@ padding-bottom: 1rem;
         padding-top: 0;
     }
 
-    .custom-menu-nav {
+    .custom-menu-nav  {
+      margin: 0;
+      top: 131px;
+      background-color: transparent;
+      width: initial;
+      padding: 0;
+    }
+
+
+    .custom-menu-nav .scroll-element {
         flex-direction: column;
         width: initial;
-        margin: 0;
-        top: 131px;
-        padding: 0;
-        background-color: transparent;
+      padding: 0;
     }
 
     .custom-treatment-menu {
