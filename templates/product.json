@@ -14,7 +14,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_style": "header-style-2"
+            "heading_style": "header-style-1"
           }
         },
         "variant_picker": {
