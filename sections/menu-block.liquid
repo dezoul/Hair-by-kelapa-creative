@@ -239,8 +239,9 @@
               {% endif %}
               
             
-    
+              {% unless block.settings.hide_line %}
             <p class="text-right book-p"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287862137603&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
+            {% endunless %}
           </div>
           {% unless forloop.last %}
             {% unless block.settings.hide_line %}
@@ -482,6 +483,7 @@ menuLinks.forEach(link => {
           "label": "10th price"
         },
         {
+          "label": "Colapse line",
           "type":"checkbox",
           "id": "hide_line",
           "default": false
