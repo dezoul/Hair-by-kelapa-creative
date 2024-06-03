@@ -243,7 +243,10 @@
             <p class="text-right book-p"><a class="bold-link" target="_blank" href="https://api.whatsapp.com/send/?phone=6287862137603&text={{block.settings.book-now-message | replace: ' ','%20'}}">Book Now</a></p>
           </div>
           {% unless forloop.last %}
-            <hr class="trailing-line">
+            {% unless block.settings.hide_line %}
+              
+              <hr class="trailing-line">
+            {% endunless %}
           {% endunless %}
 
         </div>
@@ -477,6 +480,11 @@ menuLinks.forEach(link => {
           "type": "text",
           "id": "price10",
           "label": "10th price"
+        },
+        {
+          "type":"checkbox",
+          "id": "hide_line",
+          "default": false
         }
     ]
   }
