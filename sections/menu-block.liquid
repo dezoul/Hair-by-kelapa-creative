@@ -52,6 +52,10 @@
     padding: 2px 0;
 }
 
+.treatments.no-line{
+  margin-bottom: 1rem
+}
+
 .book-p { margin-top: 3rem;}
 
 @media screen and (max-width: 750px) {
@@ -159,7 +163,7 @@
 
       <div class="custom-treatment-menu">
       {% for block in section.blocks %}
-        <div class="treatments" data-menu-target="{{block.settings.cat |  replace: " ","-" }}">
+      <div class="treatments {% unless block.settings.hide_line %} no-line {% endunless %}" data-menu-target="{{block.settings.cat |  replace: " ","-" }}">
 
 
           <div class="">
