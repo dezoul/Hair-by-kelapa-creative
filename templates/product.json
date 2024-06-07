@@ -7,7 +7,7 @@
           "type": "vendor",
           "settings": {
             "text": "{{ product.vendor }}",
-            "link": "",
+            "cat": "davines",
             "text_style": "uppercase"
           }
         },
