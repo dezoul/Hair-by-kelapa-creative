@@ -6,7 +6,6 @@
         "vendor_KfVwq8": {
           "type": "vendor",
           "settings": {
-            "text": "{{ product.vendor }}",
             "cat": "davines",
             "text_style": "uppercase"
           }
