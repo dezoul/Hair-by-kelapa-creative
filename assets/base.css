@@ -4060,7 +4060,7 @@ body .footer .footer__content-top.page-width a {
 
 @media (max-width: 440px) {
 
-  .custom-footer-nav span:nth-child(6) {
+  /* .custom-footer-nav span:nth-child(6) {
     display: none;
   }
 
@@ -4069,7 +4069,7 @@ body .footer .footer__content-top.page-width a {
     flex: 1;
     font-weight: 600;
     text-transform: uppercase;
-  }
+  } */
 
 }
 

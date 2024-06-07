@@ -163,7 +163,8 @@
 
       <div class="custom-treatment-menu">
       {% for block in section.blocks %}
-      <div class="treatments {% unless block.settings.hide_line %} no-line {% endunless %}" data-menu-target="{{block.settings.cat |  replace: " ","-" }}">
+      <div class="treatments {% if block.settings.hide_line %} no-line {% endif %}
+            " data-menu-target="{{block.settings.cat |  replace: " ","-" }}">
 
 
           <div class="">
