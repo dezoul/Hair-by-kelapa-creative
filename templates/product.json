@@ -7,7 +7,7 @@
           "type": "vendor",
           "settings": {
             "text": "{{ product.vendor }}",
-            "link": "{{ product.metafields.custom.vendor.value }}",
+            "link": "",
             "text_style": "uppercase"
           }
         },
