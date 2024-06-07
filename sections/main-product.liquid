@@ -84,8 +84,8 @@
             class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle  product-subtitle {% elsif block.settings.text_style == 'vendor' %} h1 header-style-2" style="font-size: 1.5rem; padding-bottom: 0.5rem; {% else %} {% endif %}"
             {{ block.shopify_attributes }}
           >
-          <a href="{{block.settings.link}}">
-            {{- block.settings.text -}}
+          <a href="{{block.settings.collection.url}}">
+            {{- block.settings.collection.title -}}
             </a> 
 
           </p>
@@ -707,10 +707,10 @@
           "label": "t:sections.main-product.blocks.text.settings.text.label"
         },
         {
-          "type": "url",
+          "type": "collection",
           "id": "link",
           "default": "/collections/all",
-          "label": "t:sections.main-product.blocks.text.settings.text.label"
+          "label": "vendor link"
         },
         {
           "type": "select",
