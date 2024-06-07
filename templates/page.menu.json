@@ -41,7 +41,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_ritGFr": {
@@ -70,7 +71,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_NAHjAN": {
@@ -99,7 +101,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_erF4iY": {
@@ -128,7 +131,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_gbTL9U": {
@@ -157,7 +161,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_6X93z9": {
@@ -186,7 +191,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_RdGYyr": {
@@ -215,7 +221,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_Cdtf4V": {
@@ -244,7 +251,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_QteJN4": {
@@ -273,7 +281,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_RNwYDM": {
@@ -302,7 +311,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_HWfmCg": {
@@ -331,7 +341,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_CQ4dw9": {
@@ -360,7 +371,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_U7WDgw": {
@@ -389,7 +401,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_4tEGKW": {
@@ -418,7 +431,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_T8JH4t": {
@@ -447,7 +461,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_PnUWyc": {
@@ -476,7 +491,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_KMP8Ac": {
@@ -505,7 +521,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_H9V3Pk": {
@@ -534,7 +551,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_nGcAi8": {
@@ -563,7 +581,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_TeLA7P": {
@@ -592,7 +611,38 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
+          }
+        },
+        "text_FYNPCF": {
+          "type": "text",
+          "settings": {
+            "heading": "waxing",
+            "cat": "waxing",
+            "shortDescription1": "",
+            "price1": "",
+            "description": "<p>Experience our plant-based, toxin-free waxing services, carefully formulated with a combination of sugar, lemon & water. Our wax treatments offer a delicate and efficient hair removal solution, tailored for those who embrace a holistic approach to skincare.<\/p>",
+            "book-now-message": "",
+            "shortDescription2": "",
+            "price2": "",
+            "shortDescription3": "",
+            "price3": "",
+            "shortDescription4": "",
+            "price4": "",
+            "shortDescription5": "",
+            "price5": "",
+            "shortDescription6": "",
+            "price6": "",
+            "shortDescription7": "",
+            "price7": "",
+            "shortDescription8": "",
+            "price8": "",
+            "shortDescription9": "",
+            "price9": "",
+            "shortDescription10": "",
+            "price10": "",
+            "hide_line": true
           }
         },
         "text_6VT6ad": {
@@ -602,7 +652,7 @@
             "cat": "waxing",
             "shortDescription1": "upper Lip",
             "price1": "120,000",
-            "description": "<p>Experience our plant-based, toxin-free waxing services, carefully formulated with a combination of sugar, lemon & water. Our wax treatments offer a delicate and efficient hair removal solution, tailored for those who embrace a holistic approach to skincare.<\/p>",
+            "description": "",
             "book-now-message": "Hello Therapy Day Spa team, I would like to…",
             "shortDescription2": "chin",
             "price2": "120,000",
@@ -621,7 +671,8 @@
             "shortDescription9": "brazilian",
             "price9": "350,000",
             "shortDescription10": "finger per digit",
-            "price10": "12,000"
+            "price10": "12,000",
+            "hide_line": true
           }
         },
         "text_XwGMTx": {
@@ -631,7 +682,7 @@
             "cat": "waxing",
             "shortDescription1": "shoulder",
             "price1": "200,000 - 400,000",
-            "description": "<p>Experience our plant-based, toxin-free waxing services, carefully formulated with a combination of sugar, lemon & water. Our wax treatments offer a delicate and efficient hair removal solution, tailored for those who embrace a holistic approach to skincare.<\/p>",
+            "description": "",
             "book-now-message": "Hello Therapy Day Spa team, I would like to…",
             "shortDescription2": "back",
             "price2": "300,000 - 600,000",
@@ -650,7 +701,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         },
         "text_tT98Pc": {
@@ -679,7 +731,8 @@
             "shortDescription9": "",
             "price9": "",
             "shortDescription10": "",
-            "price10": ""
+            "price10": "",
+            "hide_line": false
           }
         }
       },
@@ -704,6 +757,7 @@
         "text_H9V3Pk",
         "text_nGcAi8",
         "text_TeLA7P",
+        "text_FYNPCF",
         "text_6VT6ad",
         "text_XwGMTx",
         "text_tT98Pc"
