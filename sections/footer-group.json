@@ -14,7 +14,7 @@
     "custom_footer_jPPqXw": {
       "type": "custom_footer",
       "custom_css": [
-        ".custom-footer-nav a {font-size: min(1.5rem, 3.6vw);}"
+        ".custom-footer-nav * {font-size: min(1.5rem, 3.5vw);}"
       ],
       "settings": {
         "richtext": "<p>Indulge in our peaceful spa in Pererenan, Bali, only a stone's throw  from lively Canggu. Experience the holistic benefits of our plant-based,  cruelty-free spa rituals that enrich your well-being. Immerse yourself  in our thoughtfully curated holistic wellness treatments such as  massages, scrubs, facials, reflexology and more to rediscover the art of  self-care.<\/p>",
