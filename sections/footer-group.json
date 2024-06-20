@@ -1,9 +1,21 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
     "custom_footer_jPPqXw": {
       "type": "custom_footer",
+      "custom_css": [
+        ".custom-footer-nav a {font-size: min(1.5rem, 3.6vw);}"
+      ],
       "settings": {
         "richtext": "<p>Indulge in our peaceful spa in Pererenan, Bali, only a stone's throw  from lively Canggu. Experience the holistic benefits of our plant-based,  cruelty-free spa rituals that enrich your well-being. Immerse yourself  in our thoughtfully curated holistic wellness treatments such as  massages, scrubs, facials, reflexology and more to rediscover the art of  self-care.<\/p>",
         "hours": "Open from 9am - 8pm",
