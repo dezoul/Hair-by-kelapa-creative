@@ -1824,6 +1824,8 @@ input[type='checkbox'] {
   margin-right: 0.5rem;
 }
 
+
+
 /* Form global */
 
 .form__label {
@@ -3987,7 +3989,7 @@ body .footer .footer__content-top.page-width a {
 .sub-footer span {
   padding-left: 0.5rem;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: min(1.3rem, 3vw);
   opacity: 0.8;
 }
 
@@ -4279,8 +4281,9 @@ body .footer-block__details-content {
 }
 
 .horizontal-grid>div {
-  max-width: min(400px, calc(95% - 2*var(--side-padding-universal)));
+  width: min(400px, calc(95% - 2*var(--side-padding-universal)));
   flex-shrink: 0;
+  flex-grow: 1;
 }
 
 .horizontal-grid img {
