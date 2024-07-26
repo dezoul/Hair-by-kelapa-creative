@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "simple_banner_p3URUw": {
@@ -104,6 +113,7 @@
       "settings": {
         "pre-heading": "OUR SPACE",
         "heading": "A haven of slow immersive self-care",
+        "img-aspect": "initial",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -144,7 +154,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
         "image_height": "medium",
-        "img-position": "img-right",
+        "img-position": "img-left",
         "img-side-gap": true,
         "desktop_content_position": "middle",
         "show_text_box": true,
