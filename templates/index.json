@@ -21,7 +21,8 @@
         "bgOpacity": 61,
         "color_scheme": "scheme-3",
         "padding_top": 40,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "imageMobile": "shopify:\/\/shop_images\/Home_page_phone_banner.jpg"
       }
     },
     "split_image_banner_7dQHHz": {
