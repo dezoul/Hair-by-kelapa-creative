@@ -1,11 +1,20 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "simple_banner_jiepkU": {
       "type": "simple-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+        "image": "shopify:\/\/shop_images\/Menu_phone_banner.jpg",
         "heading": "therapy spa menu",
-        "minHeight": 50,
+        "minHeight": 55,
         "bgOpacity": 80,
         "color_scheme": "scheme-3",
         "padding_top": 40,
