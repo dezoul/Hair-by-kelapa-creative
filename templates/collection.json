@@ -12,13 +12,14 @@
     "simple_banner_FtWMdt": {
       "type": "simple-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/a6d4719eec4b10f3c0dc3fc0fae7cc3b.jpg",
+        "image": "shopify:\/\/shop_images\/shop_dekstop_banner_1.jpg",
         "heading": "",
-        "minHeight": 30,
+        "minHeight": 77,
         "bgOpacity": 80,
         "color_scheme": "",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "imageMobile": "shopify:\/\/shop_images\/Our_shop_phone_banner.jpg"
       }
     },
     "banner": {
