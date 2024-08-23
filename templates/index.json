@@ -163,7 +163,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Our_collective.jpg",
-        "image_height": "medium",
+        "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
         "desktop_content_position": "middle",
