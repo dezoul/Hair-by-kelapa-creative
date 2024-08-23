@@ -15,10 +15,10 @@
         "h2 {max-width: 50rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/spa_photo.jpg",
+        "image": "shopify:\/\/shop_images\/Home_page_desktop_banner.jpg",
         "heading": "An oasis in the heart \u2028of Pererenan",
         "minHeight": 80,
-        "bgOpacity": 25,
+        "bgOpacity": 61,
         "color_scheme": "scheme-3",
         "padding_top": 40,
         "padding_bottom": 32
