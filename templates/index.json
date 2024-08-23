@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "simple_banner_p3URUw": {
@@ -12,8 +21,7 @@
         "bgOpacity": 61,
         "color_scheme": "scheme-3",
         "padding_top": 40,
-        "padding_bottom": 32,
-        "imageMobile": "shopify:\/\/shop_images\/Our_collective.jpg"
+        "padding_bottom": 32
       }
     },
     "split_image_banner_7dQHHz": {
@@ -49,7 +57,7 @@
         "text_K7kej9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
+        "image": "shopify:\/\/shop_images\/Our_philosophy.jpg",
         "image_height": "medium",
         "img-position": "img-left",
         "img-side-gap": true,
@@ -72,24 +80,32 @@
         "column_rqi3fy": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
-            "para": "A short blurb here.",
+            "image": "shopify:\/\/shop_images\/our_space_1.jpg",
+            "para": "",
             "link-url": ""
           }
         },
         "column_qqzX6L": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
-            "para": "A short blurb here.",
+            "image": "shopify:\/\/shop_images\/our_space_2.jpg",
+            "para": "",
             "link-url": ""
           }
         },
         "column_CQn68m": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/101c8876b67d9f8a0d4770407a3b28a8.jpg",
-            "para": "A short blurb here.",
+            "image": "shopify:\/\/shop_images\/our_space_3.jpg",
+            "para": "",
+            "link-url": ""
+          }
+        },
+        "column_PQBHVk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our_space_4.jpg",
+            "para": "",
             "link-url": ""
           }
         }
@@ -97,7 +113,8 @@
       "block_order": [
         "column_rqi3fy",
         "column_qqzX6L",
-        "column_CQn68m"
+        "column_CQn68m",
+        "column_PQBHVk"
       ],
       "custom_css": [
         "@media (max-width: 990px) {.gradient {background-color: #c4b4a4; }}"
