@@ -1,22 +1,15 @@
 {
   "sections": {
-    "image_banner_ttKPQi": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15597047677002__image_banner_ttKPQi {border-radius: 0 0 var(--side-padding-universal) var(--side-padding-universal);"
-      ],
+    "simple_banner_FtWMdt": {
+      "type": "simple-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/a6d4719eec4b10f3c0dc3fc0fae7cc3b.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "heading": "",
+        "minHeight": 30,
+        "bgOpacity": 80,
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "banner": {
@@ -70,7 +63,7 @@
         "img {mix-blend-mode: multiply;}",
         ".media--transparent {\/* background-color: #fcfbf9; *\/ background-color: #f4f0e8; opacity: 1;}",
         ".active-facets-mobile {display: none;}",
-        ".card-information .price{font-size:1.5rem}"
+        ".card-information .price {font-size: 1.5rem;}"
       ],
       "settings": {
         "products_per_page": 16,
@@ -92,7 +85,7 @@
     }
   },
   "order": [
-    "image_banner_ttKPQi",
+    "simple_banner_FtWMdt",
     "banner",
     "rich_text_TJPCHe",
     "product-grid"

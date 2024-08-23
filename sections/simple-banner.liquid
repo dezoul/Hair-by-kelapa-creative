@@ -2,6 +2,7 @@
   .section-{{ section.id }}-padding {
     padding-top: calc({{ section.settings.padding_top }}px * 0.75);
     padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+    background-image: url("/{{section.settings.image.src}}")
   }
   .section-{{ section.id }}-padding img{
     opacity: {{section.settings.bgOpacity |  divided_by: 100.00}};
@@ -17,13 +18,29 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding simple-banner" style="min-height: {{section.settings.minHeight}}vh">
   {% if section.settings.image != null %}
-  {{ section.settings.image | image_url: width: 2000 | image_tag: widths: '400, 600, 800, 1000, 1200, 1600, 2000' }}
-  <div class="relative page-width">
-    <h2 class="header-style-1 h0">
-      {{ section.settings.heading }}
-    </h2>
-  </div>
-{% endif %}
+    <picture>
+        <source media="(min-width: 768px)" srcset="{{ section.settings.image | image_url: width: 1500 }}" />
+        <source media="(min-width: 300px)" srcset="{{ section.settings.imageMobile | image_url: width: 750 }}" />
+        {{ section.settings.image | image_url: width: 1500 | image_tag:
+          loading: 'lazy',
+          width: section.settings.image.width,
+          height: image_height,
+          class: image_class,
+          sizes: sizes,
+          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+          alt: section.settings.image.alt | escape
+        }}
+      </picture>
+    {% comment %} {{ section.settings.image | image_url: width: 2000 | image_tag: widths: '1000, 1200, 1600, 2000' }} {% endcomment %}
+  {% endif %}
+  {% comment %} {% if section.settings.image_mobile != null %}
+    {{ section.settings.image_mobile | image_url: width: 800 | image_tag: widths: '400, 600, 800' }}
+  {% endif %} {% endcomment %}
+    <div class="relative page-width">
+      <h2 class="header-style-1 h0">
+        {{ section.settings.heading }}
+      </h2>
+    </div>
   </div>
 </div>
 
@@ -90,7 +107,13 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 52
+    },
+    {
+      "type": "image_picker",
+      "id": "imageMobile",
+      "label": "Mobile banner image"
     }
+
   ],
   "presets": [
     {

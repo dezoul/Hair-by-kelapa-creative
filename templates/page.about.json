@@ -56,7 +56,6 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true,
         "padding_top": 40,
         "border-top": false,
         "padding_bottom": 52
@@ -201,7 +200,6 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true,
         "padding_top": 40,
         "border-top": false,
         "padding_bottom": 52
