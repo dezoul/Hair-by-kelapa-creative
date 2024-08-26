@@ -68,6 +68,9 @@
 <div
   id="Split-Banner-{{ section.id }}"
   class="split-banner color-{{ section.settings.color_scheme }} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_above %} banner--mobile-text-above {%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} section-{{ section.id }}-padding"
+  {% if section.settings.mobile_aspect !="full-image" %}
+  style="--mobile-aspect: {{section.settings.mobile_aspect}}"
+  {% endif %}
 >
 {%- if section.settings.image != blank -%}
   {%- liquid
@@ -83,7 +86,7 @@
       assign sizes = full_width
     endif
   -%}
-    <div class="media{% if section.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} {% if section.settings.img-side-gap == true %} split-banner-img-gap {% endif %}  {% if section.settings.img-position == 'img-right' %} order-2 {% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} mobile-grid-first-row">
+    <div class="media{% if section.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} {% if section.settings.img-side-gap == true %} split-banner-img-gap {% endif %}  {% if section.settings.img-position == 'img-right' %} order-2 {% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} mobile-grid-first-row {% if section.settings.mobile_aspect == "full-image" %} {{section.settings.mobile_aspect}}{% endif %}">
       {{
         section.settings.image
         | image_url: width: 3840
@@ -334,7 +337,31 @@
       "type": "checkbox",
       "id": "show_text_above",
       "default": true,
-      "label": "flip the image and text on mobile"
+      "label": "Flip the image and text on mobile"
+    },
+    {
+      "type": "select",
+      "id": "mobile_aspect",
+      "label": "Mobile image aspect ratio",
+      "options": [
+        {
+          "value": "1",
+          "label": "square"
+        },
+        {
+          "value": "3/4",
+          "label": "portrait"
+        },
+        {
+          "value": "4/3",
+          "label": "landscape"
+        },
+        {
+          "value": "full-image",
+          "label": "default aspect ratio"
+        }
+      ],
+      "default":"1"
     },
     {
       "type": "header",

@@ -4235,10 +4235,19 @@ body .footer-block__details-content {
     flex-direction: column-reverse;
   }
 
+
+
   .mobile-grid-first-row {
     grid-row-start: 1;
-    min-height: 50vw;
+    aspect-ratio: var(--mobile-aspect);
+    margin-bottom: 2rem;
   }
+
+  body .split-banner .media.full-image img {
+    position: relative;
+    left: var(--side-padding-universal);
+  }
+
 
   .footer__content-top .footer-block:not(:last-child) {
     /* padding-top: 5rem; */
