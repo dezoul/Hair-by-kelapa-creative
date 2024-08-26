@@ -13,7 +13,7 @@
       "type": "simple-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Menu_dekstop_banner_copy.jpg",
-        "heading": "therapy spa menu",
+        "heading": "menu",
         "minHeight": 70,
         "bgOpacity": 80,
         "color_scheme": "scheme-3",
