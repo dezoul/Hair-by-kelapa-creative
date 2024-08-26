@@ -17,7 +17,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Home_page_desktop_banner.jpg",
         "heading": "An oasis in the heart \u2028of Pererenan",
-        "minHeight": 65,
+        "minHeight": 61,
         "bgOpacity": 61,
         "color_scheme": "scheme-3",
         "padding_top": 40,
