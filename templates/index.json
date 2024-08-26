@@ -17,7 +17,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Home_page_desktop_banner.jpg",
         "heading": "An oasis in the heart \u2028of Pererenan",
-        "minHeight": 80,
+        "minHeight": 70,
         "bgOpacity": 61,
         "color_scheme": "scheme-3",
         "padding_top": 40,
@@ -59,7 +59,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Our_philosophy.jpg",
-        "image_height": "medium",
+        "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
         "desktop_content_position": "middle",
