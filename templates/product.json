@@ -51,7 +51,7 @@
         "collapsible_tab_E6RmL4": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Product Specifications",
+            "heading": "How to Use",
             "icon": "none",
             "content": "{{ product.metafields.custom.details_drop_down | metafield_tag }}",
             "page": ""
