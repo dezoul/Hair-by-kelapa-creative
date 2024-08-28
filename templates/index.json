@@ -18,7 +18,7 @@
         "image": "shopify:\/\/shop_images\/therapy_homepage_desktop_banner1.jpg",
         "heading": "An oasis in the heart \u2028of Pererenan",
         "minHeight": 61,
-        "bgOpacity": 61,
+        "bgOpacity": 84,
         "color_scheme": "scheme-3",
         "padding_top": 40,
         "padding_bottom": 32,
@@ -58,7 +58,7 @@
         "text_K7kej9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Our_philosophy.jpg",
+        "image": "shopify:\/\/shop_images\/Our_philosophy_2dc34ffa-63c8-42ac-956f-954b89a13200.jpg",
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
@@ -163,7 +163,7 @@
         "text_XAJX6V"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Our_collective.jpg",
+        "image": "shopify:\/\/shop_images\/Our_collective_cf6c08e7-c338-415f-9520-de381ef5a7ec.jpg",
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
