@@ -185,6 +185,7 @@
     },
     "featured_collection_Kwy6Er": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".h0 {margin-bottom: 1em;}",
         ".slider-buttons.no-js-hidden {display: none;}",
