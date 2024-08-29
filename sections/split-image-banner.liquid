@@ -38,9 +38,19 @@
   {%- endstyle -%}
 
 {%- style -%}
-  #Banner-{{ section.id }}::after {
-    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+
+
+  #Split-Banner-{{ section.id }} .overlay-prep::after{
+    content: "";
+    background-color: rgb(36, 40, 51);
+    position: absolute;
+    Top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    opacity: calc(1 - {{section.settings.bgOpacity |  divided_by: 100.00  }})
   }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -87,17 +97,21 @@
     endif
   -%}
     <div class="media{% if section.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %} {% if section.settings.img-side-gap == true %} split-banner-img-gap {% endif %}  {% if section.settings.img-position == 'img-right' %} order-2 {% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} mobile-grid-first-row {% if section.settings.mobile_aspect == "full-image" %} {{section.settings.mobile_aspect}}{% endif %}">
-      {{
-        section.settings.image
-        | image_url: width: 3840
-        | image_tag:
-          width: section.settings.image.width,
-          height: image_height,
-          class: image_class,
-          sizes: sizes,
-          widths: widths,
-          fetchpriority: fetch_priority
-      }}
+        <div class="overlay-prep">
+
+          {{
+            section.settings.image
+            | image_url: width: 3840
+            | image_tag:
+            width: section.settings.image.width,
+            height: image_height,
+            class: "image_class",
+            sizes: sizes,
+            widths: widths,
+            fetchpriority: fetch_priority
+            }}
+            
+          </div>
     </div>
   {%- endif -%}
   
@@ -175,6 +189,16 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
+    },
+    {
+      "type": "range",
+      "id": "bgOpacity",
+      "label": "background transaparency",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "default": 80,
+      "unit": "%"
     },
     {
       "type": "select",
