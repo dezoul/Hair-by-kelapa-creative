@@ -4407,3 +4407,12 @@ header button.header-style-2 {
     height: initial !important;
   }
 }
+
+
+
+
+/* hiding the shoping cart */
+
+.header__icon--cart {
+  display: none !important
+}
