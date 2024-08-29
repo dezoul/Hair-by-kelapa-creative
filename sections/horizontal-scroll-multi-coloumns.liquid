@@ -34,8 +34,9 @@
      <div class="horizontal-grid page-width">
       {% for block in section.blocks %}
           <div>
+            {% if block.settings.link-url %}
             <a href="{{block.settings.link-url}}">
-
+{% endif %}
           {% if section.settings.img-aspect != "initial" %}
           <div class="image-sizer" style="aspect-ratio:{{section.settings.img-aspect}}">
           {% endif  %}
@@ -49,7 +50,10 @@
               <div>
                 {{block.settings.para}}
               </div>
-              </a>
+              {% if block.settings.link-url %}
+                </a>
+{% endif %}
+        
           </div>
       {% endfor %}
     </div>
