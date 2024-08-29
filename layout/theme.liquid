@@ -367,6 +367,17 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+
+    <script defer>
+
+      // code for closeing the burger menu on click 
+      const contactButton = document.querySelector('#HeaderDrawer-contact')
+      console.log(contactButton)
+          contactButton.addEventListener('click', () => {
+        document.querySelector('#Details-menu-drawer-container .header__icon').click()
+      })
+      </script>
+
    
   </body>
 </html>
