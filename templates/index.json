@@ -59,6 +59,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Our_philosophy_2dc34ffa-63c8-42ac-956f-954b89a13200.jpg",
+        "bgOpacity": 84,
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
@@ -164,6 +165,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Our_collective_cf6c08e7-c338-415f-9520-de381ef5a7ec.jpg",
+        "bgOpacity": 80,
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
