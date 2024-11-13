@@ -1,25 +1,25 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "simple_banner_FtWMdt": {
       "type": "simple-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/shop_dekstop_banner_1.jpg",
+        "image": "shopify://shop_images/shop_dekstop_banner_1.jpg",
         "heading": "",
         "minHeight": 61,
         "bgOpacity": 95,
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52,
-        "imageMobile": "shopify:\/\/shop_images\/Our_shop_phone_banner.jpg"
+        "imageMobile": "shopify://shop_images/Our_shop_phone_banner.jpg"
       }
     },
     "banner": {
@@ -44,7 +44,7 @@
         "text_KADgC7": {
           "type": "text",
           "settings": {
-            "text": "<p>Immerse yourself in a world of soothing, plant-powered products, designed with mindfulness and holistic wellness in mind.<br\/><\/p>"
+            "text": "<p>Immerse yourself in a world of soothing, plant-powered products, designed with mindfulness and holistic wellness in mind.<br/></p>"
           }
         }
       },
@@ -70,7 +70,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".h5 {font-size: 1.9rem; line-height: 1.2;}",
-        ".media--transparent {\/* background-color: #fcfbf9; *\/ background-color: #f4f0e8; opacity: 1;}",
+        ".media--transparent {/* background-color: #fcfbf9; */ background-color: #f4f0e8; opacity: 1;}",
         ".active-facets-mobile {display: none;}",
         ".card-information .price {font-size: 1.5rem;}"
       ],
@@ -87,7 +87,7 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "padding_top": 52,
         "padding_bottom": 76
       }
