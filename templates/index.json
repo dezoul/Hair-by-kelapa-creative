@@ -992,79 +992,6 @@
         "padding_bottom": 0
       }
     },
-    "single_drop_down_set_4z6U4t": {
-      "type": "singleDropDownSet",
-      "blocks": {
-        "text_gc3Y64": {
-          "type": "text",
-          "settings": {
-            "heading": "female waxing",
-            "shortDescription1": "upper lip",
-            "price1": "120,000",
-            "description": "<p>Experience our plant-based, toxin-free waxing services, carefully formulated with a combination of sugar, lemon & water. Our wax treatments offer a delicate and efficient hair removal solution, tailored for those who embrace a holistic approach to skincare.</p>",
-            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
-            "shortDescription2": "chin",
-            "price2": "120,000",
-            "shortDescription3": "eyebrow",
-            "price3": "170,000",
-            "shortDescription4": "under arm",
-            "price4": "120,000",
-            "shortDescription5": "full arm",
-            "price5": "300,000",
-            "shortDescription6": "half leg",
-            "price6": "250,000",
-            "shortDescription7": "full leg",
-            "price7": "350,000",
-            "shortDescription8": "bikini",
-            "price8": "300,000",
-            "shortDescription9": "brazilian",
-            "price9": "350,000",
-            "shortDescription10": "finger per digit",
-            "price10": "12,000"
-          }
-        },
-        "text_Bam4an": {
-          "type": "text",
-          "settings": {
-            "heading": "male waxing",
-            "shortDescription1": "",
-            "price1": "",
-            "description": "<p>Experience our plant-based, toxin-free waxing services, carefully formulated with a combination of sugar, lemon & water. Our wax treatments offer a delicate and efficient hair removal solution, tailored for those who embrace a holistic approach to skincare.</p>",
-            "book-now-message": "Hello Therapy Day Spa team, I would like to…",
-            "shortDescription2": "shoulder",
-            "price2": "200,000 - 400,000",
-            "shortDescription3": "back",
-            "price3": "300,000 - 600,000",
-            "shortDescription4": "chest",
-            "price4": "280,000 - 400,000",
-            "shortDescription5": "stomach",
-            "price5": "250,000 - 400,000",
-            "shortDescription6": "full leg",
-            "price6": "400,000 - 650,000",
-            "shortDescription7": "half leg",
-            "price7": "300,000 - 500,000",
-            "shortDescription8": "",
-            "price8": "",
-            "shortDescription9": "",
-            "price9": "",
-            "shortDescription10": "",
-            "price10": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_gc3Y64",
-        "text_Bam4an"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "heading-inital": "",
-        "heading-alignment": "right",
-        "heading-cat": "waxing",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "single_drop_down_set_XjiqyC": {
       "type": "singleDropDownSet",
       "blocks": {
@@ -1147,7 +1074,6 @@
     "single_drop_down_set_WhWUpK",
     "single_drop_down_set_RTYmqF",
     "single_drop_down_set_FrHi6h",
-    "single_drop_down_set_4z6U4t",
     "single_drop_down_set_XjiqyC",
     "image_banner_mVLAB3"
   ]
