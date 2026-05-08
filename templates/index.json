@@ -59,7 +59,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/therapy_social_image.jpg",
-        "bgOpacity": 94,
+        "bgOpacity": 67,
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
@@ -165,7 +165,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Our_collective.jpg",
-        "bgOpacity": 70,
+        "bgOpacity": 46,
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
