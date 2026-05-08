@@ -58,8 +58,8 @@
         "text_K7kej9"
       ],
       "settings": {
-        "image": "shopify://shop_images/Our_collective.jpg",
-        "bgOpacity": 75,
+        "image": "shopify://shop_images/therapy_social_image.jpg",
+        "bgOpacity": 94,
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
@@ -164,8 +164,8 @@
         "text_XAJX6V"
       ],
       "settings": {
-        "image": "shopify://shop_images/spa_photo.jpg",
-        "bgOpacity": 80,
+        "image": "shopify://shop_images/Our_collective.jpg",
+        "bgOpacity": 70,
         "image_height": "large",
         "img-position": "img-left",
         "img-side-gap": true,
